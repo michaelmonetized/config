@@ -1,0 +1,41 @@
+2025-12-17 23:13:03.959 [info] Handling CreateClient action
+2025-12-17 23:13:03.959 [info] Creating streamableHttp transport
+2025-12-17 23:13:03.959 [info] Connecting to streamableHttp server
+2025-12-17 23:13:03.959 [info] Handling ReloadClient action
+2025-12-17 23:13:03.959 [info] Creating streamableHttp transport
+2025-12-17 23:13:03.959 [info] Connecting to streamableHttp server
+2025-12-17 23:13:03.959 [info] No stored tokens found
+2025-12-17 23:13:03.959 [info] No stored tokens found
+2025-12-17 23:13:05.194 [info] No stored client information found
+2025-12-17 23:13:05.195 [info] Using redirect URL {"url":"cursor://anysphere.cursor-mcp/oauth/callback"}
+2025-12-17 23:13:05.219 [info] No stored client information found
+2025-12-17 23:13:05.220 [info] Using redirect URL {"url":"cursor://anysphere.cursor-mcp/oauth/callback"}
+2025-12-17 23:13:05.594 [info] Saving client information {"redirects":1,"clientIdPresent":true}
+2025-12-17 23:13:05.611 [info] Saving client information {"redirects":1,"clientIdPresent":true}
+2025-12-17 23:13:18.323 [info] No stored tokens found
+2025-12-17 23:13:18.324 [info] Using redirect URL {"url":"cursor://anysphere.cursor-mcp/oauth/callback"}
+2025-12-17 23:13:18.324 [info] Using redirect URL {"url":"cursor://anysphere.cursor-mcp/oauth/callback"}
+2025-12-17 23:13:18.325 [info] No stored tokens found
+2025-12-17 23:13:18.326 [info] Using redirect URL {"url":"cursor://anysphere.cursor-mcp/oauth/callback"}
+2025-12-17 23:13:18.326 [info] Using redirect URL {"url":"cursor://anysphere.cursor-mcp/oauth/callback"}
+2025-12-17 23:13:18.328 [info] Saving PKCE code verifier {"verifierLen":43}
+2025-12-17 23:13:18.328 [info] Saving PKCE code verifier {"verifierLen":43}
+2025-12-17 23:13:18.330 [info] Redirect to authorization requested {"url":"https://mcp.sentry.dev/oauth/authorize?response_type=code&client_id=N3FAG-24pECiHtqS&code_challenge=WPDFQ7GWXbdjaBIx1qy4AHOPdjCSKL1BysAjrglTH20&code_challenge_method=S256&redirect_uri=cursor%3A%2F%2Fanysphere.cursor-mcp%2Foauth%2Fcallback&state=eyJpZCI6InByb2plY3QtMC1nZXRhdC5tZS1TZW50cnkifQ"}
+2025-12-17 23:13:18.330 [info] Redirect to authorization requested {"url":"https://mcp.sentry.dev/oauth/authorize?response_type=code&client_id=x0V25smc38O_k7hl&code_challenge=l-HVl7_VqlxRqrPyrQZMYqexsm2VEWPf-3OhOm6bF0w&code_challenge_method=S256&redirect_uri=cursor%3A%2F%2Fanysphere.cursor-mcp%2Foauth%2Fcallback&state=eyJpZCI6InByb2plY3QtMC1nZXRhdC5tZS1TZW50cnkifQ"}
+2025-12-17 23:13:18.332 [info] Stored server URL for OAuth flow
+2025-12-17 23:13:18.332 [info] OAuth provider needs auth callback during connection
+2025-12-17 23:13:18.332 [info] Stored server URL for OAuth flow
+2025-12-17 23:13:18.332 [info] OAuth provider needs auth callback during connection
+2025-12-17 23:13:18.336 [error] Error connecting to streamableHttp server, falling back to SSE: Unauthorized
+2025-12-17 23:13:18.336 [warning] Unauthorized error connecting to streamableHttp server, returning transport
+2025-12-17 23:13:18.337 [error] Error connecting to streamableHttp server, falling back to SSE: Unauthorized
+2025-12-17 23:13:18.337 [warning] Unauthorized error connecting to streamableHttp server, returning transport
+2025-12-17 23:13:18.337 [info] Successfully connected to streamableHttp server
+2025-12-17 23:13:18.337 [info] Storing streamableHttp client
+2025-12-17 23:13:18.337 [info] Successfully connected to streamableHttp server
+2025-12-17 23:13:18.337 [info] A second client was created while connecting, discarding it.
+2025-12-17 23:13:18.337 [info] Successfully reloaded client
+2025-12-17 23:13:18.337 [info] CreateClient completed, server stored: true
+2025-12-17 23:13:18.345 [info] Handling ListOfferings action, server stored: true
+2025-12-17 23:13:18.345 [info] Connected to streamableHttp server, fetching offerings
+2025-12-17 23:13:18.346 [info] Found 0 tools, 0 prompts, and 0 resources

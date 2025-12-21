@@ -1,0 +1,38 @@
+2025-12-16 22:09:33.322 [info] [main] Log level: Info
+2025-12-16 22:09:33.322 [info] [main] Validating found git in: "/usr/bin/git"
+2025-12-16 22:09:33.339 [info] [main] Using git "2.52.0" from "/usr/bin/git"
+2025-12-16 22:09:33.339 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-16 22:09:33.342 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-16 22:09:34.695 [info] > git config --get remote.origin.url [29ms]
+2025-12-16 22:09:34.965 [info] > git remote get-url --push origin [8ms]
+2025-12-16 22:09:34.965 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.148 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2025-12-16 22:09:35.148 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.148 [info] > git config --get remote.origin.url [12ms]
+2025-12-16 22:09:35.149 [info] > git log --skip=0 --max-count=1 --pretty=format:%H [16ms]
+2025-12-16 22:09:35.149 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.203 [info] > git rev-parse --verify origin/main [35ms]
+2025-12-16 22:09:35.203 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.239 [info] > git rev-parse --verify origin/master [32ms]
+2025-12-16 22:09:35.239 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.245 [info] > git rev-parse --verify origin/develop [1ms]
+2025-12-16 22:09:35.245 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.254 [info] > git branch -r [5ms]
+2025-12-16 22:09:35.254 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:09:35.267 [info] > git config --get init.defaultBranch [8ms]
+2025-12-16 22:09:43.349 [info] > git config --global user.name [4ms]
+2025-12-16 22:09:43.362 [info] > git config --global user.email [2ms]
+2025-12-16 22:09:43.362 [info] [main] Stored git author name in global state: Michael Hurley <michaelmonetized@gmail.com>
+2025-12-16 22:48:18.254 [info] > git remote get-url --push origin [9ms]
+2025-12-16 22:48:18.254 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-12-16 22:48:18.287 [info] > git remote get-url --push origin [14ms]
+2025-12-16 22:48:18.287 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).

@@ -1,0 +1,33 @@
+2025-12-20 22:05:25.998 [info] Extension host with pid 164299 started
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/zsh
+2025-12-20 22:05:25.998 [info] Skipping acquiring lock for /home/michael/.config/Cursor/User/workspaceStorage/52a111abc3c461aba7586ce30655a712.
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] Linux sandbox helper path: not found
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-20 22:05:25.998 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2025-12-20 22:05:25.998 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: undefined undefined
+2025-12-20 22:05:25.998 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path not set, returning false undefined
+2025-12-20 22:05:25.998 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Binary not available, returning false undefined
+2025-12-20 22:05:25.998 [info] [ExtHostShellExec] Sandbox support detected: false
+2025-12-20 22:05:26.047 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onCommand:cursor-browser-extension.status'
+2025-12-20 22:05:26.500 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: false, activationEvent: '*'
+2025-12-20 22:05:26.937 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-12-20 22:05:27.128 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-12-20 22:05:27.201 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-12-20 22:05:27.404 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-20 22:05:27.762 [info] Eager extensions activated
+2025-12-20 22:05:27.792 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.219 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.223 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.267 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.352 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.776 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.874 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.889 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:28.911 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-20 22:05:29.132 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-20 22:05:29.372 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

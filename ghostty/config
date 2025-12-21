@@ -1,8 +1,7 @@
 theme = dark:catpuccin-mocha,light:catpuccin-latte
 font-family = "NotoMono Nerd Font Mono"
-font-size = 18
+font-size = 9
 title = ""
-macos-titlebar-style = hidden
 window-padding-x = 0
 window-padding-y = 0
 initial-command = "/bin/zsh -1 -c ~/.config/tmux-start.sh; exec zsh"

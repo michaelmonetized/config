@@ -1,0 +1,8 @@
+2025-12-20 22:05:21.377 [info] [CursorProclistService] Native module loaded successfully
+2025-12-20 22:05:21.652 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/2.2.20/112e7dae24148918b084f5eef4c55834877d783f77b9b193c2d78cf4950fce06/stable
+2025-12-20 22:05:21.653 [info] update#setState idle
+2025-12-20 22:05:26.549 [info] [CursorProclistService] Config enabled feature (subsample every 10s)
+2025-12-20 22:05:28.964 [warning] [BrowserViewMainService] Cannot execute JavaScript: browser view not created for window 1
+2025-12-20 22:05:51.655 [info] update#setState checking for updates
+2025-12-20 22:05:51.908 [info] update#setState available for download
+2025-12-20 22:10:26.574 [info] [CursorProclistService] Sample 0 created: 11 processes, 31 subsamples

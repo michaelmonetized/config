@@ -1,0 +1,8 @@
+2025-12-18 03:11:48.441 [error] #49: https://api2.cursor.sh/extensions-control - error GET net::ERR_NETWORK_CHANGED
+2025-12-18 05:41:53.137 [error] #79: https://api2.cursor.sh/extensions-control - error GET net::ERR_NETWORK_CHANGED
+2025-12-18 12:07:09.332 [error] #156: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2025-12-18 17:27:25.145 [error] #220: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2025-12-18 17:37:28.433 [error] #222: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2025-12-18 17:42:31.439 [error] #223: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2025-12-18 18:42:37.182 [error] #235: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms
+2025-12-18 19:22:41.879 [error] #243: https://api2.cursor.sh/extensions-control - error GET Request timeout after 3000ms

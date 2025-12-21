@@ -22,4 +22,4 @@ zcd() {
   fi
 }
 
-alias cd="zcd"
+# alias cd="zcd"

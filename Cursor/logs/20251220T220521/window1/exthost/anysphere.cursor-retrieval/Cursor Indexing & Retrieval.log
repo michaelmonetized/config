@@ -1,0 +1,226 @@
+2025-12-20 22:05:29.203 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-12-20 22:05:29.203 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-12-20 22:05:29.203 [info] Making keys for a new index
+2025-12-20 22:05:29.203 [info] Using the default key from the server for a new index
+2025-12-20 22:05:29.203 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-12-20 22:05:29.312 [info] Using existing keys for an index
+2025-12-20 22:05:29.312 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-12-20 22:05:29.371 [info] Starting RepoIndexWatcher for repo: 4a450a1b-6839-41bc-aa23-3481d664797c, owner: github|user_01JB9V3CDT51ZRM3JX66ENMDSM
+2025-12-20 22:05:29.371 [info] Doing a startup handshake.
+2025-12-20 22:05:30.575 [info] Finished computing merkle tree in 22.30658299999959 ms.
+2025-12-20 22:05:30.577 [info] Doing the initial handshake with hash: 518f1ec27b5020f873ee9d5b80e635541792b1937726d68771f643c49919fc68
+2025-12-20 22:05:30.580 [info] Computed simhash vector of length: 256
+2025-12-20 22:05:30.580 [info] Path key hash: d447023f3e47c7d1bc1f085625f1c467822a04866f6cc543264f8b0734bffd10
+2025-12-20 22:05:30.580 [info] Handshake start
+2025-12-20 22:05:30.582 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/michael/.config/Cursor/User/workspaceStorage/52a111abc3c461aba7586ce30655a712/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-12-20 22:05:31.429 [info] Handshake timing: 850.226713, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"64659642-fde2-49f0-a2c0-42fc236d6f00","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-12-20 22:05:31.429 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"64659642-fde2-49f0-a2c0-42fc236d6f00","status":"STATUS_EMPTY","copyTaskHandle":""}]}
+2025-12-20 22:05:31.429 [info] Starting fast remote sync.
+2025-12-20 22:05:31.430 [info] Total num embeddable files: 156
+2025-12-20 22:05:31.430 [info] Root hash: 518f1ec27b5020f873ee9d5b80e635541792b1937726d68771f643c49919fc68
+2025-12-20 22:05:31.430 [info] Starting repository upload from scratch.
+2025-12-20 22:05:31.432 [info] Uploading 156 files.
+2025-12-20 22:05:31.433 [info] Total number of files to embed: 156
+2025-12-20 22:05:31.433 [info] Not aborted
+2025-12-20 22:05:31.433 [info] Starting while loop.
+2025-12-20 22:05:31.490 [info] syncing batch of 2 files and 8412 bytes
+2025-12-20 22:05:32.046 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./install.sh
+2025-12-20 22:05:32.047 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zed/settings.json
+2025-12-20 22:05:32.507 [info] syncing batch of 4 files and 641 bytes
+2025-12-20 22:05:32.954 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-start.sh
+2025-12-20 22:05:32.955 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./templates/new.tsx
+2025-12-20 22:05:32.955 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./templates/new.ts
+2025-12-20 22:05:32.955 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./templates/new.jsx
+2025-12-20 22:05:32.957 [info] syncing batch of 8 files and 24355 bytes
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./templates/new.json
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/init.lua
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner.edn
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./kanata.kbd
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/nvibe/init.lua
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/chadrc.lua
+2025-12-20 22:05:33.999 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/plugins/init.lua
+2025-12-20 22:05:34.000 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/options.lua
+2025-12-20 22:05:34.003 [info] syncing batch of 16 files and 18082 bytes
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/mappings.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/transparent.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./goku/goku.edn
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/supermaven.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/nvimtree.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/notify.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/noice.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/neogit.lua
+2025-12-20 22:05:35.041 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/minimap.lua
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./ghostty/themes/catpuccin-mocha
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./ghostty/themes/catpuccin-latte
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/lspconfig.lua
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./ghostty/config
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/lazy.lua
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/gitsigns.lua
+2025-12-20 22:05:35.042 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/conform.lua
+2025-12-20 22:05:35.058 [info] syncing batch of 20 files and 174369 bytes
+2025-12-20 22:05:35.064 [info] syncing batch of 12 files and 15944 bytes
+2025-12-20 22:05:36.093 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/zinit
+2025-12-20 22:05:36.093 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/welcome
+2025-12-20 22:05:36.093 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/tmux
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/next
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/logo-static-raster-ascii-art.txt
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/keybindings
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/integrations
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/hustlelaunch.itermcolors
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/history
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/git
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/completions
+2025-12-20 22:05:36.094 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/aliases
+2025-12-20 22:05:36.096 [info] syncing batch of 20 files and 278349 bytes
+2025-12-20 22:05:36.097 [info] syncing batch of 4 files and 1952 bytes
+2025-12-20 22:05:37.091 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/tmux_mem_cpu_load.sh
+2025-12-20 22:05:37.091 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/time.sh
+2025-12-20 22:05:37.091 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/task.sh
+2025-12-20 22:05:37.091 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/right.sh
+2025-12-20 22:05:37.093 [info] syncing batch of 8 files and 256326 bytes
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./btop/btop.log
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lua/configs/catppuccin.lua
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lazy-lock.json
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/README.md
+2025-12-20 22:05:37.291 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/LICENSE
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/.stylua.toml
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./btop/btop.conf
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./README.md
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./neofetch/config.conf
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./CHANGELOG.md
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./.gitignore
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/rc
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mkproject/template/README.md
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mkproject/template/LICENSE.md
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mkproject/template/.vscode/settings.json
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mkproject/template/.prettierrc
+2025-12-20 22:05:37.291 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mkproject/template/.gitignore
+2025-12-20 22:05:37.292 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mkproject/template/.editorconfig
+2025-12-20 22:05:37.292 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/p10k
+2025-12-20 22:05:37.292 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/fzf
+2025-12-20 22:05:37.294 [info] syncing batch of 20 files and 273976 bytes
+2025-12-20 22:05:37.299 [info] syncing batch of 16 files and 111927 bytes
+2025-12-20 22:05:38.188 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./yabai/yabairc
+2025-12-20 22:05:38.189 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./yabai/reload.sh
+2025-12-20 22:05:38.189 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./wezterm/wezterm.lua
+2025-12-20 22:05:38.189 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/themes/my-theme.sh
+2025-12-20 22:05:38.189 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/karabiner.json
+2025-12-20 22:05:38.190 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/xkb_layout.sh
+2025-12-20 22:05:38.190 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/xkb_layout.c
+2025-12-20 22:05:38.190 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/weather.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/wan_ip.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vpn.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_staged.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_rootpath.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_revision.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_others.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_modified.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_compare.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/vcs_branch.sh
+2025-12-20 22:05:38.191 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/utc_time.sh
+2025-12-20 22:05:38.192 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/uptime.sh
+2025-12-20 22:05:38.192 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/tmux_session_info.sh
+2025-12-20 22:05:38.202 [info] syncing batch of 20 files and 55106 bytes
+2025-12-20 22:05:39.165 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/rainbarf.sh
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/pwd.sh
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20251101.json
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/mode_indicator.sh
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/mailcount_apple_mail.script
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/mailcount.sh
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/macos_notification_count.sh
+2025-12-20 22:05:39.166 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/load.sh
+2025-12-20 22:05:39.171 [info] syncing batch of 6 files and 78993 bytes
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20241106.json
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/config.sh.default
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20241020.json
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240906.json
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/config.sh
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240821.json
+2025-12-20 22:05:39.275 [info] Completed 100 jobs for absoluteDirectoryPath: undefined
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/.anima/.gitignore
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240805.json
+2025-12-20 22:05:39.275 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./task/themes/catppuccin.theme
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./task/taskrc
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240804.json
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/sketchybarrc
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/state.yml
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240731.json
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/workspace.sh
+2025-12-20 22:05:39.276 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/space.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/left.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/lan_ip.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/kubernetes_context.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/ifstat_sys.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/ifstat.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/hostname.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/gnome4_layout.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20251024.json
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/gcalcli.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/earthquake.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/disk_usage.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/date_week.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/date_day.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/date.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/cpu.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/battery.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20251023.json
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/air.sh
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20241114.json
+2025-12-20 22:05:39.332 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-powerline/segments/Makefile
+2025-12-20 22:05:40.140 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/volume.sh
+2025-12-20 22:05:40.140 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240726.json
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/new_list_projects.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/automatic_backups/karabiner_20240719.json
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/list_projects.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/hover.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/front_app_settings.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/front_app_quit.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./karabiner/assets/complex_modifications/1722450941.json
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/front_app.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/clock.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/plugins/battery.sh
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./sketchybar/config.yml
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./htop/htoprc
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./hl-social-cli/config
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./gtk-2.0/gtkfilechooser.ini
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./colors.js
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./borders/bordersrc
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./aerospace/aerospace.toml
+2025-12-20 22:05:40.141 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./atuin/config.toml
+2025-12-20 22:05:40.141 [info] Completed 150 jobs for absoluteDirectoryPath: undefined
+2025-12-20 22:05:42.254 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./.welcome
+2025-12-20 22:05:42.254 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./.vscode/settings.json
+2025-12-20 22:05:42.254 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./alacritty/alacritty.toml
+2025-12-20 22:05:42.254 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./.anima/.gitignore
+2025-12-20 22:05:42.254 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./.direnv
+2025-12-20 22:05:42.255 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./.swp
+2025-12-20 22:05:42.330 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-20 22:05:42.583 [info] Finished indexing repository.
+2025-12-20 22:05:42.583 [info] Indexing job successfully done or aborted.
+2025-12-20 22:10:24.496 [info] multiCodebaseIndexingJob dispose
+2025-12-20 22:10:24.497 [info] Aborting indexing job.
+2025-12-20 22:10:24.497 [info] Setting global status from status tracker: synced
+2025-12-20 22:10:24.497 [info] Doing a startup handshake.
+2025-12-20 22:10:24.593 [info] Finished computing merkle tree in 33.95952099998249 ms.
+2025-12-20 22:10:24.598 [info] Doing the initial handshake with hash: 2558d404b041797faadf1fc9f5c0942377777f21f469015c76c1a288d52d0656
+2025-12-20 22:10:24.605 [info] Computed simhash vector of length: 256
+2025-12-20 22:10:24.605 [info] Path key hash: d447023f3e47c7d1bc1f085625f1c467822a04866f6cc543264f8b0734bffd10
+2025-12-20 22:10:24.605 [info] Handshake start
+2025-12-20 22:10:24.687 [info] Handshake timing: 85.73459299997194, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"64659642-fde2-49f0-a2c0-42fc236d6f00","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-20 22:10:24.687 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"64659642-fde2-49f0-a2c0-42fc236d6f00","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2025-12-20 22:10:24.687 [info] Starting fast remote sync.
+2025-12-20 22:10:24.688 [info] Total num embeddable files: 156
+2025-12-20 22:10:24.689 [info] Root hash: 2558d404b041797faadf1fc9f5c0942377777f21f469015c76c1a288d52d0656
+2025-12-20 22:10:24.689 [info] In the out of sync case.
+2025-12-20 22:10:24.694 [info] Waiting on semaphore to be released 1
+2025-12-20 22:10:24.893 [info] setting numJobsToGo to 1
+2025-12-20 22:10:24.893 [info] [startSync]: numJobs: 1
+2025-12-20 22:10:24.893 [info] Uploading 1 files.
+2025-12-20 22:10:24.897 [info] Total number of files to embed: 156
+2025-12-20 22:10:24.897 [info] Not aborted
+2025-12-20 22:10:24.897 [info] Starting while loop.
+2025-12-20 22:10:26.282 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./install.sh
+2025-12-20 22:10:26.363 [info] Finishing sync (hasUpdates: true, isErr: false)
+2025-12-20 22:10:26.640 [info] Finished indexing repository.
+2025-12-20 22:10:26.640 [info] Indexing job successfully done or aborted.

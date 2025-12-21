@@ -1,0 +1,339 @@
+2025-12-17 23:11:18.036 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-17 23:11:18.046 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.046 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.047 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.047 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.047 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.047 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.048 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.048 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.048 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:18.731 [info] Started local extension host with pid 7888.
+2025-12-17 23:11:19.485 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-17 23:11:19.487 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-17 23:11:20.239 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/bash
+2025-12-17 23:11:20.239 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/bash
+2025-12-17 23:11:21.106 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-17 23:11:21.106 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-17 23:11:21.106 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-17 23:11:21.106 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-17 23:11:21.106 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-17 23:11:21.179 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-17 23:11:21.202 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-17 23:11:21.203 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-17 23:11:21.215 [info] [ShellExec] Created session 0e961a1b-d3ac-410c-997e-13f99d7af3a5 on LocalProcess host
+2025-12-17 23:11:22.017 [info] [perf] Render performance baseline is 30ms
+2025-12-17 23:11:22.375 [error] [Extension Host] (node:7888) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-17 23:11:27.681 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2025-12-17 23:11:39.029 [info] [Cursor Proclist Polling] Stopped polling
+2025-12-17 23:11:40.066 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-12-17 23:11:40.072 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.072 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.072 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.073 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-12-17 23:11:40.630 [info] Started local extension host with pid 9219.
+2025-12-17 23:11:41.453 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2025-12-17 23:11:41.453 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2025-12-17 23:11:42.008 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/bash
+2025-12-17 23:11:42.021 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/bash
+2025-12-17 23:11:42.089 [warning] No search provider registered for scheme: file, waiting
+2025-12-17 23:11:42.158 [info] [ShellExec] Created session dd077464-ccf1-4cfb-8025-c0e77dc368de on LocalProcess host
+2025-12-17 23:11:42.964 [info] [Debug] Registered command palette action: debug.logComposer
+2025-12-17 23:11:42.965 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2025-12-17 23:11:42.965 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2025-12-17 23:11:42.965 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2025-12-17 23:11:42.965 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2025-12-17 23:11:42.982 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2025-12-17 23:11:43.012 [info] [Cursor Proclist Polling] Config applied to Main process
+2025-12-17 23:11:43.012 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2025-12-17 23:11:43.389 [info] [perf] Render performance baseline is 31ms
+2025-12-17 23:11:44.404 [error] [Extension Host] (node:9219) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-12-17 23:11:59.080 [warning] ToolCallEventService: Tracked tool call start - tool_2723f4bd-16af-4ac1-bdaa-b9f30bfa9b5 (glob_file_search)
+2025-12-17 23:11:59.289 [warning] ToolCallEventService: Tracked tool call start - tool_b3d9c847-e662-4556-a461-c2261dee4ad (codebase_search)
+2025-12-17 23:11:59.300 [warning] ToolCallEventService: Tracked tool call start - tool_ea01cf33-b3c4-478d-80be-99f36364ea5 (read_file)
+2025-12-17 23:12:04.697 [warning] ToolCallEventService: Tracked tool call start - tool_05c8f5c9-7b03-4af6-9779-326822c24c3 (read_file)
+2025-12-17 23:12:07.291 [warning] ToolCallEventService: Tracked tool call start - tool_c695fcca-4eab-43a0-9b84-6ac417adf3c (ripgrep_raw_search)
+2025-12-17 23:12:09.787 [warning] ToolCallEventService: Tracked tool call start - tool_a78f873c-21eb-4fc6-92ce-3a3f069b195 (write)
+2025-12-17 23:12:11.901 [warning] ToolCallEventService: Tracked tool call end - tool_a78f873c-21eb-4fc6-92ce-3a3f069b195
+2025-12-17 23:12:12.046 [warning] ToolCallEventService: Tracked tool call start - tool_65721bc8-2c53-427f-9cfb-f137a8033d9 (delete_file)
+2025-12-17 23:12:12.190 [warning] ToolCallEventService: Tracked tool call end - tool_65721bc8-2c53-427f-9cfb-f137a8033d9
+2025-12-17 23:12:14.971 [warning] ToolCallEventService: Tracked tool call start - tool_5932e0d1-1301-4fa0-a8e3-ee9f8104723 (read_lints)
+2025-12-17 23:14:35.427 [error] command '_chat.editSessions.accept' not found {"name":"Error","message":"command '_chat.editSessions.accept' not found"}
+2025-12-17 23:16:43.026 [info] [Cursor Proclist] Samples written: 15 local processes, 0 remote processes
+2025-12-17 23:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-17 23:26:43.019 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-17 23:31:43.021 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-17 23:36:43.033 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-17 23:41:43.032 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-17 23:46:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-17 23:51:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-17 23:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:01:43.033 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:06:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:11:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:11:47.161 [info] [Extensions]: Checking for updates. Reason: Product update
+2025-12-18 00:16:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:21:43.034 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:26:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:31:43.021 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 00:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:41:43.034 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:46:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:51:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 00:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:01:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:06:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:11:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:21:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:31:43.018 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 01:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:41:43.034 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:46:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 01:51:43.018 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 01:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:01:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:06:43.024 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:11:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:31:43.032 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:36:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:41:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:46:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:51:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 02:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:01:43.025 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:06:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:11:43.039 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:16:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:31:43.021 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 03:36:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:46:43.026 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:51:43.027 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 03:56:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:01:43.019 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:11:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:11:47.879 [error] An unknown error occurred. Please consult the log for more details. {"name":"ConnectError","rawMessage":"read ECONNRESET","code":10,"metadata":{},"details":[],"cause":{"errno":-104,"code":"ECONNRESET","syscall":"read"}}
+2025-12-18 04:16:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:31:43.025 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:46:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:51:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 04:56:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:01:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:11:41.454 [info] [WorktreeCleanupCron] Running scheduled worktree cleanup (interval: 6h)
+2025-12-18 05:11:41.455 [info] [WorktreeManager] Using worktrees root /home/michael/.cursor/worktrees
+2025-12-18 05:11:43.020 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:21:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:31:43.020 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:46:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:51:43.020 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 05:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:11:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:21:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:31:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 06:36:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:46:43.032 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 06:51:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 06:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:01:43.026 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:11:43.021 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 07:16:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:21:43.039 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:26:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:31:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 07:36:43.038 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:41:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:46:43.032 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 07:51:43.018 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 07:56:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:06:43.038 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:11:43.038 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:26:43.019 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:31:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 08:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:41:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:46:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:51:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 08:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:01:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:11:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 09:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:21:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:26:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:31:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 09:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:46:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:51:43.020 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 09:56:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 10:01:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:06:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 10:11:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 10:16:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 10:21:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:26:43.020 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:31:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:36:43.037 [info] [Cursor Proclist] Samples written: 12 local processes, 0 remote processes
+2025-12-18 10:41:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:46:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:51:43.027 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 10:56:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:01:43.038 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:06:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:11:41.453 [info] [WorktreeCleanupCron] Running scheduled worktree cleanup (interval: 6h)
+2025-12-18 11:11:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:21:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:26:43.034 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:31:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:41:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:46:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:51:43.026 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 11:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:11:43.018 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 12:16:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:21:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:26:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:31:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 12:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 12:46:43.037 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 12:51:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 12:56:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 13:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:06:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:11:43.045 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:16:43.022 [info] [Cursor Proclist] Samples written: 12 local processes, 0 remote processes
+2025-12-18 13:21:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:26:43.037 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 13:31:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 13:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:41:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:46:43.039 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 13:51:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 13:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:01:43.038 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:06:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:11:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 14:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:26:43.038 [info] [Cursor Proclist] Samples written: 12 local processes, 0 remote processes
+2025-12-18 14:31:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 14:46:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 14:51:43.018 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 14:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:01:43.045 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:11:43.019 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:31:43.048 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:36:43.037 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:46:43.048 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 15:51:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 15:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:06:43.019 [info] [Cursor Proclist] Samples written: 12 local processes, 0 remote processes
+2025-12-18 16:11:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:16:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:21:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:26:43.022 [info] [Cursor Proclist] Samples written: 12 local processes, 0 remote processes
+2025-12-18 16:31:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 16:36:43.038 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 16:46:43.037 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 16:51:43.021 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 16:56:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:06:43.036 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:11:41.453 [info] [WorktreeCleanupCron] Running scheduled worktree cleanup (interval: 6h)
+2025-12-18 17:11:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:21:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:26:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:31:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:36:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:41:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:46:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 17:51:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 17:56:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:01:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:06:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 18:11:43.023 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:16:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 18:21:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:26:43.033 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:31:43.026 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:36:43.022 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 18:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:46:43.034 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 18:51:43.019 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 18:56:43.022 [info] [Cursor Proclist] Samples written: 12 local processes, 0 remote processes
+2025-12-18 19:01:43.025 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:06:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:11:43.025 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:16:43.035 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:21:43.034 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:26:43.034 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 19:31:43.027 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:36:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:41:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:46:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:51:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 19:56:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:01:43.031 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:06:43.018 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:11:43.020 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 20:16:43.022 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:21:43.031 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:26:43.036 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 20:31:43.039 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:36:43.028 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:41:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:46:43.030 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:51:43.032 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 20:56:43.023 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 21:01:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 21:06:43.021 [info] [Cursor Proclist] Samples written: 10 local processes, 0 remote processes
+2025-12-18 21:11:43.021 [info] [Cursor Proclist] Samples written: 11 local processes, 0 remote processes
+2025-12-18 21:11:48.722 [info] [Extensions]: Checking for updates. Reason: Product update

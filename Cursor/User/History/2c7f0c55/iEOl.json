@@ -1,0 +1,5 @@
+{ "workbench.colorTheme": "Catppuccin Mocha",
+    "window.commandCenter": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false
+}

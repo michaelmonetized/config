@@ -1,0 +1,36 @@
+2025-12-16 22:09:32.037 [info] Extension host with pid 3350 started
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] Initializing terminal executor with userTerminalHint: /usr/bin/bash
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] Detecting sandbox support...
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] Platform: linux, Shell type: unknown
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] dirname: /usr/share/cursor/resources/app/out/vs/workbench/api/node
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] Linux sandbox helper path: not found
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] process.resourcesPath: /usr/lib/electron37/resources
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] process.execPath: /usr/lib/electron37/electron
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] ripgrep path for sandboxing: /usr/share/cursor/resources/app/node_modules/@vscode/ripgrep/bin/rg
+2025-12-16 22:09:32.037 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Starting sandbox support check... undefined
+2025-12-16 22:09:32.037 [error] [shell-exec:sandbox] [checkBinaryAvailable] Resolved binary path: undefined undefined
+2025-12-16 22:09:32.037 [error] [shell-exec:sandbox] [checkBinaryAvailable] Binary path not set, returning false undefined
+2025-12-16 22:09:32.037 [error] [shell-exec:sandbox] [isLinuxSandboxSupported] Binary not available, returning false undefined
+2025-12-16 22:09:32.037 [info] [ExtHostShellExec] Sandbox support detected: false
+2025-12-16 22:09:32.057 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-16 22:09:32.085 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-16 22:09:32.093 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-16 22:09:32.163 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-16 22:09:32.539 [info] ExtensionService#_doActivateExtension anysphere.cursor-agent-exec, startup: true, activationEvent: '*'
+2025-12-16 22:09:32.820 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-16 22:09:32.892 [info] ExtensionService#_doActivateExtension anysphere.cursor-mcp, startup: false, activationEvent: 'api', root cause: anysphere.cursor-agent-exec
+2025-12-16 22:09:33.187 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-16 22:09:33.240 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-16 22:09:33.344 [info] Eager extensions activated
+2025-12-16 22:09:33.352 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:33.671 [info] ExtensionService#_doActivateExtension cursor.cursor-browser-automation, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:33.674 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-connect, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:33.705 [info] ExtensionService#_doActivateExtension anysphere.cursor-browser-extension, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:33.969 [info] ExtensionService#_doActivateExtension anysphere.cursor-deeplink, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:34.033 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:34.527 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:34.611 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-16 22:09:34.613 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 17:05:53.192 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-12-17 20:35:17.452 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-17 20:35:17.498 [info] Extension host with pid 3350 exiting with code 0
