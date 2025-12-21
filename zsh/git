@@ -3,7 +3,6 @@ function git_commit() {
   exit_status=$?
   if [ $exit_status -eq 0 ]; then
     echo "Commit successful! Running additional tasks..."
-    # open -g raycast://extensions/raycast/raycast/confetti
   else
     echo "Commit failed! Running error handling tasks..."
   fi
@@ -15,7 +14,6 @@ function git_push() {
   exit_status=$?
   if [ $exit_status -eq 0 ]; then
     echo "Push successful! Running additional tasks..."
-    # /usr/local/bin/win
     ascii-commit-graph --full-width --show-todos --show-issues
   else
     echo "Push failed! Running error handling tasks..."
@@ -51,17 +49,12 @@ function git_commit_push() {
 
   if [[ -n $(git status -s) ]]; then
     git commit -am "${1:---allow-empty-message}"
-    # open -g raycast://extensions/raycast/raycast/confetti
     git push
-    # open -g raycast://extensions/raycast/raycast/confetti
   else
     git commit --allow-empty -m "${1:---allow-empty-message}"
-    # open -g raycast://extensions/raycast/raycast/confetti
     git push
-    # open -g raycast://extensions/raycast/raycast/confetti
   fi
 
-  #/usr/local/bin/win
   ascii-commit-graph --full-width --show-todos --show-issues
 }
 
