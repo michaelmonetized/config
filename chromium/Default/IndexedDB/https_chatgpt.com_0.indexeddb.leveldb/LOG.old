@@ -1,3 +1,3 @@
-2025/12/17-22:08:30.095 750 Reusing MANIFEST /home/michael/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/12/17-22:08:30.095 750 Recovering log #3
-2025/12/17-22:08:30.095 750 Reusing old log /home/michael/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000003.log 
+2025/12/21-10:38:46.868 f48 Reusing MANIFEST /home/michael/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/12/21-10:38:46.869 f48 Recovering log #3
+2025/12/21-10:38:46.869 f48 Reusing old log /home/michael/.config/chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000003.log 

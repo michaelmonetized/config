@@ -8,17 +8,27 @@
         "folders": [
             {
                 "folderUri": "file:///home/michael/Projects/config"
+            },
+            {
+                "folderUri": "file:///home/michael/Projects/waynesville.yourzaxbys.com"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1767747172160"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
             "file:///home/michael/Projects/getat.me": "__default__profile__",
-            "file:///home/michael/Projects/config": "__default__profile__"
+            "file:///home/michael/Projects/config": "__default__profile__",
+            "file:///home/michael/Projects/waynesville.yourzaxbys.com": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1767747172160": "__default__profile__"
+        }
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e2e",
@@ -40,26 +50,27 @@
             "statusBarNoFolderBackground": "#11111b"
         },
         "layoutInfo": {
-            "sideBarSide": "left",
+            "sideBarSide": "right",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 0,
-            "sideBarWidth": 300,
-            "auxiliarySideBarWidth": 235,
-            "statusBarHeight": 22,
-            "windowBorder": false
+            "sideBarWidth": 0,
+            "auxiliarySideBarWidth": 506,
+            "statusBarHeight": 0,
+            "windowBorder": false,
+            "unifiedSideBarWidth": 214
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/michael/Projects/config",
-            "backupPath": "/home/michael/.config/Cursor/Backups/25ba95e23c15847b94bb1a04c7271f05",
+            "folder": "file:///home/michael/Projects/waynesville.yourzaxbys.com",
+            "backupPath": "/home/michael/.config/Cursor/Backups/5adcfdcb27383a74980b8735322de26b",
             "uiState": {
                 "mode": 0,
-                "x": 0,
-                "y": 0,
-                "width": 960,
-                "height": 1054
+                "x": 320,
+                "y": 140,
+                "width": 1280,
+                "height": 800
             }
         },
         "openedWindows": []
@@ -67,10 +78,11 @@
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
             "auxiliarySideBarWidth": [
-                235,
+                506,
                 [
                     "1851b044e45f6e2210e8e053936efccd",
-                    "52a111abc3c461aba7586ce30655a712"
+                    "52a111abc3c461aba7586ce30655a712",
+                    "01b022e0f6584df7588ef59fb7b1a701"
                 ]
             ]
         }

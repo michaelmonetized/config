@@ -1,74 +1,54 @@
-install.sh
-zed/settings.json
-tmux-start.sh
-templates/new.tsx
-templates/new.ts
-templates/new.jsx
-templates/new.json
-nvim/init.lua
-karabiner.edn
-kanata.kbd
-nvim/lua/nvibe/init.lua
-nvim/lua/chadrc.lua
-nvim/lua/plugins/init.lua
-nvim/lua/options.lua
-nvim/lua/mappings.lua
-nvim/lua/configs/transparent.lua
+GIMP/3.0/action-history
+GIMP/3.0/unitrc
+GIMP/3.0/parasiterc
+GIMP/3.0/templaterc
+GIMP/3.0/colorrc
 goku/goku.edn
-nvim/lua/configs/supermaven.lua
-nvim/lua/configs/nvimtree.lua
-nvim/lua/configs/notify.lua
-nvim/lua/configs/noice.lua
-nvim/lua/configs/neogit.lua
-nvim/lua/configs/minimap.lua
+ghostty/config
 ghostty/themes/catpuccin-mocha
 ghostty/themes/catpuccin-latte
-nvim/lua/configs/lspconfig.lua
-ghostty/config
-nvim/lua/configs/lazy.lua
-nvim/lua/configs/gitsigns.lua
-nvim/lua/configs/conform.lua
 btop/btop.log
-nvim/lua/configs/catppuccin.lua
-nvim/lazy-lock.json
-nvim/README.md
-nvim/LICENSE
-nvim/.stylua.toml
 btop/btop.conf
 README.md
-neofetch/config.conf
 CHANGELOG.md
 .gitignore
-zsh/rc
-mkproject/template/README.md
-mkproject/template/LICENSE.md
-mkproject/template/.vscode/settings.json
-mkproject/template/.prettierrc
-mkproject/template/.gitignore
-mkproject/template/.editorconfig
-zsh/p10k
-zsh/fzf
-zsh/zinit
 zsh/welcome
+zsh/git
+zsh/integrations
+zsh/fzf
+zsh/completions
+zsh/rc
+zsh/p10k
+zsh/zinit
 zsh/tmux
 zsh/next
 zsh/logo-static-raster-ascii-art.txt
 zsh/keybindings
-zsh/integrations
+GIMP/3.0/tags.xml
+GIMP/3.0/extensionrc
 zsh/hustlelaunch.itermcolors
 zsh/history
-zsh/git
-zsh/completions
 zsh/aliases
+GIMP/3.0/toolrc
 yabai/yabairc
 yabai/reload.sh
+GIMP/3.0/internal-data/custom.ggr
+GIMP/3.0/contextrc
 wezterm/wezterm.lua
 tmux-powerline/themes/my-theme.sh
-karabiner/karabiner.json
+GIMP/3.0/shortcutsrc
+GIMP/3.0/modifiersrc
 tmux-powerline/segments/xkb_layout.sh
+GIMP/3.0/controllerrc
 tmux-powerline/segments/xkb_layout.c
+GIMP/3.0/devicerc
+GIMP/3.0/dockrc
+GIMP/3.0/sessionrc
 tmux-powerline/segments/weather.sh
+GIMP/3.0/plug-in-settings/GimpProcedureConfigRun-file-png-export.last
+GIMP/3.0/plug-in-settings/GimpProcedureConfigRun-file-png-load.last
 tmux-powerline/segments/wan_ip.sh
+GIMP/3.0/gimprc
 tmux-powerline/segments/vpn.sh
 tmux-powerline/segments/vcs_staged.sh
 tmux-powerline/segments/vcs_rootpath.sh
@@ -86,7 +66,6 @@ tmux-powerline/segments/task.sh
 tmux-powerline/segments/right.sh
 tmux-powerline/segments/rainbarf.sh
 tmux-powerline/segments/pwd.sh
-karabiner/automatic_backups/karabiner_20251101.json
 tmux-powerline/segments/mode_indicator.sh
 tmux-powerline/segments/mailcount_apple_mail.script
 tmux-powerline/segments/mailcount.sh
@@ -99,58 +78,1864 @@ tmux-powerline/segments/ifstat_sys.sh
 tmux-powerline/segments/ifstat.sh
 tmux-powerline/segments/hostname.sh
 tmux-powerline/segments/gnome4_layout.sh
-karabiner/automatic_backups/karabiner_20251024.json
 tmux-powerline/segments/gcalcli.sh
 tmux-powerline/segments/earthquake.sh
 tmux-powerline/segments/disk_usage.sh
 tmux-powerline/segments/date_week.sh
 tmux-powerline/segments/date_day.sh
 tmux-powerline/segments/date.sh
+GIMP/3.0/pluginrc
 tmux-powerline/segments/cpu.sh
 tmux-powerline/segments/battery.sh
-karabiner/automatic_backups/karabiner_20251023.json
+GIMP/3.0/tool-options/gimp-operation-tool
+GIMP/3.0/tool-options/gimp-gegl-tool
+GIMP/3.0/tool-options/gimp-offset-tool
+GIMP/3.0/tool-options/gimp-curves-tool
+GIMP/3.0/tool-options/gimp-levels-tool
+GIMP/3.0/tool-options/gimp-threshold-tool
 tmux-powerline/segments/air.sh
-karabiner/automatic_backups/karabiner_20241114.json
+GIMP/3.0/tool-options/gimp-brightness-contrast-tool
 tmux-powerline/segments/Makefile
-karabiner/automatic_backups/karabiner_20241106.json
+GIMP/3.0/tool-options/gimp-dodge-burn-tool
+GIMP/3.0/tool-options/gimp-smudge-tool
+GIMP/3.0/tool-options/gimp-convolve-tool
+GIMP/3.0/tool-options/gimp-perspective-clone-tool
+GIMP/3.0/tool-options/gimp-heal-tool
+GIMP/3.0/tool-options/gimp-clone-tool
+GIMP/3.0/tool-options/gimp-mypaint-brush-tool
+GIMP/3.0/tool-options/gimp-ink-tool
+GIMP/3.0/tool-options/gimp-airbrush-tool
+GIMP/3.0/tool-options/gimp-eraser-tool
+GIMP/3.0/tool-options/gimp-paintbrush-tool
+GIMP/3.0/tool-options/gimp-pencil-tool
+GIMP/3.0/tool-options/gimp-gradient-tool
+GIMP/3.0/tool-options/gimp-bucket-fill-tool
+GIMP/3.0/tool-options/gimp-text-tool
 tmux-powerline/config.sh.default
-karabiner/automatic_backups/karabiner_20241020.json
-karabiner/automatic_backups/karabiner_20240906.json
+GIMP/3.0/tool-options/gimp-warp-tool
+GIMP/3.0/tool-options/gimp-cage-tool
+GIMP/3.0/tool-options/gimp-flip-tool
+GIMP/3.0/tool-options/gimp-transform-3d-tool
+GIMP/3.0/tool-options/gimp-perspective-tool
+GIMP/3.0/tool-options/gimp-handle-transform-tool
+GIMP/3.0/tool-options/gimp-shear-tool
+GIMP/3.0/tool-options/gimp-scale-tool
+GIMP/3.0/tool-options/gimp-rotate-tool
+GIMP/3.0/tool-options/gimp-unified-transform-tool
+GIMP/3.0/tool-options/gimp-crop-tool
+GIMP/3.0/tool-options/gimp-align-tool
+GIMP/3.0/tool-options/gimp-move-tool
+GIMP/3.0/tool-options/gimp-measure-tool
+GIMP/3.0/tool-options/gimp-zoom-tool
+GIMP/3.0/tool-options/gimp-color-picker-tool
+GIMP/3.0/tool-options/gimp-vector-tool
+GIMP/3.0/tool-options/gimp-foreground-select-tool
+GIMP/3.0/tool-options/gimp-iscissors-tool
+GIMP/3.0/tool-options/gimp-by-color-select-tool
+GIMP/3.0/tool-options/gimp-fuzzy-select-tool
+GIMP/3.0/tool-options/gimp-free-select-tool
+GIMP/3.0/tool-options/gimp-ellipse-select-tool
+GIMP/3.0/tool-options/gimp-rect-select-tool
+GIMP/3.0/theme.css
 tmux-powerline/config.sh
-karabiner/automatic_backups/karabiner_20240821.json
 tmux-powerline/.anima/.gitignore
-karabiner/automatic_backups/karabiner_20240805.json
+cursor/cli-config.json
 task/themes/catppuccin.theme
 task/taskrc
-karabiner/automatic_backups/karabiner_20240804.json
 sketchybar/sketchybarrc
 sketchybar/state.yml
-karabiner/automatic_backups/karabiner_20240731.json
 sketchybar/plugins/workspace.sh
 sketchybar/plugins/space.sh
 sketchybar/plugins/volume.sh
-karabiner/automatic_backups/karabiner_20240726.json
+cursor/chats/1e04216d32672b91676a26eeb79433cd/92c5833e-7d78-44a6-8694-188820782c29/store.db-shm
 sketchybar/plugins/new_list_projects.sh
-karabiner/automatic_backups/karabiner_20240719.json
+cursor/prompt_history.json
+cursor/auth.json
 sketchybar/plugins/list_projects.sh
 sketchybar/plugins/hover.sh
 sketchybar/plugins/front_app_settings.sh
 sketchybar/plugins/front_app_quit.sh
-karabiner/assets/complex_modifications/1722450941.json
 sketchybar/plugins/front_app.sh
 sketchybar/plugins/clock.sh
 sketchybar/plugins/battery.sh
 sketchybar/config.yml
+nvim/init.lua
+nvim/lua/nvibe/init.lua
+nvim/lua/chadrc.lua
+nvim/lua/plugins/init.lua
+nvim/lua/options.lua
+nvim/lua/mappings.lua
+nvim/lua/configs/transparent.lua
+nvim/lua/configs/supermaven.lua
+nvim/lua/configs/nvimtree.lua
+nvim/lua/configs/notify.lua
+nvim/lua/configs/noice.lua
+nvim/lua/configs/neogit.lua
+nvim/lua/configs/minimap.lua
+nvim/lua/configs/lspconfig.lua
+nvim/lua/configs/lazy.lua
+nvim/lua/configs/gitsigns.lua
+nvim/lua/configs/conform.lua
+nvim/lua/configs/catppuccin.lua
+nvim/lazy-lock.json
+nvim/README.md
+nvim/LICENSE
+nvim/.stylua.toml
+neofetch/config.conf
+mkproject/template/README.md
+mkproject/template/LICENSE.md
+mkproject/template/.vscode/settings.json
+mkproject/template/.prettierrc
+mkproject/template/.gitignore
+mkproject/template/.editorconfig
+logo.txt
+xournalpp/settings.xml
+xdg-terminals.list
+karabiner/karabiner.json
+waybar/style.css
+waybar/config.jsonc
+walker/config.toml.bak.1765940563
+walker/config.toml
+vivaldi-snapshot/NativeMessagingHosts/com.1password.1password.json
+vivaldi/NativeMessagingHosts/com.1password.1password.json
+uwsm/default
+uwsm/env
+user-dirs.locale
+user-dirs.dirs
+Typora/themes/ia_typora_night.css
+Typora/themes/ia_typora.css
+systemd/user/elephant.service
+systemd/user/omarchy-battery-monitor.timer
+systemd/user/omarchy-battery-monitor.service
+swayosd/style.css
+swayosd/config.toml
+starship.toml
+qalculate/qalc.cfg
+pulse/cookie
+karabiner/automatic_backups/karabiner_20251101.json
+omarchy/branding/screensaver.txt
+omarchy/branding/about.txt
+omarchy/hooks/theme-set.sample
+omarchy/hooks/post-update.sample
+karabiner/automatic_backups/karabiner_20251024.json
+omarchy/hooks/font-set.sample
+nvim.bak.20251220221405/stylua.toml
+nvim.bak.20251220221405/plugin/after/transparency.lua
+nvim.bak.20251220221405/lua/plugins/disable-news-alert.lua
+nvim.bak.20251220221405/lua/plugins/snacks-animated-scrolling-off.lua
+nvim.bak.20251220221405/lua/plugins/omarchy-theme-hotreload.lua
+nvim.bak.20251220221405/lua/plugins/example.lua
+nvim.bak.20251220221405/lua/plugins/all-themes.lua
+karabiner/automatic_backups/karabiner_20251023.json
+nvim.bak.20251220221405/lua/config/options.lua
+nvim.bak.20251220221405/lua/config/lazy.lua
+nvim.bak.20251220221405/lua/config/keymaps.lua
+nvim.bak.20251220221405/lua/config/autocmds.lua
+nvim.bak.20251220221405/lazyvim.json
+nvim.bak.20251220221405/lazy-lock.json
+nvim.bak.20251220221405/init.lua
+nvim.bak.20251220221405/README.md
+karabiner/automatic_backups/karabiner_20241114.json
+karabiner/automatic_backups/karabiner_20241106.json
+nvim.bak.20251220221405/LICENSE
+nvim.bak.20251220221405/.neoconf.json
+nvim.bak.20251220221405/.gitignore
+nextjs-nodejs/config.json
+mise/config.toml
+mimeapps.list
+karabiner/automatic_backups/karabiner_20241020.json
+karabiner/automatic_backups/karabiner_20240906.json
+microsoft-edge-dev/NativeMessagingHosts/com.1password.1password.json
+lazygit/config.yml
+kitty/kitty.conf
+imv/config
+ibus/bus/220b33483b904a1c81838e8f946d8535-unix-wayland-1
+ibus/bus/220b33483b904a1c81838e8f946d8535-unix-1
+hyprland-preview-share-picker/config.yaml
+hypr/monitors.conf
+karabiner/automatic_backups/karabiner_20240821.json
+hypr/input.conf
+hypr/looknfeel.conf
+hypr/hyprlock.conf
+hypr/xdph.conf
+hypr/bindings.conf
+hypr/hyprlock.conf.bak.1765940529
+karabiner/automatic_backups/karabiner_20240805.json
+hypr/hyprsunset.conf
+hypr/hyprland.conf
+hypr/hypridle.conf
+hypr/envs.conf
+hypr/autostart.conf
+google-chrome-unstable/NativeMessagingHosts/com.1password.1password.json
+google-chrome-beta/NativeMessagingHosts/com.1password.1password.json
+google-chrome/NativeMessagingHosts/com.1password.1password.json
+karabiner/automatic_backups/karabiner_20240804.json
+go/telemetry/local/local.2025-12-24.json
+go/telemetry/local/upload.token
+karabiner/automatic_backups/karabiner_20240731.json
+go/telemetry/local/go@devel-devel-linux-amd64-2026-01-07.v1.count
+go/telemetry/local/weekends
+git/config
+ghostty.bak.20251220221405/config
+karabiner/automatic_backups/karabiner_20240726.json
+gh.bak.20251220221405/config.yml
+gh.bak.20251220221405/hosts.yml
+karabiner/automatic_backups/karabiner_20240719.json
+fontconfig/fonts.conf
+fcitx5/profile
+fcitx5/conf/cached_layouts
+fcitx5/conf/notifications.conf
+fcitx5/conf/clipboard.conf
+fcitx5/conf/xcb.conf
+fcitx/dbus/220b33483b904a1c81838e8f946d8535-0
+fcitx/dbus/220b33483b904a1c81838e8f946d8535-1
+fastfetch/config.jsonc.bak.1765940563
+fastfetch/config.jsonc
+environment.d/fcitx.conf
+elephant/desktopapplications.toml
+elephant/calc.toml
+dconf/user
+Cursor/.org.chromium.Chromium.9oxjyq
+Cursor/TransportSecurity
+Cursor/Network Persistent State
+Cursor/SharedStorage-wal
+karabiner/assets/complex_modifications/1722450941.json
 htop/htoprc
 hl-social-cli/config
 gtk-2.0/gtkfilechooser.ini
 colors.js
 borders/bordersrc
-aerospace/aerospace.toml
 atuin/config.toml
+alacritty/alacritty.toml
+aerospace/aerospace.toml
 .welcome
 .vscode/settings.json
-alacritty/alacritty.toml
-.anima/.gitignore
-.direnv
 .swp
+.direnv
+Cursor/DIPS-wal
+Cursor/Session Storage/000003.log
+Cursor/Session Storage/CURRENT
+Cursor/Session Storage/MANIFEST-000001
+Cursor/Session Storage/LOCK
+Cursor/Session Storage/LOG
+.anima/.gitignore
+Cursor/Shared Dictionary/db-journal
+Cursor/process-monitor/1766275200000.log
+Cursor/Shared Dictionary/db
+Cursor/Shared Dictionary/cache/index-dir/the-real-index
+Cursor/Shared Dictionary/cache/index
+Cursor/Cache/Cache_Data/ea51f17a95d8812e_0
+Cursor/Cache/Cache_Data/964e294aeec0bc9a_0
+Cursor/process-monitor/1766102400000.log
+Cursor/Cache/Cache_Data/e70711f2e682e717_0
+Cursor/Cache/Cache_Data/ab87b0003895bfd9_0
+Cursor/Cache/Cache_Data/eba028091562a72f_0
+Cursor/Cache/Cache_Data/8606e9f51f3d4f2f_0
+Cursor/process-monitor/1766088000000.log
+Cursor/process-monitor/1766073600000.log
+Cursor/process-monitor/1766059200000.log
+Cursor/process-monitor/1766044800000.log
+Cursor/process-monitor/1766030400000.log
+Cursor/SharedStorage
+Cursor/Preferences
+Cursor/languagepacks.json
+Cursor/Cookies-journal
+Cursor/Cookies
+Cursor/CachedProfilesData/__default__profile__/extensions.user.cache
+Cursor/Cache/Cache_Data/fa66eba3d76cd38d_0
+Cursor/Cache/Cache_Data/index-dir/the-real-index
+Cursor/Cache/Cache_Data/5283edf90cf4ab50_0
+Cursor/Cache/Cache_Data/index
+Cursor/Local Storage/leveldb/LOG
+Cursor/Local Storage/leveldb/LOG.old
+Cursor/Local Storage/leveldb/000003.log
+Cursor/Local Storage/leveldb/CURRENT
+Cursor/Local Storage/leveldb/MANIFEST-000001
+Cursor/Local Storage/leveldb/LOCK
+Cursor/sentry/session.json
+Cursor/sentry/queue/queue-v2.json
+Cursor/sentry/scope_v3.json
+Cursor/Crashpad/client_id
+Cursor/Crashpad/settings.dat
+clerk/config.json
+chromium-flags.conf
+chromium/Local State
+chromium/first_party_sets.db-journal
+chromium/first_party_sets.db
+chromium/FirstPartySetsPreloaded/2025.7.24.0/sets.json
+chromium/FirstPartySetsPreloaded/2025.7.24.0/manifest.json
+chromium/FirstPartySetsPreloaded/2025.7.24.0/LICENSE
+chromium/FirstPartySetsPreloaded/2025.7.24.0/_metadata/verified_contents.json
+chromium/extensions_crx_cache/metadata.json
+chromium/GraphiteDawnCache/data_3
+chromium/GraphiteDawnCache/data_2
+Cursor/CachedProfilesData/__default__profile__/extensions.builtin.cache
+Cursor/machineid
+Cursor/DawnGraphiteCache/data_3
+Cursor/DawnGraphiteCache/data_2
+chromium/GraphiteDawnCache/data_1
+chromium/GraphiteDawnCache/data_0
+chromium/GraphiteDawnCache/index
+chromium/GrShaderCache/f_00000a
+chromium/GrShaderCache/f_000009
+chromium/GrShaderCache/f_000008
+Cursor/DawnGraphiteCache/data_1
+Cursor/DawnGraphiteCache/data_0
+chromium/GrShaderCache/f_000007
+chromium/GrShaderCache/f_000006
+chromium/GrShaderCache/f_000005
+Cursor/DawnGraphiteCache/index
+Cursor/DawnWebGPUCache/data_3
+Cursor/DawnWebGPUCache/data_2
+chromium/GrShaderCache/f_000004
+chromium/GrShaderCache/f_000003
+chromium/GrShaderCache/f_000002
+chromium/GrShaderCache/f_000001
+chromium/GrShaderCache/data_2
+Cursor/DawnWebGPUCache/data_1
+Cursor/DawnWebGPUCache/data_0
+chromium/GrShaderCache/data_1
+chromium/GrShaderCache/data_0
+Cursor/DawnWebGPUCache/index
+chromium/GrShaderCache/index
+chromium/ProbabilisticRevealTokenRegistry/2025.8.19.0/prt_domains.json
+chromium/ProbabilisticRevealTokenRegistry/2025.8.19.0/manifest.json
+chromium/ProbabilisticRevealTokenRegistry/2025.8.19.0/LICENSE
+chromium/ProbabilisticRevealTokenRegistry/2025.8.19.0/_metadata/verified_contents.json
+chromium/WasmTtsEngine/20260105.1/wasm_tts_manifest_v3.json
+chromium/WasmTtsEngine/20260105.1/voices.json
+chromium/WasmTtsEngine/20260105.1/streaming_worklet_processor.js
+chromium/WasmTtsEngine/20260105.1/offscreen_compiled.js
+chromium/WasmTtsEngine/20260105.1/offscreen.html
+chromium/WasmTtsEngine/20260105.1/bindings_main.js
+chromium/WasmTtsEngine/20260105.1/background_compiled.js
+chromium/WasmTtsEngine/20260105.1/manifest.json
+chromium/WasmTtsEngine/20260105.1/_metadata/verified_contents.json
+chromium/WasmTtsEngine/20251215.1/wasm_tts_manifest_v3.json
+chromium/WasmTtsEngine/20251215.1/voices.json
+chromium/WasmTtsEngine/20251215.1/streaming_worklet_processor.js
+chromium/WasmTtsEngine/20251215.1/offscreen_compiled.js
+chromium/WasmTtsEngine/20251215.1/offscreen.html
+chromium/WasmTtsEngine/20251215.1/bindings_main.js
+Cursor/GPUCache/data_2
+chromium/WasmTtsEngine/20251215.1/background_compiled.js
+chromium/WasmTtsEngine/20251215.1/manifest.json
+chromium/WasmTtsEngine/20251215.1/_metadata/verified_contents.json
+chromium/AmountExtractionHeuristicRegexes/4/heuristic_regexes.binarypb
+chromium/AmountExtractionHeuristicRegexes/4/manifest.json
+chromium/AmountExtractionHeuristicRegexes/4/_metadata/verified_contents.json
+chromium/CookieReadinessList/2024.11.26.0/cookie-readiness-list.json
+chromium/CookieReadinessList/2024.11.26.0/manifest.json
+chromium/CookieReadinessList/2024.11.26.0/LICENSE
+chromium/CookieReadinessList/2024.11.26.0/_metadata/verified_contents.json
+Cursor/GPUCache/data_1
+Cursor/GPUCache/data_0
+Cursor/GPUCache/index
+Cursor/DIPS
+Cursor/User/settings.json
+Cursor/User/keybindings.json
+Cursor/User/History/11d34f1e/entries.json
+Cursor/User/History/11d34f1e/xLO5.sh
+Cursor/User/History/2c7f0c55/entries.json
+Cursor/User/History/2c7f0c55/d9G6.json
+Cursor/User/History/2c7f0c55/iEOl.json
+Cursor/User/History/2c7f0c55/mAUN.json
+Cursor/User/History/5904d34d/entries.json
+Cursor/User/History/5904d34d/Y04Y.json
+Cursor/User/History/-6d654fa0/entries.json
+Cursor/User/History/-6d654fa0/AoMd.ts
+Cursor/User/History/-7cbcd26/entries.json
+Cursor/User/History/-7cbcd26/OsVB.ts
+Cursor/User/workspaceStorage/52a111abc3c461aba7586ce30655a712/anysphere.cursor-retrieval/high_level_folder_description.txt
+Cursor/User/workspaceStorage/52a111abc3c461aba7586ce30655a712/anysphere.cursor-retrieval/embeddable_files.txt
+Cursor/User/workspaceStorage/52a111abc3c461aba7586ce30655a712/state.vscdb
+Cursor/User/workspaceStorage/52a111abc3c461aba7586ce30655a712/workspace.json
+Cursor/User/workspaceStorage/1851b044e45f6e2210e8e053936efccd/anysphere.cursor-retrieval/high_level_folder_description.txt
+Cursor/User/workspaceStorage/1851b044e45f6e2210e8e053936efccd/anysphere.cursor-retrieval/embeddable_files.txt
+chromium/OpenCookieDatabase/2024.10.17.0/open_cookie_database.json
+chromium/OpenCookieDatabase/2024.10.17.0/manifest.json
+chromium/OpenCookieDatabase/2024.10.17.0/LICENSE
+chromium/OpenCookieDatabase/2024.10.17.0/_metadata/verified_contents.json
+Cursor/User/workspaceStorage/1851b044e45f6e2210e8e053936efccd/state.vscdb
+Cursor/User/workspaceStorage/1851b044e45f6e2210e8e053936efccd/workspace.json
+chromium/TpcdMetadata/2025.10.7.1/metadata.pb
+chromium/TpcdMetadata/2025.10.7.1/manifest.json
+chromium/TpcdMetadata/2025.10.7.1/_metadata/verified_contents.json
+Cursor/User/globalStorage/storage.json
+chromium/ZxcvbnData/3/us_tv_and_film.txt
+chromium/ZxcvbnData/3/surnames.txt
+Cursor/User/globalStorage/state.vscdb.backup
+Cursor/User/globalStorage/state.vscdb
+Cursor/logs/20260106T195054/editSessions.log
+Cursor/logs/20260106T195054/userDataSync.log
+Cursor/logs/20260106T195054/remoteTunnelService.log
+Cursor/logs/20260106T195054/telemetry.log
+Cursor/logs/20260106T195054/network-shared.log
+Cursor/logs/20260106T195054/sharedprocess.log
+Cursor/logs/20260106T195054/terminal.log
+Cursor/logs/20260106T195054/window1/notebook.rendering.log
+Cursor/logs/20260106T195054/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-retrieval/Cursor Grep Service.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-retrieval/Cursor Agent Review.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-retrieval/Cursor Git Graph.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-always-local/Filesync.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-always-local/Cursor Tab.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-always-local/Cursor Always Local.log
+Cursor/logs/20260106T195054/window1/exthost/Catppuccin.catppuccin-vsc/Catppuccin Theme.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-mcp/MCP Logs.log
+Cursor/logs/20260106T195054/window1/exthost/vscode.github/GitHub.log
+Cursor/logs/20260106T195054/window1/exthost/vscode.git/Git.log
+Cursor/logs/20260106T195054/window1/exthost/output_logging_20260106T195058/2-Cursor IDE Browser Automation.log
+Cursor/logs/20260106T195054/window1/exthost/output_logging_20260106T195058/1-Cursor Browser Extension.log
+Cursor/logs/20260106T195054/window1/exthost/anysphere.cursor-agent-exec/Cursor Agent Exec.log
+Cursor/logs/20260106T195054/window1/exthost/extHostTelemetry.log
+Cursor/logs/20260106T195054/window1/exthost/exthost.log
+Cursor/logs/20260106T195054/window1/output_20260106T195057/cursor.hooks.log
+Cursor/logs/20260106T195054/window1/output_20260106T195057/cursorAuthDebug.log
+Cursor/logs/20260106T195054/window1/output_20260106T195057/tasks.log
+Cursor/logs/20260106T195054/window1/network.log
+Cursor/logs/20260106T195054/window1/views.log
+Cursor/logs/20260106T195054/window1/renderer.log
+Cursor/logs/20260106T195054/main.log
+Cursor/logs/20251220T220521/editSessions.log
+Cursor/logs/20251220T220521/userDataSync.log
+Cursor/logs/20251220T220521/remoteTunnelService.log
+Cursor/logs/20251220T220521/telemetry.log
+Cursor/logs/20251220T220521/network-shared.log
+Cursor/logs/20251220T220521/sharedprocess.log
+Cursor/logs/20251220T220521/terminal.log
+Cursor/logs/20251220T220521/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-retrieval/Cursor Grep Service.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-retrieval/Cursor Agent Review.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-retrieval/Cursor Git Graph.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+chromium/ZxcvbnData/3/ranked_dicts
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-always-local/Cursor Always Local.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-always-local/Filesync.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-always-local/Cursor Tab.log
+Cursor/logs/20251220T220521/window1/exthost/Catppuccin.catppuccin-vsc/Catppuccin Theme.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-mcp/MCP cursor-ide-browser.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-mcp/MCP cursor-browser-extension.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-mcp/MCP Logs.log
+Cursor/logs/20251220T220521/window1/exthost/vscode.github/GitHub.log
+Cursor/logs/20251220T220521/window1/exthost/vscode.git/Git.log
+Cursor/logs/20251220T220521/window1/exthost/anysphere.cursor-agent-exec/Cursor Agent Exec.log
+Cursor/logs/20251220T220521/window1/exthost/output_logging_20251220T220525/2-Cursor IDE Browser Automation.log
+Cursor/logs/20251220T220521/window1/exthost/output_logging_20251220T220525/1-Cursor Browser Extension.log
+Cursor/logs/20251220T220521/window1/exthost/extHostTelemetry.log
+Cursor/logs/20251220T220521/window1/exthost/exthost.log
+Cursor/logs/20251220T220521/window1/notebook.rendering.log
+Cursor/logs/20251220T220521/window1/output_20251220T220524/cursor.hooks.log
+Cursor/logs/20251220T220521/window1/output_20251220T220524/cursorAuthDebug.log
+Cursor/logs/20251220T220521/window1/output_20251220T220524/tasks.log
+Cursor/logs/20251220T220521/window1/network.log
+Cursor/logs/20251220T220521/window1/views.log
+Cursor/logs/20251220T220521/window1/renderer.log
+Cursor/logs/20251220T220521/main.log
+Cursor/logs/20251217T231116/userDataSync.log
+chromium/ZxcvbnData/3/passwords.txt
+Cursor/logs/20251217T231116/remoteTunnelService.log
+Cursor/logs/20251217T231116/telemetry.log
+Cursor/logs/20251217T231116/network-shared.log
+Cursor/logs/20251217T231116/editSessions.log
+chromium/ZxcvbnData/3/male_names.txt
+Cursor/logs/20251217T231116/sharedprocess.log
+Cursor/logs/20251217T231116/terminal.log
+Cursor/logs/20251217T231116/window1/output_20251217T231140/cursor.hooks.log
+Cursor/logs/20251217T231116/window1/output_20251217T231140/cursorAuthDebug.log
+Cursor/logs/20251217T231116/window1/output_20251217T231140/tasks.log
+chromium/ZxcvbnData/3/female_names.txt
+Cursor/logs/20251217T231116/window1/exthost/vscode.json-language-features/JSON Language Server.log
+Cursor/logs/20251217T231116/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+Cursor/logs/20251217T231116/window1/exthost/output_logging_20251217T231142/2-Cursor IDE Browser Automation.log
+Cursor/logs/20251217T231116/window1/exthost/output_logging_20251217T231142/1-Cursor Browser Extension.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-retrieval/Cursor Grep Service.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-retrieval/Cursor Agent Review.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-retrieval/Cursor Git Graph.log
+chromium/ZxcvbnData/3/english_wikipedia.txt
+chromium/ZxcvbnData/3/manifest.json
+chromium/ZxcvbnData/3/_metadata/verified_contents.json
+chromium/Crowd Deny/2026.1.5.121/Preload Data
+chromium/Crowd Deny/2026.1.5.121/manifest.json
+chromium/Crowd Deny/2026.1.5.121/_metadata/verified_contents.json
+chromium/Crowd Deny/2025.12.15.121/Preload Data
+chromium/Crowd Deny/2025.12.15.121/manifest.json
+chromium/Crowd Deny/2025.12.15.121/_metadata/verified_contents.json
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+Cursor/logs/20251217T231116/window1/exthost/output_logging_20251217T231120/2-Cursor Browser Extension.log
+Cursor/logs/20251217T231116/window1/exthost/output_logging_20251217T231120/1-Cursor IDE Browser Automation.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-always-local/Cursor Always Local.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-always-local/Filesync.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-always-local/Cursor Tab.log
+chromium/hyphen-data/120.0.6050.0/hyph-und-ethi.hyb
+Cursor/logs/20251217T231116/window1/exthost/Catppuccin.catppuccin-vsc/Catppuccin Theme.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-mcp/MCP project-0-getat.me-Sentry.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-mcp/MCP cursor-ide-browser.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-mcp/MCP cursor-browser-extension.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-mcp/MCP Logs.log
+Cursor/logs/20251217T231116/window1/exthost/vscode.github/GitHub.log
+chromium/hyphen-data/120.0.6050.0/hyph-uk.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-tk.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-te.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-ta.hyb
+Cursor/logs/20251217T231116/window1/exthost/vscode.git/Git.log
+Cursor/logs/20251217T231116/window1/exthost/anysphere.cursor-agent-exec/Cursor Agent Exec.log
+Cursor/logs/20251217T231116/window1/exthost/extHostTelemetry.log
+Cursor/logs/20251217T231116/window1/exthost/exthost.log
+Cursor/logs/20251217T231116/window1/notebook.rendering.log
+Cursor/logs/20251217T231116/window1/network.log
+Cursor/logs/20251217T231116/window1/output_20251217T231118/cursor.hooks.log
+Cursor/logs/20251217T231116/window1/output_20251217T231118/cursorAuthDebug.log
+Cursor/logs/20251217T231116/window1/output_20251217T231118/tasks.log
+Cursor/logs/20251217T231116/window1/views.log
+chromium/hyphen-data/120.0.6050.0/hyph-sv.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-sq.hyb
+Cursor/logs/20251217T231116/window1/renderer.log
+chromium/hyphen-data/120.0.6050.0/hyph-sl.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-sk.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-ru.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-pt.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-pa.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-or.hyb
+Cursor/logs/20251217T231116/main.log
+Cursor/logs/20251217T170550/cli.log
+Cursor/logs/20251216T220927/editSessions.log
+Cursor/logs/20251216T220927/userDataSync.log
+Cursor/logs/20251216T220927/remoteTunnelService.log
+Cursor/logs/20251216T220927/telemetry.log
+Cursor/logs/20251216T220927/network-shared.log
+Cursor/logs/20251216T220927/sharedprocess.log
+Cursor/logs/20251216T220927/terminal.log
+Cursor/logs/20251216T220927/window1/exthost/Catppuccin.catppuccin-vsc/Catppuccin Theme.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-retrieval/Cursor Grep Service.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-retrieval/Cursor Agent Review.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-retrieval/Cursor Git Graph.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-retrieval/Cursor Indexing & Retrieval.log
+Cursor/logs/20251216T220927/window1/exthost/output_logging_20251216T220932/2-Cursor Browser Extension.log
+Cursor/logs/20251216T220927/window1/exthost/output_logging_20251216T220932/1-Cursor IDE Browser Automation.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-always-local/Filesync.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-always-local/Cursor Tab.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-always-local/Cursor Always Local.log
+Cursor/logs/20251216T220927/window1/exthost/vscode.github/GitHub.log
+Cursor/logs/20251216T220927/window1/exthost/vscode.git/Git.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-mcp/MCP Logs.log
+Cursor/logs/20251216T220927/window1/exthost/anysphere.cursor-agent-exec/Cursor Agent Exec.log
+Cursor/logs/20251216T220927/window1/exthost/vscode.json-language-features/JSON Language Server.log
+Cursor/logs/20251216T220927/window1/exthost/extHostTelemetry.log
+Cursor/logs/20251216T220927/window1/exthost/exthost.log
+Cursor/logs/20251216T220927/window1/notebook.rendering.log
+Cursor/logs/20251216T220927/window1/output_20251216T220931/cursor.hooks.log
+Cursor/logs/20251216T220927/window1/output_20251216T220931/cursorAuthDebug.log
+Cursor/logs/20251216T220927/window1/output_20251216T220931/tasks.log
+Cursor/logs/20251216T220927/window1/network.log
+Cursor/logs/20251216T220927/window1/views.log
+chromium/hyphen-data/120.0.6050.0/hyph-nn.hyb
+Cursor/logs/20251216T220927/window1/renderer.log
+chromium/hyphen-data/120.0.6050.0/hyph-nl.hyb
+Cursor/logs/20251216T220927/main.log
+Cursor/Trust Tokens-journal
+Cursor/Trust Tokens
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/wasm/index-dir/the-real-index
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/wasm/index
+chromium/hyphen-data/120.0.6050.0/hyph-nb.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-mul-ethi.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-mr.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-mn-cyrl.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-ml.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-lv.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-lt.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-la.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-kn.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-ka.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-it.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-hy.hyb
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/45e00b9295c9e7d7_0
+chromium/hyphen-data/120.0.6050.0/hyph-hu.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-hr.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-hi.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-gu.hyb
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/77effaa1eb0fda22_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/baaaa517f98a9af1_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/c2cb5ac2cc79c712_0
+chromium/hyphen-data/120.0.6050.0/hyph-gl.hyb
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/d2b47b0ac617050a_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/29643e206cd0b95b_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/6e0dd386f9e8ab25_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/57b3e306a04f9235_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/2124bff398c4763d_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/0738010cdcb498e8_0
+chromium/hyphen-data/120.0.6050.0/hyph-ga.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-fr.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-eu.hyb
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/76a5305972dba74a_0
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/index-dir/the-real-index
+Cursor/CachedData/b3573281c4775bfc6bba466bf6563d3d498d1070/chrome/js/index
+chromium/hyphen-data/120.0.6050.0/hyph-et.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-es.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-en-us.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-en-gb.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-el.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-de-ch-1901.hyb
+Cursor/Dictionaries/en-US-10-1.bdic
+Cursor/Code Cache/wasm/index-dir/the-real-index
+Cursor/Code Cache/wasm/index
+Cursor/Code Cache/js/index-dir/the-real-index
+Cursor/Code Cache/js/index
+chromium/hyphen-data/120.0.6050.0/hyph-de-1996.hyb
+chromium/Subresource Filter/Indexed Rules/37/9.64.0/Ruleset Data
+chromium/hyphen-data/120.0.6050.0/hyph-de-1901.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-da.hyb
+chromium/Subresource Filter/Unindexed Rules/9.64.0/Filtering Rules
+chromium/Subresource Filter/Unindexed Rules/9.64.0/LICENSE.txt
+chromium/Subresource Filter/Unindexed Rules/9.64.0/manifest.json
+chromium/Subresource Filter/Unindexed Rules/9.64.0/_metadata/verified_contents.json
+chromium/WidevineCdm/latest-component-updated-widevine-cdm
+chromium/WidevineCdm/4.10.2934.0/LICENSE
+chromium/WidevineCdm/4.10.2934.0/manifest.json
+chromium/WidevineCdm/4.10.2934.0/_metadata/verified_contents.json
+chromium/First Run
+chromium/hyphen-data/120.0.6050.0/hyph-cy.hyb
+chromium/Safe Browsing/UrlMalBin.store
+chromium/hyphen-data/120.0.6050.0/hyph-cu.hyb
+chromium/Safe Browsing/UrlMalBin.store.4_13412219382427385
+chromium/Safe Browsing/UrlBilling.store
+chromium/hyphen-data/120.0.6050.0/hyph-cs.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-bn.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-bg.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-be.hyb
+chromium/hyphen-data/120.0.6050.0/hyph-as.hyb
+chromium/Safe Browsing/UrlBilling.store.4_13412219382425317
+chromium/Safe Browsing/UrlUws.store
+chromium/hyphen-data/120.0.6050.0/hyph-af.hyb
+chromium/hyphen-data/120.0.6050.0/manifest.json
+chromium/hyphen-data/120.0.6050.0/_metadata/verified_contents.json
+chromium/Safe Browsing/UrlUws.store.4_13412219382420221
+chromium/Safe Browsing/UrlMalware.store
+chromium/Safe Browsing/UrlMalware.store.4_13412219382418257
+chromium/Safe Browsing/UrlSoceng.store
+chromium/Safe Browsing/ChromeExtMalware.store
+chromium/Safe Browsing/ChromeExtMalware.store.32_13412158915753588
+chromium/Safe Browsing/UrlCsdDownloadAllowlist.store
+chromium/Safe Browsing/UrlCsdDownloadAllowlist.store.32_13410414770279643
+chromium/CertificateRevocation/10265/crl-set
+chromium/CertificateRevocation/10265/manifest.json
+chromium/CertificateRevocation/10265/LICENSE
+chromium/CertificateRevocation/10265/_metadata/verified_contents.json
+chromium/Dictionaries/en-US-10-1.bdic
+chromium/segmentation_platform/ukm_db-wal
+chromium/segmentation_platform/ukm_db
+chromium/Last Version
+chromium/ShaderCache/data_3
+chromium/ShaderCache/data_2
+chromium/ShaderCache/data_1
+chromium/ShaderCache/data_0
+chromium/ShaderCache/index
+chromium/component_crx_cache/metadata.json
+chromium/CertificateRevocation/10264/crl-set
+chromium/CertificateRevocation/10264/manifest.json
+chromium/CertificateRevocation/10264/LICENSE
+chromium/CertificateRevocation/10264/_metadata/verified_contents.json
+chromium/component_crx_cache/9a7310f8de1079b34810bde38895741d71113b9a9ea981f0deb6b5fe6ee32f6f
+chromium/CertificateRevocation/10263/crl-set
+chromium/CertificateRevocation/10263/manifest.json
+chromium/CertificateRevocation/10263/LICENSE
+chromium/CertificateRevocation/10263/_metadata/verified_contents.json
+chromium/component_crx_cache/6a48c2dce3567ff56ef8800178e7acda3ba5ab016ee39f89453a8f1642382076
+chromium/component_crx_cache/8266e7cce2b7039301c77aa69b45419e9641aeedfa859a8fa0c649579cb72b7f
+chromium/component_crx_cache/01bf2159526e09b31990e96945d0b64fd3ec4a7c11dc93f8cb57e9e8469ae8a6
+chromium/component_crx_cache/970a3e1af7f986ad66e212796dcd4a2db1210f7222cdfaa7d59d491fbe0369af
+chromium/component_crx_cache/56c21927faa028be6ce18c931660eec37e41da4bfbfd47cafa48350f828c0dbd
+chromium/component_crx_cache/38582b0c9b1c6d2f052dc20f30201c30698f3c6a4f3da4567991bf5629b1fa94
+chromium/component_crx_cache/abd93867c038d4d17c101ace2226d7e21303d984d7097271392bae6be478495b
+chromium/component_crx_cache/a3dacd50f7c50b03c69ac3a5a24967e55f59b6596e295d33f3c76a12211fd389
+chromium/component_crx_cache/53cf0a62db37790f84c9d436e4b5a9073bd770c308ee297e20efbadc28249d43
+chromium/CertificateRevocation/10230/crl-set
+chromium/CertificateRevocation/10230/manifest.json
+chromium/CertificateRevocation/10230/LICENSE
+chromium/CertificateRevocation/10230/_metadata/verified_contents.json
+chromium/component_crx_cache/4a06cfbce6f26c81ec6cba52e84985c0111183e0b06a953b14992b4511bb78af
+chromium/SafetyTips/3089/safety_tips.pb
+chromium/SafetyTips/3089/manifest.json
+chromium/SafetyTips/3089/_metadata/verified_contents.json
+chromium/PKIMetadata/1542/crs.pb
+chromium/PKIMetadata/1542/kp_pinslist.pb
+chromium/PKIMetadata/1542/ct_config.pb
+chromium/PKIMetadata/1542/manifest.json
+chromium/PKIMetadata/1542/_metadata/verified_contents.json
+chromium/PKIMetadata/1527/crs.pb
+chromium/PKIMetadata/1527/kp_pinslist.pb
+chromium/PKIMetadata/1527/ct_config.pb
+chromium/PKIMetadata/1527/manifest.json
+chromium/PKIMetadata/1527/_metadata/verified_contents.json
+chromium/AutofillStates/2025.6.13.84507/AD
+chromium/AutofillStates/2025.6.13.84507/AE
+chromium/AutofillStates/2025.6.13.84507/AF
+chromium/AutofillStates/2025.6.13.84507/AG
+chromium/AutofillStates/2025.6.13.84507/AL
+chromium/AutofillStates/2025.6.13.84507/AM
+chromium/AutofillStates/2025.6.13.84507/AO
+chromium/AutofillStates/2025.6.13.84507/AR
+chromium/AutofillStates/2025.6.13.84507/AS
+chromium/AutofillStates/2025.6.13.84507/AT
+chromium/AutofillStates/2025.6.13.84507/AU
+chromium/AutofillStates/2025.6.13.84507/AX
+chromium/AutofillStates/2025.6.13.84507/AZ
+chromium/AutofillStates/2025.6.13.84507/BA
+chromium/AutofillStates/2025.6.13.84507/BB
+chromium/AutofillStates/2025.6.13.84507/BD
+chromium/AutofillStates/2025.6.13.84507/BE
+chromium/AutofillStates/2025.6.13.84507/BF
+chromium/AutofillStates/2025.6.13.84507/BG
+chromium/AutofillStates/2025.6.13.84507/BH
+chromium/AutofillStates/2025.6.13.84507/BI
+chromium/AutofillStates/2025.6.13.84507/BJ
+chromium/AutofillStates/2025.6.13.84507/BM
+chromium/AutofillStates/2025.6.13.84507/BN
+chromium/AutofillStates/2025.6.13.84507/BO
+chromium/AutofillStates/2025.6.13.84507/BQ
+chromium/AutofillStates/2025.6.13.84507/BR
+chromium/AutofillStates/2025.6.13.84507/BS
+chromium/AutofillStates/2025.6.13.84507/BT
+chromium/AutofillStates/2025.6.13.84507/BW
+chromium/AutofillStates/2025.6.13.84507/BY
+chromium/AutofillStates/2025.6.13.84507/BZ
+chromium/AutofillStates/2025.6.13.84507/CA
+chromium/AutofillStates/2025.6.13.84507/CC
+chromium/AutofillStates/2025.6.13.84507/CD
+chromium/AutofillStates/2025.6.13.84507/CF
+chromium/AutofillStates/2025.6.13.84507/CG
+chromium/AutofillStates/2025.6.13.84507/CH
+chromium/AutofillStates/2025.6.13.84507/CI
+chromium/AutofillStates/2025.6.13.84507/CL
+chromium/AutofillStates/2025.6.13.84507/CM
+chromium/AutofillStates/2025.6.13.84507/CN
+chromium/AutofillStates/2025.6.13.84507/CO
+chromium/AutofillStates/2025.6.13.84507/CR
+chromium/AutofillStates/2025.6.13.84507/CU
+chromium/AutofillStates/2025.6.13.84507/CV
+chromium/AutofillStates/2025.6.13.84507/CX
+chromium/AutofillStates/2025.6.13.84507/CY
+chromium/AutofillStates/2025.6.13.84507/CZ
+chromium/component_crx_cache/545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff
+chromium/AutofillStates/2025.6.13.84507/DE
+chromium/AutofillStates/2025.6.13.84507/DJ
+chromium/AutofillStates/2025.6.13.84507/DK
+chromium/AutofillStates/2025.6.13.84507/DM
+chromium/AutofillStates/2025.6.13.84507/DO
+chromium/AutofillStates/2025.6.13.84507/DZ
+chromium/AutofillStates/2025.6.13.84507/EC
+chromium/AutofillStates/2025.6.13.84507/EE
+chromium/AutofillStates/2025.6.13.84507/EG
+chromium/AutofillStates/2025.6.13.84507/EH
+chromium/AutofillStates/2025.6.13.84507/ER
+chromium/AutofillStates/2025.6.13.84507/ES
+chromium/AutofillStates/2025.6.13.84507/ET
+chromium/AutofillStates/2025.6.13.84507/FI
+chromium/AutofillStates/2025.6.13.84507/FJ
+chromium/AutofillStates/2025.6.13.84507/FM
+chromium/AutofillStates/2025.6.13.84507/FO
+chromium/AutofillStates/2025.6.13.84507/FR
+chromium/AutofillStates/2025.6.13.84507/GA
+chromium/AutofillStates/2025.6.13.84507/GB
+chromium/AutofillStates/2025.6.13.84507/GD
+chromium/AutofillStates/2025.6.13.84507/GE
+chromium/AutofillStates/2025.6.13.84507/GF
+chromium/AutofillStates/2025.6.13.84507/GG
+chromium/AutofillStates/2025.6.13.84507/GH
+chromium/AutofillStates/2025.6.13.84507/GL
+chromium/AutofillStates/2025.6.13.84507/GM
+chromium/AutofillStates/2025.6.13.84507/GN
+chromium/AutofillStates/2025.6.13.84507/GP
+chromium/AutofillStates/2025.6.13.84507/GQ
+chromium/AutofillStates/2025.6.13.84507/GR
+chromium/AutofillStates/2025.6.13.84507/GT
+chromium/AutofillStates/2025.6.13.84507/GW
+chromium/AutofillStates/2025.6.13.84507/GY
+chromium/AutofillStates/2025.6.13.84507/HK
+chromium/AutofillStates/2025.6.13.84507/HN
+chromium/AutofillStates/2025.6.13.84507/HR
+chromium/AutofillStates/2025.6.13.84507/HT
+chromium/AutofillStates/2025.6.13.84507/HU
+chromium/AutofillStates/2025.6.13.84507/ID
+chromium/AutofillStates/2025.6.13.84507/IE
+chromium/AutofillStates/2025.6.13.84507/IL
+chromium/AutofillStates/2025.6.13.84507/IM
+chromium/AutofillStates/2025.6.13.84507/IN
+chromium/AutofillStates/2025.6.13.84507/IQ
+chromium/AutofillStates/2025.6.13.84507/IR
+chromium/AutofillStates/2025.6.13.84507/IS
+chromium/AutofillStates/2025.6.13.84507/IT
+chromium/AutofillStates/2025.6.13.84507/JE
+chromium/AutofillStates/2025.6.13.84507/JM
+chromium/AutofillStates/2025.6.13.84507/JO
+chromium/AutofillStates/2025.6.13.84507/JP
+chromium/AutofillStates/2025.6.13.84507/KE
+chromium/AutofillStates/2025.6.13.84507/KG
+chromium/AutofillStates/2025.6.13.84507/KH
+chromium/AutofillStates/2025.6.13.84507/KI
+chromium/AutofillStates/2025.6.13.84507/KM
+chromium/AutofillStates/2025.6.13.84507/KN
+chromium/AutofillStates/2025.6.13.84507/KP
+chromium/AutofillStates/2025.6.13.84507/KR
+chromium/AutofillStates/2025.6.13.84507/KW
+chromium/AutofillStates/2025.6.13.84507/KY
+chromium/AutofillStates/2025.6.13.84507/KZ
+chromium/AutofillStates/2025.6.13.84507/LA
+chromium/AutofillStates/2025.6.13.84507/LB
+chromium/AutofillStates/2025.6.13.84507/LC
+chromium/AutofillStates/2025.6.13.84507/LI
+chromium/AutofillStates/2025.6.13.84507/LK
+chromium/AutofillStates/2025.6.13.84507/LR
+chromium/AutofillStates/2025.6.13.84507/LS
+chromium/AutofillStates/2025.6.13.84507/LT
+chromium/AutofillStates/2025.6.13.84507/LU
+chromium/AutofillStates/2025.6.13.84507/LV
+chromium/AutofillStates/2025.6.13.84507/LY
+chromium/AutofillStates/2025.6.13.84507/MA
+chromium/AutofillStates/2025.6.13.84507/MD
+chromium/AutofillStates/2025.6.13.84507/ME
+chromium/AutofillStates/2025.6.13.84507/MG
+chromium/AutofillStates/2025.6.13.84507/MH
+chromium/AutofillStates/2025.6.13.84507/MK
+chromium/AutofillStates/2025.6.13.84507/ML
+chromium/AutofillStates/2025.6.13.84507/MM
+chromium/AutofillStates/2025.6.13.84507/MN
+chromium/AutofillStates/2025.6.13.84507/MP
+chromium/AutofillStates/2025.6.13.84507/MQ
+chromium/AutofillStates/2025.6.13.84507/MR
+chromium/AutofillStates/2025.6.13.84507/MS
+chromium/AutofillStates/2025.6.13.84507/MU
+chromium/AutofillStates/2025.6.13.84507/MV
+chromium/AutofillStates/2025.6.13.84507/MW
+chromium/AutofillStates/2025.6.13.84507/MX
+chromium/AutofillStates/2025.6.13.84507/MY
+chromium/AutofillStates/2025.6.13.84507/MZ
+chromium/AutofillStates/2025.6.13.84507/NA
+chromium/AutofillStates/2025.6.13.84507/NC
+chromium/AutofillStates/2025.6.13.84507/NE
+chromium/AutofillStates/2025.6.13.84507/NG
+chromium/AutofillStates/2025.6.13.84507/NI
+chromium/AutofillStates/2025.6.13.84507/NL
+chromium/AutofillStates/2025.6.13.84507/NO
+chromium/AutofillStates/2025.6.13.84507/NP
+chromium/AutofillStates/2025.6.13.84507/NR
+chromium/AutofillStates/2025.6.13.84507/NU
+chromium/AutofillStates/2025.6.13.84507/NZ
+chromium/AutofillStates/2025.6.13.84507/OM
+chromium/AutofillStates/2025.6.13.84507/PA
+chromium/AutofillStates/2025.6.13.84507/PE
+chromium/AutofillStates/2025.6.13.84507/PF
+chromium/AutofillStates/2025.6.13.84507/PG
+chromium/AutofillStates/2025.6.13.84507/PH
+chromium/AutofillStates/2025.6.13.84507/PK
+chromium/AutofillStates/2025.6.13.84507/PL
+chromium/AutofillStates/2025.6.13.84507/PR
+chromium/AutofillStates/2025.6.13.84507/PS
+chromium/AutofillStates/2025.6.13.84507/PT
+chromium/AutofillStates/2025.6.13.84507/PW
+chromium/AutofillStates/2025.6.13.84507/PY
+chromium/AutofillStates/2025.6.13.84507/QA
+chromium/AutofillStates/2025.6.13.84507/RE
+chromium/AutofillStates/2025.6.13.84507/RO
+chromium/AutofillStates/2025.6.13.84507/RS
+chromium/AutofillStates/2025.6.13.84507/RU
+chromium/AutofillStates/2025.6.13.84507/RW
+chromium/AutofillStates/2025.6.13.84507/SA
+chromium/AutofillStates/2025.6.13.84507/SB
+chromium/AutofillStates/2025.6.13.84507/SC
+chromium/AutofillStates/2025.6.13.84507/SD
+chromium/AutofillStates/2025.6.13.84507/SE
+chromium/AutofillStates/2025.6.13.84507/SH
+chromium/AutofillStates/2025.6.13.84507/SI
+chromium/AutofillStates/2025.6.13.84507/SJ
+chromium/AutofillStates/2025.6.13.84507/SK
+chromium/AutofillStates/2025.6.13.84507/SL
+chromium/AutofillStates/2025.6.13.84507/SM
+chromium/AutofillStates/2025.6.13.84507/SN
+chromium/AutofillStates/2025.6.13.84507/SO
+chromium/AutofillStates/2025.6.13.84507/SR
+chromium/AutofillStates/2025.6.13.84507/SS
+chromium/AutofillStates/2025.6.13.84507/ST
+chromium/AutofillStates/2025.6.13.84507/SV
+chromium/AutofillStates/2025.6.13.84507/SY
+chromium/AutofillStates/2025.6.13.84507/SZ
+chromium/AutofillStates/2025.6.13.84507/TC
+chromium/AutofillStates/2025.6.13.84507/TD
+chromium/AutofillStates/2025.6.13.84507/TG
+chromium/AutofillStates/2025.6.13.84507/TH
+chromium/AutofillStates/2025.6.13.84507/TJ
+chromium/AutofillStates/2025.6.13.84507/TK
+chromium/AutofillStates/2025.6.13.84507/TL
+chromium/AutofillStates/2025.6.13.84507/TM
+chromium/AutofillStates/2025.6.13.84507/TN
+chromium/AutofillStates/2025.6.13.84507/TO
+chromium/AutofillStates/2025.6.13.84507/TR
+chromium/AutofillStates/2025.6.13.84507/TT
+chromium/AutofillStates/2025.6.13.84507/TV
+chromium/AutofillStates/2025.6.13.84507/TW
+chromium/AutofillStates/2025.6.13.84507/TZ
+chromium/AutofillStates/2025.6.13.84507/UA
+chromium/AutofillStates/2025.6.13.84507/UG
+chromium/AutofillStates/2025.6.13.84507/US
+chromium/AutofillStates/2025.6.13.84507/UY
+chromium/AutofillStates/2025.6.13.84507/UZ
+chromium/AutofillStates/2025.6.13.84507/VC
+chromium/AutofillStates/2025.6.13.84507/VE
+chromium/AutofillStates/2025.6.13.84507/VG
+chromium/AutofillStates/2025.6.13.84507/VI
+chromium/AutofillStates/2025.6.13.84507/VN
+chromium/AutofillStates/2025.6.13.84507/VU
+chromium/AutofillStates/2025.6.13.84507/WF
+chromium/AutofillStates/2025.6.13.84507/WS
+chromium/AutofillStates/2025.6.13.84507/XK
+chromium/AutofillStates/2025.6.13.84507/YE
+chromium/AutofillStates/2025.6.13.84507/YT
+chromium/AutofillStates/2025.6.13.84507/ZA
+chromium/AutofillStates/2025.6.13.84507/ZM
+chromium/AutofillStates/2025.6.13.84507/ZW
+chromium/AutofillStates/2025.6.13.84507/manifest.json
+chromium/AutofillStates/2025.6.13.84507/_metadata/verified_contents.json
+chromium/MEIPreload/1.0.7.1744928549/preloaded_data.pb
+chromium/MEIPreload/1.0.7.1744928549/manifest.json
+chromium/MEIPreload/1.0.7.1744928549/_metadata/verified_contents.json
+chromium/FileTypePolicies/145.0.7584.0/download_file_types.pb
+chromium/FileTypePolicies/145.0.7584.0/manifest.json
+chromium/FileTypePolicies/145.0.7584.0/_metadata/verified_contents.json
+chromium/FileTypePolicies/144.0.7512.1/download_file_types.pb
+chromium/FileTypePolicies/144.0.7512.1/manifest.json
+chromium/FileTypePolicies/144.0.7512.1/_metadata/verified_contents.json
+chromium/SSLErrorAssistant/7/ssl_error_assistant.pb
+chromium/SSLErrorAssistant/7/manifest.json
+chromium/SSLErrorAssistant/7/_metadata/verified_contents.json
+chromium/TrustTokenKeyCommitments/2025.9.29.1/keys.json
+chromium/TrustTokenKeyCommitments/2025.9.29.1/manifest.json
+chromium/TrustTokenKeyCommitments/2025.9.29.1/LICENSE
+chromium/TrustTokenKeyCommitments/2025.9.29.1/_metadata/verified_contents.json
+chromium/PrivacySandboxAttestationsPreloaded/2025.6.16.0/privacy-sandbox-attestations.dat
+chromium/PrivacySandboxAttestationsPreloaded/2025.6.16.0/manifest.json
+chromium/PrivacySandboxAttestationsPreloaded/2025.6.16.0/_metadata/verified_contents.json
+chromium/OptimizationHints/600/optimization-hints.pb
+chromium/OptimizationHints/600/manifest.json
+chromium/OptimizationHints/600/_metadata/verified_contents.json
+chromium/OptimizationHints/599/optimization-hints.pb
+chromium/OptimizationHints/599/manifest.json
+chromium/OptimizationHints/599/_metadata/verified_contents.json
+chromium/OptimizationHints/591/optimization-hints.pb
+chromium/OptimizationHints/591/manifest.json
+chromium/OptimizationHints/591/_metadata/verified_contents.json
+chromium/OnDeviceHeadSuggestModel/20251024.824731831.14/manifest.json
+chromium/OnDeviceHeadSuggestModel/20251024.824731831.14/_metadata/verified_contents.json
+brave-flags.conf.bak.1765940521
+brave-flags.conf
+autostart/walker.desktop
+alacritty.bak.20251220221405/alacritty.toml
+1Password/SharedStorage-wal
+1Password/SharedStorage
+1Password/Network Persistent State
+1Password/Preferences
+1Password/primaryWindowState
+1Password/crashes/1Password_8.11.22-26.BETA_2025-12-20_23-44-03.1pcrash
+1Password/Partitions/1password/SharedStorage-wal
+1Password/Partitions/1password/SharedStorage
+1Password/Partitions/1password/Network Persistent State
+1Password/Partitions/1password/Preferences
+1Password/Partitions/1password/Session Storage/000003.log
+1Password/Partitions/1password/Session Storage/CURRENT
+1Password/Partitions/1password/Session Storage/MANIFEST-000001
+1Password/Partitions/1password/Session Storage/LOCK
+1Password/Partitions/1password/Session Storage/LOG
+1Password/Partitions/1password/DIPS-wal
+1Password/Partitions/1password/Trust Tokens-journal
+1Password/Partitions/1password/Trust Tokens
+1Password/Partitions/1password/DawnGraphiteCache/data_3
+1Password/Partitions/1password/DawnGraphiteCache/data_2
+chromium/component_crx_cache/c52c62a7c50daf7d3f73ec16977cd4b0ea401710807d5dbe3850941dd1b73a70
+1Password/Partitions/1password/DawnGraphiteCache/data_1
+1Password/Partitions/1password/DawnGraphiteCache/data_0
+chromium/component_crx_cache/d77d063235a7f16202526fb276f08bf219ba82ec65268695841ce285c5588d0d
+1Password/Partitions/1password/DawnGraphiteCache/index
+1Password/Partitions/1password/DawnWebGPUCache/data_3
+1Password/Partitions/1password/DawnWebGPUCache/data_2
+chromium/component_crx_cache/4497d8060d0e53c12b4403aa9ebe7e827d4880bae3f4139a26a4feb7ed64c4a2
+1Password/Partitions/1password/DawnWebGPUCache/data_1
+chromium/component_crx_cache/e444ba601ac72b669514e6788bc458ac6b4a3f4400f18ad9b297a84eb27009e5
+1Password/Partitions/1password/DawnWebGPUCache/data_0
+chromium/component_crx_cache/caf22da361a099ee7f504cfd6018872cff61e16946d0a5a57fb07c529bfa8072
+chromium/component_crx_cache/3eb16d6c28b502ac4cfee8f4a148df05f4d93229fa36a71db8b08d06329ff18a
+chromium/component_crx_cache/38c89b12bb20a8f2751c9c7cd2e31c173a47af08c115e1ecccc2f5151a2cf2c6
+chromium/component_crx_cache/ed43e732234cc8b79a137be0a0aab8f72b37ae6ca51caf1292986edbf618c1d1
+chromium/NativeMessagingHosts/com.1password.1password.json
+chromium/Variations
+chromium/Crash Reports/settings.dat
+1Password/Partitions/1password/DawnWebGPUCache/index
+1Password/Partitions/1password/GPUCache/data_3
+chromium/Default/Preferences
+chromium/Default/Network Persistent State
+chromium/Default/TransportSecurity
+chromium/Default/passkey_enclave_state
+chromium/Default/Secure Preferences
+chromium/Default/BrowsingTopicsState
+chromium/Default/BookmarkMergedSurfaceOrdering
+chromium/Default/trusted_vault.pb
+chromium/Default/SCT Auditing Pending Reports
+chromium/Default/LOG
+chromium/Default/LOG.old
+chromium/Default/File System/001/t/.usage
+chromium/Default/File System/001/t/Paths/000003.log
+chromium/Default/File System/001/t/Paths/CURRENT
+chromium/Default/File System/001/t/Paths/MANIFEST-000001
+chromium/Default/File System/001/t/Paths/LOCK
+chromium/Default/File System/001/t/Paths/LOG
+chromium/Default/File System/000/t/.usage
+chromium/Default/File System/000/t/00/00000006
+chromium/Default/File System/000/t/00/00000005
+chromium/Default/File System/000/t/00/00000004
+chromium/Default/File System/000/t/00/00000003
+chromium/Default/File System/000/t/00/00000002
+1Password/Partitions/1password/GPUCache/data_2
+1Password/Partitions/1password/GPUCache/data_1
+1Password/Partitions/1password/GPUCache/data_0
+1Password/Partitions/1password/GPUCache/index
+1Password/Partitions/1password/DIPS
+1Password/Partitions/1password/Local Storage/leveldb/000003.log
+1Password/Partitions/1password/Local Storage/leveldb/CURRENT
+1Password/Partitions/1password/Local Storage/leveldb/MANIFEST-000001
+1Password/Partitions/1password/Local Storage/leveldb/LOCK
+1Password/Partitions/1password/Local Storage/leveldb/LOG
+1Password/Partitions/1password/Code Cache/js/index-dir/the-real-index
+1Password/Partitions/1password/Code Cache/js/index
+1Password/Partitions/1password/Code Cache/wasm/index-dir/the-real-index
+1Password/Partitions/1password/Code Cache/wasm/index
+1Password/Partitions/1password/Shared Dictionary/db-journal
+1Password/Partitions/1password/Shared Dictionary/db
+1Password/Partitions/1password/Shared Dictionary/cache/index-dir/the-real-index
+1Password/Partitions/1password/Shared Dictionary/cache/index
+1Password/Trust Tokens-journal
+1Password/Trust Tokens
+1Password/1password_resources.sqlite-shm
+1Password/1password_resources.sqlite-wal
+1Password/1password_resources.sqlite
+1Password/1password.sqlite-shm
+chromium/Default/File System/000/t/00/00000001
+chromium/Default/File System/000/t/Paths/LOG
+chromium/Default/File System/000/t/Paths/LOG.old
+chromium/Default/File System/000/t/Paths/000003.log
+chromium/Default/File System/000/t/Paths/CURRENT
+chromium/Default/File System/000/t/Paths/MANIFEST-000001
+chromium/Default/File System/000/t/Paths/LOCK
+chromium/Default/File System/Origins/LOG
+chromium/Default/File System/Origins/LOG.old
+chromium/Default/File System/Origins/000003.log
+chromium/Default/File System/Origins/CURRENT
+chromium/Default/File System/Origins/MANIFEST-000001
+chromium/Default/File System/Origins/LOCK
+chromium/Default/.org.chromium.Chromium.XZEWsL
+chromium/Default/.org.chromium.Chromium.jGXm04
+chromium/Default/IndexedDB/https_dos.zone_0.indexeddb.leveldb/000003.log
+chromium/Default/IndexedDB/https_dos.zone_0.indexeddb.leveldb/CURRENT
+chromium/Default/IndexedDB/https_dos.zone_0.indexeddb.leveldb/MANIFEST-000001
+chromium/Default/IndexedDB/https_dos.zone_0.indexeddb.leveldb/LOCK
+chromium/Default/IndexedDB/https_dos.zone_0.indexeddb.leveldb/LOG
+chromium/Default/IndexedDB/https_playclassic.games_0.indexeddb.leveldb/000003.log
+chromium/Default/IndexedDB/https_playclassic.games_0.indexeddb.leveldb/CURRENT
+chromium/Default/IndexedDB/https_playclassic.games_0.indexeddb.leveldb/MANIFEST-000001
+chromium/Default/IndexedDB/https_playclassic.games_0.indexeddb.leveldb/LOCK
+chromium/Default/IndexedDB/https_playclassic.games_0.indexeddb.leveldb/LOG
+chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000005.ldb
+chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000004.log
+chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/CURRENT
+chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/LOCK
+chromium/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/LOG
+chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/LOG
+chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/LOG.old
+chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000003.log
+chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/CURRENT
+chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+chromium/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/LOCK
+chromium/Default/DownloadMetadata
+chromium/Default/VideoDecodeStats/LOG
+chromium/Default/VideoDecodeStats/LOG.old
+chromium/Default/VideoDecodeStats/LOCK
+chromium/Default/MediaDeviceSalts-journal
+chromium/Default/MediaDeviceSalts
+chromium/Default/Download Service/EntryDB/LOG
+chromium/Default/Download Service/EntryDB/LOG.old
+chromium/Default/Download Service/EntryDB/LOCK
+chromium/Default/Feature Engagement Tracker/EventDB/LOG
+chromium/Default/Feature Engagement Tracker/EventDB/LOG.old
+chromium/Default/Feature Engagement Tracker/EventDB/LOCK
+chromium/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+chromium/Default/Feature Engagement Tracker/AvailabilityDB/LOG.old
+chromium/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+chromium/Default/PreferredApps
+chromium/Default/BudgetDatabase/LOG
+chromium/Default/BudgetDatabase/LOG.old
+chromium/Default/BudgetDatabase/LOCK
+chromium/Default/BrowsingTopicsSiteData-journal
+chromium/Default/BrowsingTopicsSiteData
+chromium/Default/AutofillStrikeDatabase/LOG
+chromium/Default/AutofillStrikeDatabase/LOG.old
+chromium/Default/AutofillStrikeDatabase/LOCK
+chromium/Default/AutofillAiModelCache/LOG
+chromium/Default/AutofillAiModelCache/LOG.old
+chromium/Default/AutofillAiModelCache/LOCK
+chromium/Default/optimization_guide_hint_cache_store/LOG
+chromium/Default/optimization_guide_hint_cache_store/LOG.old
+chromium/Default/optimization_guide_hint_cache_store/LOCK
+chromium/Default/GCM Store/LOG
+chromium/Default/GCM Store/LOG.old
+chromium/Default/GCM Store/Encryption/LOG
+chromium/Default/GCM Store/Encryption/LOG.old
+chromium/Default/GCM Store/Encryption/000003.log
+chromium/Default/GCM Store/Encryption/CURRENT
+chromium/Default/GCM Store/Encryption/MANIFEST-000001
+chromium/Default/GCM Store/Encryption/LOCK
+chromium/Default/GCM Store/000003.log
+chromium/Default/GCM Store/CURRENT
+chromium/Default/GCM Store/MANIFEST-000001
+chromium/Default/GCM Store/LOCK
+chromium/Default/DIPS
+chromium/Default/Network Action Predictor-journal
+chromium/Default/Network Action Predictor
+chromium/Default/Shortcuts-journal
+chromium/Default/Shortcuts
+chromium/Default/heavy_ad_intervention_opt_out.db-journal
+chromium/Default/heavy_ad_intervention_opt_out.db
+chromium/Default/SharedStorage
+chromium/Default/Account Web Data-journal
+chromium/Default/Account Web Data
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/index.txt
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/a1e97ccd1b95c7a0_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/d276ba5a99e33f40_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b7f896ea726a4032_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/dfb86846bef35d24_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/8d33448e70a9cbd5_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/8d33448e70a9cbd5_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/262e5519312a9afc_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/262e5519312a9afc_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/6d52a4adf06ae484_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/6d52a4adf06ae484_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/8d480932f363764d_1
+1Password/1password.sqlite-wal
+1Password/1password.sqlite
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/8d480932f363764d_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/fd0f9af2059608e4_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/fd0f9af2059608e4_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/bb7247b9e1373bac_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/bb7247b9e1373bac_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/99b00fe8f75dc103_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/99b00fe8f75dc103_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/2b3ccfd279035fac_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/2b3ccfd279035fac_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3b0d1eab3804e338_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3b0d1eab3804e338_0
+1Password/Dictionaries/en-US-10-1.bdic
+1Password/Code Cache/wasm/index-dir/the-real-index
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/91816c34f774cf28_1
+1Password/Code Cache/wasm/index
+1Password/Code Cache/js/index-dir/the-real-index
+1Password/Code Cache/js/index
+1Password/Shared Dictionary/db-journal
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/91816c34f774cf28_0
+1Password/Shared Dictionary/db
+1Password/Shared Dictionary/cache/index-dir/the-real-index
+1Password/Shared Dictionary/cache/index
+1Password/Local Storage/leveldb/000003.log
+1Password/Local Storage/leveldb/CURRENT
+1Password/Local Storage/leveldb/MANIFEST-000001
+1Password/Local Storage/leveldb/LOCK
+1Password/Local Storage/leveldb/LOG
+1Password/Crashpad/client_id
+1Password/logs/1Password_rCURRENT.log
+1Password/logs/1Password_r00001.log
+1Password/logs/CrashHandler/1Password_rCURRENT.log
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/c2d87e3b8e9f7b91_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/c2d87e3b8e9f7b91_0
+1Password/logs/1Password_r00000.log
+tmux-start.sh
+install.sh
+zed/settings.json
+templates/new.tsx
+templates/new.ts
+templates/new.jsx
+templates/new.json
+karabiner.edn
+kanata.kbd
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/ab9ac1dfb1fa055c_1
+chromium/Default/Safe Browsing Cookies
+chromium/Default/Trust Tokens-journal
+chromium/Default/shared_proto_db/LOG
+chromium/Default/shared_proto_db/LOG.old
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/ab9ac1dfb1fa055c_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/9af9baa20a7cd624_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/9af9baa20a7cd624_0
+chromium/Default/shared_proto_db/000003.log
+chromium/Default/shared_proto_db/CURRENT
+chromium/Default/shared_proto_db/MANIFEST-000001
+chromium/Default/shared_proto_db/LOCK
+chromium/Default/shared_proto_db/metadata/LOG
+chromium/Default/shared_proto_db/metadata/LOG.old
+chromium/Default/shared_proto_db/metadata/000003.log
+chromium/Default/shared_proto_db/metadata/CURRENT
+chromium/Default/shared_proto_db/metadata/MANIFEST-000001
+chromium/Default/shared_proto_db/metadata/LOCK
+chromium/Default/Trust Tokens
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/52a3644d364f5f35_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/52a3644d364f5f35_0
+chromium/Default/Session Storage/000005.ldb
+chromium/Default/Session Storage/000004.log
+chromium/Default/Session Storage/LOG
+chromium/Default/Session Storage/LOG.old
+chromium/Default/Session Storage/CURRENT
+chromium/Default/Session Storage/MANIFEST-000001
+chromium/Default/Session Storage/LOCK
+chromium/Default/DawnGraphiteCache/data_3
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/696c6f41e2f60bab_1
+chromium/Default/DawnGraphiteCache/data_2
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/696c6f41e2f60bab_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/5eb279cd616c7532_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/5eb279cd616c7532_0
+chromium/Default/DawnGraphiteCache/data_1
+chromium/Default/DawnGraphiteCache/data_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/63dd4c0b5ef15d14_1
+chromium/Default/DawnGraphiteCache/index
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/63dd4c0b5ef15d14_0
+chromium/Default/DawnWebGPUCache/data_3
+chromium/Default/DawnWebGPUCache/data_2
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/365b4e77e5eaeb13_1
+chromium/Default/DawnWebGPUCache/data_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/365b4e77e5eaeb13_0
+chromium/Default/DawnWebGPUCache/data_0
+chromium/Default/DawnWebGPUCache/index
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/73a80fa0e994e6a5_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/73a80fa0e994e6a5_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/f4aa697a93c52fb5_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/f4aa697a93c52fb5_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/c9de687cdf22e2b3_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/c9de687cdf22e2b3_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/808db6495ecbc0d2_1
+chromium/Default/GPUCache/data_2
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/808db6495ecbc0d2_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/67492696267de9fc_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/67492696267de9fc_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/0b47c54c59aa9053_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/0b47c54c59aa9053_0
+chromium/Default/GPUCache/data_1
+chromium/Default/GPUCache/data_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b38e1a9cca00aeec_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b38e1a9cca00aeec_0
+chromium/Default/GPUCache/index
+chromium/Default/Top Sites-journal
+chromium/Default/Top Sites
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/fb86a608a9e746af_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/fb86a608a9e746af_0
+chromium/Default/Sessions/Session_13412135346710156
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/854f81c55d34c5da_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/854f81c55d34c5da_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/657f3bfffe9e61ea_1
+chromium/Default/Sessions/Tabs_13412135342650286
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/657f3bfffe9e61ea_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/0279494a63eb5a67_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/0279494a63eb5a67_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/a3d1e0a9f8dba4fe_1
+chromium/Default/Sessions/Tabs_13410833366163220
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/a3d1e0a9f8dba4fe_0
+chromium/Default/Sessions/Apps_13410833366061935
+chromium/Default/Sessions/Apps_13410805127483802
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b0b5ffa2941759a0_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b0b5ffa2941759a0_0
+chromium/Default/Sessions/Session_13410414582569729
+chromium/Default/Extension Rules/LOG
+chromium/Default/Extension Rules/LOG.old
+chromium/Default/Extension Rules/000003.log
+chromium/Default/Extension Rules/CURRENT
+chromium/Default/Extension Rules/MANIFEST-000001
+chromium/Default/Extension Rules/LOCK
+chromium/Default/PersistentOriginTrials/LOG
+chromium/Default/PersistentOriginTrials/LOG.old
+chromium/Default/PersistentOriginTrials/LOCK
+chromium/Default/LOCK
+chromium/Default/Local Storage/leveldb/000054.ldb
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/00447316d01c42a1_1
+chromium/Default/Local Storage/leveldb/000053.log
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/00447316d01c42a1_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/a3d1eb3d0881aa55_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/a3d1eb3d0881aa55_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/ae2ebf444ffa2a5b_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/ae2ebf444ffa2a5b_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/2a3c72fda72bd07f_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/2a3c72fda72bd07f_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b249fe796287e465_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b249fe796287e465_0
+chromium/Default/Local Storage/leveldb/000052.ldb
+chromium/Default/Local Storage/leveldb/LOG
+chromium/Default/Local Storage/leveldb/LOG.old
+chromium/Default/Local Storage/leveldb/000005.ldb
+chromium/Default/Local Storage/leveldb/CURRENT
+chromium/Default/Local Storage/leveldb/MANIFEST-000001
+chromium/Default/Local Storage/leveldb/LOCK
+chromium/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+chromium/Default/Segmentation Platform/SignalStorageConfigDB/LOG.old
+chromium/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+chromium/Default/Segmentation Platform/SignalDB/LOG
+chromium/Default/Segmentation Platform/SignalDB/LOG.old
+chromium/Default/Segmentation Platform/SignalDB/LOCK
+chromium/Default/Segmentation Platform/SegmentInfoDB/LOG
+chromium/Default/Segmentation Platform/SegmentInfoDB/LOG.old
+chromium/Default/Segmentation Platform/SegmentInfoDB/LOCK
+chromium/Default/chrome_cart_db/LOG
+chromium/Default/chrome_cart_db/LOG.old
+chromium/Default/chrome_cart_db/LOCK
+chromium/Default/discount_infos_db/LOG
+chromium/Default/discount_infos_db/LOG.old
+chromium/Default/discount_infos_db/LOCK
+chromium/Default/parcel_tracking_db/LOG
+chromium/Default/parcel_tracking_db/LOG.old
+chromium/Default/parcel_tracking_db/LOCK
+chromium/Default/commerce_subscription_db/LOG
+chromium/Default/commerce_subscription_db/LOG.old
+chromium/Default/commerce_subscription_db/LOCK
+chromium/Default/discounts_db/LOG
+chromium/Default/discounts_db/LOG.old
+chromium/Default/discounts_db/LOCK
+chromium/Default/Affiliation Database-journal
+chromium/Default/Site Characteristics Database/LOG
+chromium/Default/Site Characteristics Database/LOG.old
+chromium/Default/Site Characteristics Database/000003.log
+chromium/Default/Site Characteristics Database/CURRENT
+chromium/Default/Site Characteristics Database/MANIFEST-000001
+chromium/Default/Site Characteristics Database/LOCK
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/9bf9256e3685981d_1
+chromium/Default/Affiliation Database
+chromium/Default/ClientCertificates/LOG
+chromium/Default/ClientCertificates/LOG.old
+chromium/Default/ClientCertificates/LOCK
+chromium/Default/Shared Dictionary/db-journal
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/9bf9256e3685981d_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/78afa017f2ca89ef_1
+chromium/Default/Shared Dictionary/db
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/78afa017f2ca89ef_0
+chromium/Default/Shared Dictionary/cache/fc6918be4841f808_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/d689156c6ea20131_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/d689156c6ea20131_0
+chromium/Default/Shared Dictionary/cache/14f1952ca990c61d_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/46ff7c4fccef129d_1
+chromium/Default/Shared Dictionary/cache/9c6cc962ac0b48fc_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/46ff7c4fccef129d_0
+chromium/Default/Shared Dictionary/cache/87602a2084c3ad01_0
+chromium/Default/Shared Dictionary/cache/f3fe5f67402a12dc_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/6edb7ee54097b53f_1
+chromium/Default/Shared Dictionary/cache/415534b9c38a2756_0
+chromium/Default/Shared Dictionary/cache/d0eec504b06067a4_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/6edb7ee54097b53f_0
+chromium/Default/Shared Dictionary/cache/bbbd076b6535d83c_0
+chromium/Default/Shared Dictionary/cache/38528eabc4bc569d_0
+chromium/Default/Shared Dictionary/cache/36ed0a7b01eb7fda_0
+chromium/Default/Shared Dictionary/cache/b25a0bd5f5555954_0
+chromium/Default/Shared Dictionary/cache/327ac5a024be72ba_0
+chromium/Default/Shared Dictionary/cache/8503c7dee3b6672d_0
+chromium/Default/Shared Dictionary/cache/d019b81c9994bd98_0
+chromium/Default/Shared Dictionary/cache/a8a5f30e837dad36_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/37c48680ed883fe0_1
+chromium/Default/Shared Dictionary/cache/8b126a5b57be6638_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/37c48680ed883fe0_0
+chromium/Default/Shared Dictionary/cache/d3d50a33e25d6e23_0
+chromium/Default/Shared Dictionary/cache/989a534885822c11_0
+chromium/Default/Shared Dictionary/cache/b36d1e823296430c_0
+chromium/Default/Shared Dictionary/cache/dd8980df543ed240_0
+chromium/Default/Shared Dictionary/cache/7a297333d4164046_0
+chromium/Default/Shared Dictionary/cache/8cf6368485ee3002_0
+chromium/Default/Shared Dictionary/cache/d3bca7c08d14c7af_0
+chromium/Default/Shared Dictionary/cache/02157b403fa0c7e1_0
+chromium/Default/Shared Dictionary/cache/869d16cc60e4c57a_0
+chromium/Default/Shared Dictionary/cache/84cf6247759216a7_0
+chromium/Default/Shared Dictionary/cache/a321a8bc1d8d2622_0
+chromium/Default/Shared Dictionary/cache/0b31d1282419ef0a_0
+chromium/Default/Shared Dictionary/cache/b0b0a1409f6cb205_0
+chromium/Default/Shared Dictionary/cache/1d065048a8cd24c7_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3f87063abf66cfff_1
+chromium/Default/Shared Dictionary/cache/a325eadc1611c7d8_0
+chromium/Default/Shared Dictionary/cache/eded4dc41e1c94ce_0
+chromium/Default/Shared Dictionary/cache/aee804b8611fa1e5_0
+chromium/Default/Shared Dictionary/cache/2cef38c4a4780911_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3f87063abf66cfff_0
+chromium/Default/Shared Dictionary/cache/57cb654f7a91d056_0
+chromium/Default/Shared Dictionary/cache/c70c5ae82ddd05b4_0
+chromium/Default/Shared Dictionary/cache/7d9ac2862eeb97d9_0
+chromium/Default/Shared Dictionary/cache/234695f650113d3b_0
+chromium/Default/Shared Dictionary/cache/3a8fa35700d993d3_0
+chromium/Default/Shared Dictionary/cache/9c7933b167fc5ca7_0
+chromium/Default/Shared Dictionary/cache/72ecbc9fe4c4a7e1_0
+chromium/Default/Shared Dictionary/cache/d8f7857cb663bfe4_0
+chromium/Default/Shared Dictionary/cache/d60a5b43c56513f8_0
+chromium/Default/Shared Dictionary/cache/650f7bf6798c87bb_0
+chromium/Default/Shared Dictionary/cache/01e1df69dbc590b4_0
+chromium/Default/Shared Dictionary/cache/dda035b210a934fe_0
+chromium/Default/Shared Dictionary/cache/bc8c4bb5a67a63fd_0
+chromium/Default/Shared Dictionary/cache/8caa5932292200d4_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/71cfe2b6fd929c8e_1
+chromium/Default/Shared Dictionary/cache/1cac322a13d83a25_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/71cfe2b6fd929c8e_0
+chromium/Default/Shared Dictionary/cache/4fdef93f9a49080e_0
+chromium/Default/Shared Dictionary/cache/f32cfa8e071fee5b_0
+chromium/Default/Shared Dictionary/cache/120065674c2a7b8f_0
+chromium/Default/Shared Dictionary/cache/ab97bb0601d80adf_0
+chromium/Default/Shared Dictionary/cache/3bd6683d32882ba4_0
+chromium/Default/Shared Dictionary/cache/71af0f72ef4156ce_0
+chromium/Default/Shared Dictionary/cache/11f83aa5c7348e55_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/237690fba3ddf331_1
+chromium/Default/Shared Dictionary/cache/3666bb5e71eb84fe_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/237690fba3ddf331_0
+chromium/Default/Shared Dictionary/cache/93e9f0036d37ad2a_0
+chromium/Default/Shared Dictionary/cache/9034e8f9db2b1a27_0
+chromium/Default/Shared Dictionary/cache/336ff775da0ca432_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/e163e0c5fc6612a5_1
+chromium/Default/Shared Dictionary/cache/dffddf9ffcdfbb3d_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/e163e0c5fc6612a5_0
+chromium/Default/Shared Dictionary/cache/e42be360939c274f_0
+chromium/Default/Shared Dictionary/cache/e945a2a9eb74b7a0_0
+chromium/Default/Shared Dictionary/cache/fc6b44ed1cdeec4a_0
+chromium/Default/Shared Dictionary/cache/f9f979151420f19f_0
+chromium/Default/Shared Dictionary/cache/cdd49448d88b6a6c_0
+chromium/Default/Shared Dictionary/cache/cfc336f7fdc91278_0
+chromium/Default/Shared Dictionary/cache/6a0e94c187912598_0
+chromium/Default/Shared Dictionary/cache/232fd6621ee7902e_0
+chromium/Default/Shared Dictionary/cache/f4379c1dd1e24650_0
+chromium/Default/Shared Dictionary/cache/8d7f14f01660375e_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/876e0b04c3316156_1
+chromium/Default/Shared Dictionary/cache/093b53c357dc606a_0
+chromium/Default/Shared Dictionary/cache/89f11c9c5544961c_0
+chromium/Default/Shared Dictionary/cache/7a182413d568b5bf_0
+chromium/Default/Shared Dictionary/cache/6334ea870dd07083_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/876e0b04c3316156_0
+chromium/Default/Shared Dictionary/cache/3b218d50eda1d8ce_0
+chromium/Default/Shared Dictionary/cache/70c9774aa122baa0_0
+chromium/Default/Shared Dictionary/cache/77df580265e6d311_0
+chromium/Default/Shared Dictionary/cache/191caf9f33a0448b_0
+chromium/Default/Shared Dictionary/cache/c81fa28e7857ac89_0
+chromium/Default/Shared Dictionary/cache/cafafa797d9c80b6_0
+chromium/Default/Shared Dictionary/cache/44250cfc005b97ed_0
+chromium/Default/Shared Dictionary/cache/0027e6e2bdda3534_0
+chromium/Default/Shared Dictionary/cache/094dafef4a2f55a8_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/071b0bc725d9489c_1
+chromium/Default/Shared Dictionary/cache/627dd803500022bf_0
+chromium/Default/Shared Dictionary/cache/a6004f6df5b213e5_0
+chromium/Default/Shared Dictionary/cache/e2f5a139e43e0492_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/071b0bc725d9489c_0
+chromium/Default/Shared Dictionary/cache/9bd1d18bba71a805_0
+chromium/Default/Shared Dictionary/cache/b6a21055181b3c8b_0
+chromium/Default/Shared Dictionary/cache/df02cdf83fd17899_0
+chromium/Default/Shared Dictionary/cache/8da0ea78b60d191f_0
+chromium/Default/Shared Dictionary/cache/cbf1c148fddbcfad_0
+chromium/Default/Shared Dictionary/cache/c8b14aea8290f52d_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3b71ebf2028ac418_1
+chromium/Default/Shared Dictionary/cache/692667f19e4f94af_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3b71ebf2028ac418_0
+chromium/Default/Shared Dictionary/cache/06d0e9764a5f3175_0
+chromium/Default/Shared Dictionary/cache/f7bdd511d4a4fb99_0
+chromium/Default/Shared Dictionary/cache/bf5d72a4b838fd4d_0
+chromium/Default/Shared Dictionary/cache/1b94b53828b2bcee_0
+chromium/Default/Shared Dictionary/cache/c32c86eacc8a02c6_0
+chromium/Default/Shared Dictionary/cache/f7f5bf23f2c74a38_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/adaaa2e712776a62_1
+chromium/Default/Shared Dictionary/cache/1c5477814720450c_0
+chromium/Default/Shared Dictionary/cache/c4a0d209515e9c1d_0
+chromium/Default/Shared Dictionary/cache/ff11b26e451364df_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/adaaa2e712776a62_0
+chromium/Default/Shared Dictionary/cache/66541795eec4726a_0
+chromium/Default/Shared Dictionary/cache/e695bb914800a448_0
+chromium/Default/Shared Dictionary/cache/da78de163e267b48_0
+chromium/Default/Shared Dictionary/cache/e1030380ba016364_0
+chromium/Default/Shared Dictionary/cache/3677e339f09d89c9_0
+chromium/Default/Shared Dictionary/cache/9609993879071c17_0
+chromium/Default/Shared Dictionary/cache/6747797bc4c5f621_0
+chromium/Default/Shared Dictionary/cache/eaa5f3329c542d04_0
+chromium/Default/Shared Dictionary/cache/ba0bbe4f002bc180_0
+chromium/Default/Shared Dictionary/cache/876ee92278b2c97d_0
+chromium/Default/Shared Dictionary/cache/b44f9405dc49921f_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/aabf1a14ab75dd5e_1
+chromium/Default/Shared Dictionary/cache/abf89e8c4eaf8561_0
+chromium/Default/Shared Dictionary/cache/1a4c201e84e3af4b_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/aabf1a14ab75dd5e_0
+chromium/Default/Shared Dictionary/cache/75be3f3fc95b3138_0
+chromium/Default/Shared Dictionary/cache/5757c2ce536f7d78_0
+chromium/Default/Shared Dictionary/cache/d1fabf8c374f0b02_0
+chromium/Default/Shared Dictionary/cache/74e377bc9469e8dd_0
+chromium/Default/Shared Dictionary/cache/b628a9cb44667b2c_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b25be7ad4178bbd6_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b25be7ad4178bbd6_0
+chromium/Default/Shared Dictionary/cache/d9ac71ed47cda279_0
+chromium/Default/Shared Dictionary/cache/7dcb9c9c083fabf0_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3315aa294e12223b_0
+chromium/Default/Shared Dictionary/cache/14fe4f734e684ad4_0
+chromium/Default/Shared Dictionary/cache/2ba47d676f4699cf_0
+chromium/Default/Shared Dictionary/cache/70c2e35126985362_0
+chromium/Default/Shared Dictionary/cache/9975deb5a85835b0_0
+chromium/Default/Shared Dictionary/cache/d8e94d5134aca500_0
+chromium/Default/Shared Dictionary/cache/47e1e8102d629475_0
+chromium/Default/Shared Dictionary/cache/a7abb33416447eda_0
+chromium/Default/Shared Dictionary/cache/0b41485e118cda60_0
+chromium/Default/Shared Dictionary/cache/d3b3a25f33f5ed47_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/26eb837d9af268bc_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/26eb837d9af268bc_0
+chromium/Default/Shared Dictionary/cache/836f5f981f517eb7_0
+chromium/Default/Shared Dictionary/cache/2f2e3db7a4650ce0_0
+chromium/Default/Shared Dictionary/cache/922b79d60180ef2b_0
+chromium/Default/Shared Dictionary/cache/bf8fb4a646c06da0_0
+chromium/Default/Shared Dictionary/cache/c01a50e1a4ba135a_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/efc2c7765ce63a5d_1
+chromium/Default/Shared Dictionary/cache/0e50da9844997169_0
+chromium/Default/Shared Dictionary/cache/c2837bdda4e7fdd8_0
+chromium/Default/Shared Dictionary/cache/c360685aa5289d63_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/efc2c7765ce63a5d_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/78d28164dfabaf7b_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/78d28164dfabaf7b_0
+chromium/Default/Shared Dictionary/cache/dc55a18a551d0cf0_0
+chromium/Default/Shared Dictionary/cache/1a92cd1b47472d69_0
+chromium/Default/Shared Dictionary/cache/c84b5671e1918b28_0
+chromium/Default/Shared Dictionary/cache/4d6855790b7d94ea_0
+chromium/Default/Shared Dictionary/cache/5f0adf3d2f1e940c_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/872a07088ac3f6b4_1
+chromium/Default/Shared Dictionary/cache/0b97a0cbe9f8d514_0
+chromium/Default/Shared Dictionary/cache/91daf0c88bb41361_0
+chromium/Default/Shared Dictionary/cache/2b16762292613b32_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/872a07088ac3f6b4_0
+chromium/Default/Shared Dictionary/cache/fe5515e32b53d3b5_0
+chromium/Default/Shared Dictionary/cache/32af1e4efe7552d9_0
+chromium/Default/Shared Dictionary/cache/968fff77d36d3cc1_0
+chromium/Default/Shared Dictionary/cache/dd4963cf6d959b3b_0
+chromium/Default/Shared Dictionary/cache/605a7ceaa1844c17_0
+chromium/Default/Shared Dictionary/cache/b273a1220a0b5703_0
+chromium/Default/Shared Dictionary/cache/5a3da5b3ced56aa8_0
+chromium/Default/Shared Dictionary/cache/b1042bfd19b4dfa5_0
+chromium/Default/Shared Dictionary/cache/e481b21e51cbba2f_0
+chromium/Default/Shared Dictionary/cache/eaaff4b010921ddf_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/6abffada07284202_1
+chromium/Default/Shared Dictionary/cache/e38681b25e42fa9f_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/6abffada07284202_0
+chromium/Default/Shared Dictionary/cache/89f97045b23e82f4_0
+chromium/Default/Shared Dictionary/cache/211edf8a23406389_0
+chromium/Default/Shared Dictionary/cache/c35ab33a9f35cdc3_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/41486f1d4c250dc9_1
+chromium/Default/Shared Dictionary/cache/dfdfc7c49ff630ea_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/41486f1d4c250dc9_0
+chromium/Default/Shared Dictionary/cache/3bc2efe05a38dc04_0
+chromium/Default/Shared Dictionary/cache/cd52744f9a28e35f_0
+chromium/Default/Shared Dictionary/cache/85dfbeebfaa515c4_0
+chromium/Default/Shared Dictionary/cache/7b1e7f18f0eec0c2_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/fdb9d08cb654ced8_1
+chromium/Default/Shared Dictionary/cache/48f28209a7d65362_0
+chromium/Default/Shared Dictionary/cache/d65fd9591ffa3f11_0
+chromium/Default/Shared Dictionary/cache/8355c02442dec9a9_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/fdb9d08cb654ced8_0
+chromium/Default/Shared Dictionary/cache/7cd27e73fd21c165_0
+chromium/Default/Shared Dictionary/cache/07b6f2e1baee17dd_0
+chromium/Default/Shared Dictionary/cache/2e2ae23c20c5c75b_0
+chromium/Default/Shared Dictionary/cache/05b44d05c533932b_0
+chromium/Default/Shared Dictionary/cache/d342e11e53f5b30a_0
+chromium/Default/Shared Dictionary/cache/d8d661a6cf452995_0
+chromium/Default/Shared Dictionary/cache/2650cdea04d4af5e_0
+chromium/Default/Shared Dictionary/cache/9d6b8b56bde3b52a_0
+chromium/Default/Shared Dictionary/cache/5ff0a778d09f9258_0
+chromium/Default/Shared Dictionary/cache/4894a9f9b9c19587_0
+chromium/Default/Shared Dictionary/cache/eceba570910ea7a5_0
+chromium/Default/Shared Dictionary/cache/c2dbfbfc8147f89c_0
+chromium/Default/Shared Dictionary/cache/41feedb61880bdac_0
+chromium/Default/Shared Dictionary/cache/6e492b0088683162_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/0f5495b08a93966a_1
+chromium/Default/Shared Dictionary/cache/1a94f491a7bbfd76_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/0f5495b08a93966a_0
+chromium/Default/Shared Dictionary/cache/59452e4e9a850cf2_0
+chromium/Default/Shared Dictionary/cache/22f0b9e523e9fc24_0
+chromium/Default/Shared Dictionary/cache/2266ddda38f04f6d_0
+chromium/Default/Shared Dictionary/cache/1f879e58844246cf_0
+chromium/Default/Shared Dictionary/cache/df096d076e0243f7_0
+chromium/Default/Shared Dictionary/cache/1fd3333985d09132_0
+chromium/Default/Shared Dictionary/cache/c00c1baf6dd4292e_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/e37bc4c149d05dd2_1
+chromium/Default/Shared Dictionary/cache/c7492dbe8c20526c_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/e37bc4c149d05dd2_0
+chromium/Default/Shared Dictionary/cache/238d610f0af77b8a_0
+chromium/Default/Shared Dictionary/cache/758410be4bf1e204_0
+chromium/Default/Shared Dictionary/cache/f0a3a22e8f84139e_0
+chromium/Default/Shared Dictionary/cache/4b0915afab8592e8_0
+chromium/Default/Shared Dictionary/cache/3604d883bf8803cc_0
+chromium/Default/Shared Dictionary/cache/492c397b9dbc72be_0
+chromium/Default/Shared Dictionary/cache/f9d03aadd19deaff_0
+chromium/Default/Shared Dictionary/cache/c6d7f6d47e1a7a1f_0
+chromium/Default/Shared Dictionary/cache/de1b772a82e0346c_0
+chromium/Default/Shared Dictionary/cache/768b9c5f9abbaa19_0
+chromium/Default/Shared Dictionary/cache/a20fcbcb94c64195_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/c7cc1b6ea1dde82a_1
+chromium/Default/Shared Dictionary/cache/0eb8f55c32053ae2_0
+chromium/Default/Shared Dictionary/cache/0d1877d69dc76720_0
+chromium/Default/Shared Dictionary/cache/ce8b757bb4927861_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/c7cc1b6ea1dde82a_0
+chromium/Default/Shared Dictionary/cache/d0d0becdd07d173a_0
+chromium/Default/Shared Dictionary/cache/a33871a4281b33a9_0
+chromium/Default/Shared Dictionary/cache/62a6eefc0933ead3_0
+chromium/Default/Shared Dictionary/cache/8671658e2d1f8ade_0
+chromium/Default/Shared Dictionary/cache/8da9c961fb77c7a3_0
+chromium/Default/Shared Dictionary/cache/5a59e76af9967536_0
+chromium/Default/Shared Dictionary/cache/7490da0fbe2fe50c_0
+chromium/Default/Shared Dictionary/cache/85b83a2675dea2db_0
+chromium/Default/Shared Dictionary/cache/4a83418220503c2a_0
+chromium/Default/Shared Dictionary/cache/ec15d1f187f99a01_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3a5d81e86125d694_1
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/3a5d81e86125d694_0
+chromium/Default/Shared Dictionary/cache/d7c752ac9c212d65_0
+chromium/Default/Shared Dictionary/cache/8d485b3261ac7589_0
+chromium/Default/Shared Dictionary/cache/9a3c753b622d7bae_0
+chromium/Default/Shared Dictionary/cache/8574919b2835abef_0
+chromium/Default/Shared Dictionary/cache/cd84f7ba01b08f41_0
+chromium/Default/Shared Dictionary/cache/cdee9707f45ccd8c_0
+chromium/Default/Shared Dictionary/cache/71591ecb9653addf_0
+chromium/Default/Shared Dictionary/cache/65e56b7256f56b94_0
+chromium/Default/Shared Dictionary/cache/a430863bcf8bc89e_0
+chromium/Default/Shared Dictionary/cache/cee4aae9feb30ca8_0
+chromium/Default/Shared Dictionary/cache/0aa0a4c7a95d5559_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/2f42465ad48a69fc_1
+chromium/Default/Shared Dictionary/cache/042794e548ccf13a_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/2f42465ad48a69fc_0
+chromium/Default/Shared Dictionary/cache/dc74b5248ea47c30_0
+chromium/Default/Shared Dictionary/cache/d54b0040d43e4ee4_0
+chromium/Default/Shared Dictionary/cache/69522c058f8d149e_0
+chromium/Default/Shared Dictionary/cache/50be1f0a278d66cb_0
+chromium/Default/Shared Dictionary/cache/a088188809d69c6f_0
+chromium/Default/Shared Dictionary/cache/cd998a8511f79ad8_0
+chromium/Default/Shared Dictionary/cache/fe48ee6428afe381_0
+chromium/Default/Shared Dictionary/cache/96625e89580196c2_0
+chromium/Default/Shared Dictionary/cache/1b8d5c71ca325fcf_0
+chromium/Default/Shared Dictionary/cache/91a26f5fd4fdf1d8_0
+chromium/Default/Shared Dictionary/cache/746a737681fc2bd0_0
+chromium/Default/Shared Dictionary/cache/7cb4122fc95027d3_0
+chromium/Default/Shared Dictionary/cache/f8c09368f1e837eb_0
+chromium/Default/Shared Dictionary/cache/fc2ea76730cccc9c_0
+chromium/Default/Shared Dictionary/cache/f7b86b287f0b6a73_0
+chromium/Default/Shared Dictionary/cache/2aab3f95af8ec68a_0
+chromium/Default/Shared Dictionary/cache/0e484ad155cb4ca0_0
+chromium/Default/Shared Dictionary/cache/ac660068615d05e6_0
+chromium/Default/Shared Dictionary/cache/55b845308fb95746_0
+chromium/Default/Shared Dictionary/cache/52aef15bf444f014_0
+chromium/Default/Shared Dictionary/cache/b871307b6e1a4bda_0
+chromium/Default/Shared Dictionary/cache/739883337c33e7c4_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b1497446f14f67ac_1
+chromium/Default/Shared Dictionary/cache/3ad8a0bfb808604d_0
+chromium/Default/Shared Dictionary/cache/972f589e33d6fe74_0
+chromium/Default/Shared Dictionary/cache/700a025f0cdb6157_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/b1497446f14f67ac_0
+chromium/Default/Shared Dictionary/cache/8cd3a9c569c7d2c5_0
+chromium/Default/Shared Dictionary/cache/e9849284ea965587_0
+chromium/Default/Shared Dictionary/cache/d94fa8d8d68dd893_0
+chromium/Default/Shared Dictionary/cache/bd68f65931150af1_0
+chromium/Default/Shared Dictionary/cache/0c7b752c24009d02_0
+chromium/Default/Shared Dictionary/cache/2f1209e8cbc384ef_0
+chromium/Default/Shared Dictionary/cache/7eaeab7fa1cdf29b_0
+chromium/Default/Shared Dictionary/cache/350be2f581397f55_0
+chromium/Default/Shared Dictionary/cache/5b7b8eb68a80a385_0
+chromium/Default/Shared Dictionary/cache/3920e01dc817b848_0
+chromium/Default/Shared Dictionary/cache/d421cbe936c3e57c_0
+chromium/Default/Shared Dictionary/cache/bd5c3567ad8d8ccb_0
+chromium/Default/Shared Dictionary/cache/e9180cb143d50c43_0
+chromium/Default/Shared Dictionary/cache/dc2227fdaaafb142_0
+chromium/Default/Shared Dictionary/cache/bba8dc6f8234dc38_0
+chromium/Default/Shared Dictionary/cache/b5a4d8bab2349531_0
+chromium/Default/Shared Dictionary/cache/4171164b8929c2b4_0
+chromium/Default/Shared Dictionary/cache/199ec231f7ef64a5_0
+chromium/Default/Shared Dictionary/cache/ee651fc0cf79a95c_0
+chromium/Default/Shared Dictionary/cache/4bc84d9ed6ccda61_0
+chromium/Default/Shared Dictionary/cache/292c6dea222df6ce_0
+chromium/Default/Shared Dictionary/cache/1c6b785acbf5fcc3_0
+chromium/Default/Shared Dictionary/cache/9840b2b7ea2fc484_0
+chromium/Default/Shared Dictionary/cache/b6ff675d66ad468b_0
+chromium/Default/Shared Dictionary/cache/68c6c86c3ff22968_0
+chromium/Default/Shared Dictionary/cache/7854fed58d0474b8_0
+chromium/Default/Shared Dictionary/cache/8202fc2bffcf1953_0
+chromium/Default/Shared Dictionary/cache/195a6791b6deb974_0
+chromium/Default/Shared Dictionary/cache/2ee1bb3f02160253_0
+chromium/Default/Shared Dictionary/cache/6a1c260740e45e17_0
+chromium/Default/Shared Dictionary/cache/c44c981d320482d0_0
+chromium/Default/Shared Dictionary/cache/8ff8e31a248a4fee_0
+chromium/Default/Shared Dictionary/cache/1631b101e302b54c_0
+chromium/Default/Shared Dictionary/cache/ff223b71560e430e_0
+chromium/Default/Shared Dictionary/cache/74613024578f4e92_0
+chromium/Default/Shared Dictionary/cache/573b91544f62e4f3_0
+chromium/Default/Shared Dictionary/cache/513fea6836ac9cf5_0
+chromium/Default/Shared Dictionary/cache/08678d3c5652ff76_0
+chromium/Default/Shared Dictionary/cache/76491dcfa802d476_0
+chromium/Default/Shared Dictionary/cache/d801f8dfe10d3d67_0
+chromium/Default/Shared Dictionary/cache/5161e8c908fc5550_0
+chromium/Default/Shared Dictionary/cache/a813f4d30b06e098_0
+chromium/Default/Shared Dictionary/cache/6dd924cd5fef3877_0
+chromium/Default/Shared Dictionary/cache/fe1501eec0a73e75_0
+chromium/Default/Shared Dictionary/cache/864ffd6016093fc0_0
+chromium/Default/Shared Dictionary/cache/3ce18727d20d40da_0
+chromium/Default/Shared Dictionary/cache/e2f721d3d6e4e111_0
+chromium/Default/Shared Dictionary/cache/779a85c5ec729639_0
+chromium/Default/Shared Dictionary/cache/abc1dd451c12bf8b_0
+chromium/Default/Shared Dictionary/cache/07526d378ac40ada_0
+chromium/Default/Shared Dictionary/cache/a0ae1cec4a1f8a8d_0
+chromium/Default/Shared Dictionary/cache/0c7353bdf6c99af6_0
+chromium/Default/Shared Dictionary/cache/121f3b765ee03245_0
+chromium/Default/Shared Dictionary/cache/6de0cb99cedc9148_0
+chromium/Default/Shared Dictionary/cache/f9436a43771fa1e8_0
+chromium/Default/Shared Dictionary/cache/909ca71b6f9ee236_0
+chromium/Default/Shared Dictionary/cache/482a56b74d27ffa6_0
+chromium/Default/Shared Dictionary/cache/ed9b244f0150b73f_0
+chromium/Default/Shared Dictionary/cache/6d75f9c06b6a2b8d_0
+chromium/Default/Shared Dictionary/cache/2844cdd7c55b9c21_0
+chromium/Default/Shared Dictionary/cache/6b4ef62a38815e47_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/8f8db12d9d11c2cd_1
+chromium/Default/Shared Dictionary/cache/e3e8a2affa982580_0
+chromium/Default/Shared Dictionary/cache/595627b37157233c_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/8f8db12d9d11c2cd_0
+chromium/Default/Shared Dictionary/cache/67c8cd8aaeb143fb_0
+chromium/Default/Shared Dictionary/cache/a861a258556468da_0
+chromium/Default/Shared Dictionary/cache/2d50d044ee866b72_0
+chromium/Default/Shared Dictionary/cache/d64f14e2c4a4c098_0
+chromium/Default/Shared Dictionary/cache/0e2885553f882652_0
+chromium/Default/Shared Dictionary/cache/a9bc214afd089f87_0
+chromium/Default/Shared Dictionary/cache/79cc1694eba82cb9_0
+chromium/Default/Shared Dictionary/cache/f186f5bedc838428_0
+chromium/Default/Shared Dictionary/cache/20fe0a2545e36d57_0
+chromium/Default/Shared Dictionary/cache/3673133d0dce6339_0
+chromium/Default/Shared Dictionary/cache/8f9b7acf12d0c742_0
+chromium/Default/Shared Dictionary/cache/7f19de0bc2372270_0
+chromium/Default/Shared Dictionary/cache/67b72faf55f65301_0
+chromium/Default/Shared Dictionary/cache/3d332a01e7d9d5ac_0
+chromium/Default/Shared Dictionary/cache/7ba353ca9518b7db_0
+chromium/Default/Shared Dictionary/cache/39baad91b5191a7b_0
+chromium/Default/Shared Dictionary/cache/855588ea2a276206_0
+chromium/Default/Shared Dictionary/cache/5eeb5216648d73b8_0
+chromium/Default/Shared Dictionary/cache/87e9bf5e51c51e7c_0
+chromium/Default/Shared Dictionary/cache/78d07a5d147ac063_0
+chromium/Default/Shared Dictionary/cache/b05a7a00f0f78553_0
+chromium/Default/Shared Dictionary/cache/9258952f4ecb0a44_0
+chromium/Default/Shared Dictionary/cache/d8b23ce4f1479927_0
+chromium/Default/Shared Dictionary/cache/250702fe1f6e2add_0
+chromium/Default/Shared Dictionary/cache/842d28f7ad5377e6_0
+chromium/Default/Shared Dictionary/cache/14ba2978d6b466c6_0
+chromium/Default/Shared Dictionary/cache/f615f7706f794213_0
+chromium/Default/Shared Dictionary/cache/59be041038181e60_0
+chromium/Default/Shared Dictionary/cache/c34f931639cab965_0
+chromium/Default/Shared Dictionary/cache/985b79ddb39e5dd9_0
+chromium/Default/Shared Dictionary/cache/0731c1890319d107_0
+chromium/Default/Shared Dictionary/cache/845ec9a9c192e991_0
+chromium/Default/Shared Dictionary/cache/d093e0f25bbbf2da_0
+chromium/Default/Shared Dictionary/cache/d7269ce570379c4a_0
+chromium/Default/Shared Dictionary/cache/4beb62920813392d_0
+chromium/Default/Shared Dictionary/cache/8063d4b8e075c060_0
+chromium/Default/Shared Dictionary/cache/f521c868941e4394_0
+chromium/Default/Shared Dictionary/cache/a33144a6169dde71_0
+chromium/Default/Shared Dictionary/cache/c5ba911e0826c877_0
+chromium/Default/Shared Dictionary/cache/77a69a005d08830e_0
+chromium/Default/Shared Dictionary/cache/38e41c36ced8f6b7_0
+chromium/Default/Shared Dictionary/cache/4fcfbe621d3b528c_0
+chromium/Default/Shared Dictionary/cache/b8c349ac129a8a53_0
+chromium/Default/Shared Dictionary/cache/c3cbf6e2b4e844c6_0
+chromium/Default/Shared Dictionary/cache/a4aaeb5e43dc3962_0
+chromium/Default/Shared Dictionary/cache/f414896e62be900f_0
+chromium/Default/Shared Dictionary/cache/35b867c62e464ce9_0
+chromium/Default/Shared Dictionary/cache/deb8f5c424a6163d_0
+chromium/Default/Shared Dictionary/cache/c855beca327896bd_0
+chromium/Default/Shared Dictionary/cache/b9284ca6268ce227_0
+chromium/Default/Shared Dictionary/cache/2f4d091a538d9820_0
+chromium/Default/Shared Dictionary/cache/03c74fd4f4532ff1_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/82d21ec7189e53d2_1
+chromium/Default/Shared Dictionary/cache/4563aa5fa6586a91_0
+chromium/Default/Shared Dictionary/cache/1255b84234cd078b_0
+chromium/Default/Shared Dictionary/cache/c6df64e47849500f_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/82d21ec7189e53d2_0
+chromium/Default/Shared Dictionary/cache/17c88ad8e888303a_0
+chromium/Default/Shared Dictionary/cache/264eed6f91467088_0
+chromium/Default/Shared Dictionary/cache/1a3404a47804ff58_0
+chromium/Default/Shared Dictionary/cache/e4d3f0515726cf5a_0
+chromium/Default/Shared Dictionary/cache/7f10fa7ad45b6e60_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/5f15c081c2856935_0
+chromium/Default/Shared Dictionary/cache/81d6a2be3b0694d8_0
+chromium/Default/Shared Dictionary/cache/eb3ec0dbde3d330e_0
+chromium/Default/Shared Dictionary/cache/8f247daf943ac02b_0
+chromium/Default/Shared Dictionary/cache/87a582e6f32556b3_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/9b1629d5802ffe10_0
+chromium/Default/Shared Dictionary/cache/958e636b91035074_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/index-dir/the-real-index
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/49fdc4f6-b967-4428-b162-27893af08d33/index
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/81976d67-37a3-4c83-bbdb-5104ff3e0180/2451ca74a7436eea_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/81976d67-37a3-4c83-bbdb-5104ff3e0180/f899cbbf8e4affce_0
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/81976d67-37a3-4c83-bbdb-5104ff3e0180/index-dir/the-real-index
+chromium/Default/Service Worker/CacheStorage/614a0024a405b02cc875d3e091267a8eb895f9ee/81976d67-37a3-4c83-bbdb-5104ff3e0180/index
+chromium/Default/Service Worker/Database/LOG
+chromium/Default/Service Worker/Database/LOG.old
+chromium/Default/Service Worker/Database/000003.log
+chromium/Default/Service Worker/Database/CURRENT
+chromium/Default/Service Worker/Database/MANIFEST-000001
+chromium/Default/Service Worker/Database/LOCK
+chromium/Default/Service Worker/ScriptCache/297ecea5cebb5dfe_1
+chromium/Default/Shared Dictionary/cache/a420adc845fd5adb_0
+chromium/Default/Service Worker/ScriptCache/297ecea5cebb5dfe_0
+chromium/Default/Service Worker/ScriptCache/ba23d8ecda68de77_1
+chromium/Default/Service Worker/ScriptCache/ba23d8ecda68de77_0
+chromium/Default/Service Worker/ScriptCache/f1cdccba37924bda_1
+chromium/Default/Service Worker/ScriptCache/f1cdccba37924bda_0
+chromium/Default/Shared Dictionary/cache/6450ecb18c7b3d98_0
+chromium/Default/Service Worker/ScriptCache/4cb013792b196a35_0
+chromium/Default/Service Worker/ScriptCache/index-dir/the-real-index
+chromium/Default/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+chromium/Default/Service Worker/ScriptCache/index
+chromium/Default/Shared Dictionary/cache/7a463a7a9ff54430_0
+chromium/Default/Extension State/LOG
+chromium/Default/Extension State/LOG.old
+chromium/Default/Extension State/000003.log
+chromium/Default/Extension State/CURRENT
+chromium/Default/Extension State/MANIFEST-000001
+chromium/Default/Extension State/LOCK
+chromium/Default/Reporting and NEL-journal
+chromium/Default/Reporting and NEL
+chromium/Default/Login Data For Account-journal
+chromium/Default/Login Data-journal
+chromium/Default/Web Data-journal
+chromium/Default/Cookies-journal
+chromium/Default/Shared Dictionary/cache/1f81e14b210afbd4_0
+chromium/Default/Shared Dictionary/cache/ecc82e341d6a61c3_0
+chromium/Default/Shared Dictionary/cache/d7304e43499b18d3_0
+chromium/Default/Shared Dictionary/cache/65d4f363775c39e6_0
+chromium/Default/Cookies
+chromium/Default/Shared Dictionary/cache/index-dir/the-real-index
+chromium/Default/Shared Dictionary/cache/index
+chromium/Default/ServerCertificate-journal
+chromium/Default/History-journal
+chromium/Default/Login Data For Account
+chromium/Default/ServerCertificate
+chromium/Default/Web Data
+chromium/Default/Login Data
+chromium/Default/Favicons-journal
+chromium/Default/Favicons
+chromium/Default/Extension Scripts/LOG
+chromium/Default/Extension Scripts/LOG.old
+chromium/Default/Extension Scripts/000003.log
+chromium/Default/Extension Scripts/CURRENT
+chromium/Default/Extension Scripts/MANIFEST-000001
+chromium/Default/Extension Scripts/LOCK
+chromium/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/000003.log
+chromium/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/CURRENT
+chromium/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+chromium/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/LOCK
+chromium/Default/WebStorage/7/IndexedDB/indexeddb.leveldb/LOG
+chromium/Default/History
+chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log
+chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/CURRENT
+chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/LOCK
+chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/LOG
+chromium/Default/WebStorage/QuotaManager-journal
+chromium/Default/Sync Data/LevelDB/LOG
+chromium/Default/Sync Data/LevelDB/LOG.old
+chromium/Default/Sync Data/LevelDB/000003.log
+chromium/Default/Sync Data/LevelDB/CURRENT
+chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+chromium/Default/Sync Data/LevelDB/LOCK
+BraveSoftware/Brave-Browser/NativeMessagingHosts/com.1password.1password.json
+chromium/Default/Safe Browsing Cookies-journal
+chromium/Default/WebStorage/QuotaManager

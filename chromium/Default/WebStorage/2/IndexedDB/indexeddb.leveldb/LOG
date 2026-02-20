@@ -1,2 +1,3 @@
-2025/12/16-22:49:17.010 e2a Creating DB /home/michael/.config/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
-2025/12/16-22:49:17.103 e2a Reusing MANIFEST /home/michael/.config/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/02/19-13:36:27.911 9e1 Reusing MANIFEST /home/michael/.config/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/02/19-13:36:27.911 9e1 Recovering log #3
+2026/02/19-13:36:27.914 9e1 Reusing old log /home/michael/.config/chromium/Default/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log 

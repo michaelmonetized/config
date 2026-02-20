@@ -1,3 +1,6 @@
-2025/12/21-00:02:32.569 5 Reusing MANIFEST /home/michael/.config/chromium/Default/Session Storage/MANIFEST-000001
-2025/12/21-00:02:32.571 5 Recovering log #3
-2025/12/21-00:02:32.572 5 Reusing old log /home/michael/.config/chromium/Default/Session Storage/000003.log 
+2026/01/05-20:09:05.336 5 Reusing MANIFEST /home/michael/.config/chromium/Default/Session Storage/MANIFEST-000001
+2026/01/05-20:09:05.337 5 Recovering log #3
+2026/01/05-20:09:05.338 5 Reusing old log /home/michael/.config/chromium/Default/Session Storage/000003.log 
+2026/01/05-20:12:36.998 7 Level-0 table #5: started
+2026/01/05-20:12:37.022 7 Level-0 table #5: 36213 bytes OK
+2026/01/05-20:12:37.110 7 Delete type=0 #3
