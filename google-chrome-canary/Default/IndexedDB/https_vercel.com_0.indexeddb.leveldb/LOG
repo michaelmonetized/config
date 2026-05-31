@@ -1,0 +1,7 @@
+2026/04/27-12:30:49.702 1937 Reusing MANIFEST /home/michael/.config/google-chrome-canary/Default/IndexedDB/https_vercel.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/27-12:30:49.703 1937 Recovering log #6
+2026/04/27-12:30:49.706 1937 Reusing old log /home/michael/.config/google-chrome-canary/Default/IndexedDB/https_vercel.com_0.indexeddb.leveldb/000006.log 
+2026/04/27-12:30:49.763 1945 Level-0 table #11: started
+2026/04/27-12:30:49.815 1945 Level-0 table #11: 3664 bytes OK
+2026/04/27-12:30:49.876 1945 Delete type=0 #6
+2026/04/27-12:30:49.879 1937 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

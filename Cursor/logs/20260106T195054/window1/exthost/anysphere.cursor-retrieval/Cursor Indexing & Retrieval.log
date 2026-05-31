@@ -1,0 +1,221 @@
+2026-01-06 19:51:01.304 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-01-06 19:51:01.304 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-01-06 19:51:01.304 [info] Using existing keys for an index
+2026-01-06 19:51:01.304 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-06 19:51:01.444 [info] Using existing keys for an index
+2026-01-06 19:51:01.444 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-06 19:51:01.470 [info] Starting RepoIndexWatcher for repo: 4a450a1b-6839-41bc-aa23-3481d664797c, owner: github|user_01JB9V3CDT51ZRM3JX66ENMDSM
+2026-01-06 19:51:01.471 [info] Setting global status from status tracker: synced
+2026-01-06 19:51:01.471 [info] Doing a startup handshake.
+2026-01-06 19:51:02.571 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:02.578 [info] Finished computing merkle tree in 934.5609879999993 ms.
+2026-01-06 19:51:02.615 [info] Doing the initial handshake with hash: bf1d6af87859a062b0116c85902103b3036b221e0b86c2d752bd95459692a614
+2026-01-06 19:51:02.637 [info] Computed simhash vector of length: 256
+2026-01-06 19:51:02.637 [info] Path key hash: d447023f3e47c7d1bc1f085625f1c467822a04866f6cc543264f8b0734bffd10
+2026-01-06 19:51:02.637 [info] Handshake start
+2026-01-06 19:51:02.791 [error] Error getting submodules: A system error occurred (ENOENT: no such file or directory, open '/home/michael/Projects/config/.gitmodules')
+2026-01-06 19:51:03.194 [info] Handshake timing: 559.1212599999999, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"64659642-fde2-49f0-a2c0-42fc236d6f00","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2026-01-06 19:51:03.194 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"64659642-fde2-49f0-a2c0-42fc236d6f00","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2026-01-06 19:51:03.195 [info] Starting fast remote sync.
+2026-01-06 19:51:03.195 [info] Total num embeddable files: 1942
+2026-01-06 19:51:03.197 [info] Root hash: bf1d6af87859a062b0116c85902103b3036b221e0b86c2d752bd95459692a614
+2026-01-06 19:51:03.197 [info] In the out of sync case.
+2026-01-06 19:51:03.199 [info] Waiting on semaphore to be released 1
+2026-01-06 19:51:03.402 [info] Waiting on semaphore to be released 1
+2026-01-06 19:51:03.402 [info] [startSync]: sending sync merkle subtree batch of size 4
+2026-01-06 19:51:03.411 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.433 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.603 [info] setting numJobsToGo to 1793
+2026-01-06 19:51:03.604 [info] [startSync]: numJobs: 1793
+2026-01-06 19:51:03.629 [info] Uploading 1793 files.
+2026-01-06 19:51:03.631 [info] Total number of files to embed: 1942
+2026-01-06 19:51:03.631 [info] Not aborted
+2026-01-06 19:51:03.631 [info] Starting while loop.
+2026-01-06 19:51:03.645 [info] syncing batch of 2 files and 10428 bytes
+2026-01-06 19:51:03.692 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.738 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.814 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.836 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.861 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.884 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.904 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.928 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.948 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.972 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:03.992 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.013 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.034 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.055 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.075 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.096 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.117 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.138 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.159 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.179 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.200 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.225 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.245 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.266 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.287 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.314 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.334 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.355 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.375 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.397 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.419 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.444 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.465 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.487 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.507 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.528 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.548 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.570 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.591 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.614 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.635 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.660 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.680 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.701 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.724 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.746 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.768 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.789 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.812 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.833 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.853 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.874 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.894 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.915 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.939 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.960 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:04.982 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.007 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.027 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.049 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.073 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./tmux-start.sh
+2026-01-06 19:51:05.073 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./btop/btop.conf
+2026-01-06 19:51:05.088 [info] syncing batch of 4 files and 4964 bytes
+2026-01-06 19:51:05.090 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.116 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.145 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.174 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.197 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.220 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.242 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.263 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.283 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.304 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.324 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.345 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.366 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.388 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.410 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.431 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.453 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:05.465 [error] Error fetching commit details for  and origin/: Failed to execute git
+2026-01-06 19:51:06.868 [error] Error getting Octokit client (timeout or auth issue): Error: Github not connected
+2026-01-06 19:51:07.128 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/welcome
+2026-01-06 19:51:07.128 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/completions
+2026-01-06 19:51:07.128 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/git
+2026-01-06 19:51:07.129 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./zsh/fzf
+2026-01-06 19:51:07.130 [info] syncing batch of 8 files and 933502 bytes
+2026-01-06 19:51:09.142 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./ghostty/config
+2026-01-06 19:51:09.142 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./nvim/lazy-lock.json
+2026-01-06 19:51:09.142 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./brave-flags.conf
+2026-01-06 19:51:09.142 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./brave-flags.conf.bak.1765940521
+2026-01-06 19:51:09.142 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./chromium-flags.conf
+2026-01-06 19:51:09.142 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./logo.txt
+2026-01-06 19:51:09.143 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./mimeapps.list
+2026-01-06 19:51:09.143 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./starship.toml
+2026-01-06 19:51:09.153 [info] syncing batch of 16 files and 465486 bytes
+2026-01-06 19:51:11.571 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./user-dirs.dirs
+2026-01-06 19:51:11.572 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./user-dirs.locale
+2026-01-06 19:51:11.572 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./xdg-terminals.list
+2026-01-06 19:51:11.572 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Local Storage/leveldb/LOG
+2026-01-06 19:51:11.572 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Local Storage/leveldb/LOCK
+2026-01-06 19:51:11.572 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Local Storage/leveldb/000003.log
+2026-01-06 19:51:11.573 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Local Storage/leveldb/CURRENT
+2026-01-06 19:51:11.573 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Local Storage/leveldb/MANIFEST-000001
+2026-01-06 19:51:11.573 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/1password_resources.sqlite
+2026-01-06 19:51:11.573 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/1password.sqlite
+2026-01-06 19:51:11.573 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Code Cache/js/index
+2026-01-06 19:51:11.573 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Code Cache/js/index-dir/the-real-index
+2026-01-06 19:51:11.574 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Code Cache/wasm/index
+2026-01-06 19:51:11.574 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Code Cache/wasm/index-dir/the-real-index
+2026-01-06 19:51:11.574 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/Dictionaries/en-US-10-1.bdic
+2026-01-06 19:51:11.574 [info] Completed job successfully: 64659642-fde2-49f0-a2c0-42fc236d6f00 ./1Password/SharedStorage
+2026-01-06 19:51:11.582 [info] syncing batch of 20 files and 661388 bytes
+2026-01-06 19:51:11.588 [info] syncing batch of 12 files and 1659558 bytes
+2026-01-06 19:51:16.609 [info] multiCodebaseIndexingJob dispose
+2026-01-06 19:51:16.609 [info] Aborting indexing job.
+2026-01-06 19:51:16.615 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/DawnGraphiteCache/data_2 error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/primaryWindowState error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/SharedStorage-wal error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/1password_resources.sqlite-shm error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Crashpad/client_id error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Trust Tokens error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Network Persistent State error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Preferences error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/DIPS error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Shared Dictionary/cache/index error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Shared Dictionary/cache/index-dir/the-real-index error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Shared Dictionary/db error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Shared Dictionary/db-journal error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Session Storage/000003.log error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Session Storage/CURRENT error: Bad unexpected error
+2026-01-06 19:51:16.616 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Session Storage/MANIFEST-000001 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Session Storage/LOCK error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Session Storage/LOG error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/DawnGraphiteCache/data_1 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/DawnGraphiteCache/index error: Bad unexpected error
+2026-01-06 19:51:16.617 [info] Completed 50 jobs for absoluteDirectoryPath: undefined
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/DawnGraphiteCache/data_3 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/DawnGraphiteCache/data_0 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Trust Tokens-journal error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/GPUCache/index error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/GPUCache/data_1 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/GPUCache/data_2 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/GPUCache/data_3 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/GPUCache/data_0 error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Local Storage/leveldb/000003.log error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Local Storage/leveldb/LOCK error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Local Storage/leveldb/CURRENT error: Bad unexpected error
+2026-01-06 19:51:16.617 [warning] Completed job unsuccessfully, will retry: ./1Password/Partitions/1password/Local Storage/leveldb/LOG error: Bad unexpected error
+2026-01-06 19:51:23.160 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2026-01-06 19:51:23.160 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2026-01-06 19:51:23.160 [info] Making keys for a new index
+2026-01-06 19:51:23.187 [info] Using the default key from the server for a new index
+2026-01-06 19:51:23.188 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-06 19:51:23.337 [info] Using existing keys for an index
+2026-01-06 19:51:23.337 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2026-01-06 19:51:23.340 [info] Starting RepoIndexWatcher for repo: 8e684a20-1f12-4299-b36a-2b4542bdaa6d, owner: github|user_01JB9V3CDT51ZRM3JX66ENMDSM
+2026-01-06 19:51:23.340 [info] Doing a startup handshake.
+2026-01-06 19:51:23.395 [info] Finished computing merkle tree in 15.340557000000445 ms.
+2026-01-06 19:51:23.396 [info] Doing the initial handshake with hash: 6deb0d5baa14bfd55defe18715000f4bab30d90e21780b8ed90c237e27d98760
+2026-01-06 19:51:23.400 [info] Computed simhash vector of length: 256
+2026-01-06 19:51:23.400 [info] Path key hash: d447023f3e47c7d1bc1f085625f1c467822a04866f6cc543264f8b0734bffd10
+2026-01-06 19:51:23.400 [info] Handshake start
+2026-01-06 19:51:23.401 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/michael/.config/Cursor/User/workspaceStorage/01b022e0f6584df7588ef59fb7b1a701/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2026-01-06 19:51:24.057 [info] Handshake timing: 658.7374970000001, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c7f428d8-df8c-4baf-b843-5dc91e53d134","status":"STATUS_EMPTY_WITH_COPY_AVAILABLE","copyTaskHandle":""}]}
+2026-01-06 19:51:24.057 [info] Codebase is empty but similar codebase from within same domain is available
+2026-01-06 19:51:24.057 [info] Setting query only repo info for similar codebase e57cea68-b3df-4d0f-acf3-b3ceeb4e30b4
+2026-01-06 19:51:24.092 [info] Handshake start
+2026-01-06 19:51:26.563 [info] Handshake timing: 2476.023128, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c7f428d8-df8c-4baf-b843-5dc91e53d134","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2026-01-06 19:51:26.563 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"c7f428d8-df8c-4baf-b843-5dc91e53d134","status":"STATUS_OUT_OF_SYNC","copyTaskHandle":""}]}
+2026-01-06 19:51:26.563 [info] Starting fast remote sync.
+2026-01-06 19:51:26.563 [info] Total num embeddable files: 194
+2026-01-06 19:51:26.564 [info] Root hash: 6deb0d5baa14bfd55defe18715000f4bab30d90e21780b8ed90c237e27d98760
+2026-01-06 19:51:26.564 [info] In the out of sync case.
+2026-01-06 19:51:26.566 [info] Waiting on semaphore to be released 1
+2026-01-06 19:51:26.766 [info] setting numJobsToGo to 1
+2026-01-06 19:51:26.766 [info] [startSync]: numJobs: 1
+2026-01-06 19:51:26.767 [info] Uploading 1 files.
+2026-01-06 19:51:26.768 [info] Total number of files to embed: 194
+2026-01-06 19:51:26.768 [info] Not aborted
+2026-01-06 19:51:26.768 [info] Starting while loop.
+2026-01-06 19:51:35.440 [info] Completed job successfully: c7f428d8-df8c-4baf-b843-5dc91e53d134 ./.gitignore
+2026-01-06 19:51:35.530 [info] Finishing sync (hasUpdates: true, isErr: false)
+2026-01-06 19:51:35.760 [info] Finished indexing repository.
+2026-01-06 19:51:35.760 [info] Indexing job successfully done or aborted.
+2026-01-06 19:53:08.818 [info] multiCodebaseIndexingJob dispose
+2026-01-06 19:53:08.818 [info] Aborting indexing job.

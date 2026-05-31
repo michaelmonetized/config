@@ -5,3 +5,20 @@ alias lt='eza --tree --git-ignore --color=always --icons=always --no-filesize --
 alias la='eza --color=always --long --git --icons=always --no-filesize --no-time --no-permissions --no-user --all'
 alias lg='lazygit'
 alias c='clear'
+
+# Dev shortcuts
+alias cld="claude --dangerously-skip-permissions"
+alias ni="gh issue create"
+alias nv="nvim"
+alias p="cld -p"
+alias no="openclaw tui"
+
+# OpenClaw TUI aliases
+alias octui="openclaw tui"
+alias octui-rusty="openclaw tui --url wss://192.168.1.23:18789 --token 92f51154c62bf9804f08a131844b6681a15057f56356885e"
+alias octui-theo="openclaw tui --url wss://192.168.1.33:18789 --token 29092cf04fbf6ffb12c1330281c18259c93cfde9cee61579"
+
+# Cross-agent messaging
+alias msg-rusty="openclaw message send --url wss://192.168.1.23:18789 --token 92f51154c62bf9804f08a131844b6681a15057f56356885e"
+alias msg-theo="openclaw message send --url wss://192.168.1.33:18789 --token 29092cf04fbf6ffb12c1330281c18259c93cfde9cee61579"
+alias msg-group="openclaw message send -t \"-1003740074376\" --channel telegram"

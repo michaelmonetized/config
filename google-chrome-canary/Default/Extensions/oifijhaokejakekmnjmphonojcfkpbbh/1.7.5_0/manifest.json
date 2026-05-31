@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_icon": "icon19.png",
+      "default_popup": "browseraction.html"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "commands": {
+      "_execute_action": {
+      }
+   },
+   "description": "Opens a list of URLs",
+   "homepage_url": "https://github.com/htrinter/Open-Multiple-URLs",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCUedpNWjaStyoDYS14sVWxGFadoFSC2BzgUNRIExQw9GspJiV5FQop5fwW/yB5qiLvurednuw+5MhkwuKLZRb41GX5q4k2ucTIFxWjGrwvzRp+GKdSonSrH0ONaLOea7svPEDhxlf4i76rP0sMFQpxsyQXL21rRCno8R9TFQ1JpwIDAQAB",
+   "manifest_version": 3,
+   "name": "Open Multiple URLs",
+   "permissions": [ "storage", "tabGroups", "search" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.5"
+}

@@ -1,0 +1,40 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icon128.plasmo.3c1ed2d2.png",
+         "16": "icon16.plasmo.6c567d50.png",
+         "32": "icon32.plasmo.76b92899.png",
+         "48": "icon48.plasmo.aced7582.png",
+         "64": "icon64.plasmo.8bb5e6e0.png"
+      }
+   },
+   "author": "Raycast",
+   "background": {
+      "service_worker": "static/background/index.js"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "content.903826e2.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "A browser extension to give more context to Raycast",
+   "homepage_url": "https://www.raycast.com",
+   "host_permissions": [ "*://*/" ],
+   "icons": {
+      "128": "icon128.plasmo.3c1ed2d2.png",
+      "16": "icon16.plasmo.6c567d50.png",
+      "32": "icon32.plasmo.76b92899.png",
+      "48": "icon48.plasmo.aced7582.png",
+      "64": "icon64.plasmo.8bb5e6e0.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAk5H0kcZMKIfU45Qq6uNUh/+SlLea4L5M2rSGqFLy3b8YknovZJ5rgfDx0e9yvDq6DVnlnHFiCzpA9gxm1S5le2FfLxFfV6yTr/+wbG7hdpTkTrrNwLjrlfadjeCfDGAPffZshr3rowMaETkacOXGrG9dIQYr2hN7gG0ngSxHAcDAa+6buWq/qCcjuKOJzC3T5O8V7MYRLNYKy3uzjQWw0J+IrhHUWkGccJvgfTu/RbjUDrnXQLjuPpUjJobwr/lXaQi5yYF3mKksU05yw89grkXm7KXzCD8FtDads2+PaLni1VqeEh+WmU3DJgSS8GNUb/AwhWKsQV3MOmArZq+dtwIDAQAB",
+   "manifest_version": 3,
+   "name": "Raycast Companion",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "activeTab", "scripting", "userScripts", "history", "bookmarks" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.2"
+}

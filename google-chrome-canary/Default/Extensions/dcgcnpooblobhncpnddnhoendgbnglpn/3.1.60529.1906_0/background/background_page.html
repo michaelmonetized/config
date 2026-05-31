@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<body></body>
+<script src="background_page.js"></script>
+<script type="text/javascript">
+  if (window.NativeApi) {
+    if (window.backgroundIsReady) {
+      window.NativeApi.onBackgroundPageJsReady()
+    }
+  } else {
+    setTimeout(function() {
+      if (window.backgroundIsReady) {
+        localStorage.backgroundFailureCount = 0
+        return
+      }
+      localStorage.backgroundFailureCount = parseInt(localStorage.backgroundFailureCount || 0) + 1
+      window.location.reload()
+    }, 30 * 1000)
+  }
+</script>

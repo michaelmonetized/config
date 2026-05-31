@@ -1,0 +1,62 @@
+2026-01-06 19:50:55.876 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-01-06 19:50:55.884 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.884 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.885 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.885 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.885 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.886 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.886 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.886 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:55.886 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:50:56.690 [info] Started local extension host with pid 6777.
+2026-01-06 19:50:57.407 [warning] No search provider registered for scheme: file, waiting
+2026-01-06 19:50:58.170 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/zsh
+2026-01-06 19:50:58.229 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/zsh
+2026-01-06 19:50:58.774 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-01-06 19:50:58.774 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-01-06 19:50:59.396 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-01-06 19:50:59.396 [info] [Debug] Registered command palette action: debug.logComposer
+2026-01-06 19:50:59.396 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-01-06 19:50:59.397 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-01-06 19:50:59.397 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-01-06 19:50:59.453 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-01-06 19:50:59.493 [info] [Cursor Proclist Polling] Config applied to Main process
+2026-01-06 19:50:59.493 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2026-01-06 19:50:59.824 [info] [perf] Render performance baseline is 29ms
+2026-01-06 19:51:00.921 [error] [Extension Host] (node:6777) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-06 19:51:01.307 [info] [ShellExec] Created session 0c527fd2-4394-445a-bfd5-4cfe755dd027 on LocalProcess host
+2026-01-06 19:51:04.479 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2026-01-06 19:51:16.718 [info] [Cursor Proclist Polling] Stopped polling
+2026-01-06 19:51:18.463 [warning] Missing property "rpcFileLoggerFolder" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2026-01-06 19:51:18.468 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.468 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-copilot-data-analysis' wants API proposal 'chatVariableResolver' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.469 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:18.470 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-01-06 19:51:19.056 [info] Started local extension host with pid 8176.
+2026-01-06 19:51:19.968 [info] [WorktreeCleanupCron] Registering cleanup task with interval of 6 hours
+2026-01-06 19:51:19.968 [info] [WorktreeCleanupCron] Cleanup task registered with interval of 6 hours (21600000ms)
+2026-01-06 19:51:20.423 [info] [LocalProcessExtensionHost] getDefaultShell result: /usr/bin/zsh
+2026-01-06 19:51:20.424 [info] [LocalProcessExtensionHost] Final userTerminalHint: /usr/bin/zsh
+2026-01-06 19:51:21.300 [info] [Debug] Registered command palette action: debug.logComposer
+2026-01-06 19:51:21.301 [info] [Debug] Registered command palette action: debug.getContextKeyValue
+2026-01-06 19:51:21.301 [info] [Debug] Registered command palette action: debug.getApplicationProperty
+2026-01-06 19:51:21.301 [info] [Debug] Registered command palette action: debug.testLinearIssues
+2026-01-06 19:51:21.301 [info] [Debug] Registered command palette action: debug.classifyRecentConversations
+2026-01-06 19:51:21.424 [info] OpenInBrowserWatcher: Initializing terminal log watcher
+2026-01-06 19:51:21.457 [info] [Cursor Proclist Polling] Config applied to Main process
+2026-01-06 19:51:21.457 [info] [Cursor Proclist Polling] Started polling (every 5 min)
+2026-01-06 19:51:22.591 [info] [perf] Render performance baseline is 31ms
+2026-01-06 19:51:22.848 [error] [Extension Host] (node:8176) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-01-06 19:51:23.221 [info] [ShellExec] Created session 2f0bad67-d27e-4802-a2fe-c85a2259a0fc on LocalProcess host
+2026-01-06 19:51:25.030 [info] [Extensions]: Checking for updates. Reason: Product update
+2026-01-06 19:51:26.411 [error] [Extension Host] [otel.error] {"stack":"OTLPExporterError: Bad Request\n\tat IncomingMessage.<anonymous> (/usr/share/cursor/resources/app/node_modules/@opentelemetry/otlp-exporter-base/build/src/transport/http-transport-utils.js:52:31)\n\tat IncomingMessage.emit (node:events:531:35)\n\tat endReadableNT (node:internal/streams/readable:1698:12)\n\tat process.processTicksAndRejections (node:internal/process/task_queues:90:21)","message":"Bad Request","code":"400","name":"OTLPExporterError","data":"{\"error\":\"Trace spans collection is not enabled for this user\"}"}
+2026-01-06 19:53:08.751 [warning] [backup tracker] suspended, ignoring unregister event file:///home/michael/Projects/waynesville.yourzaxbys.com/package.json 
+2026-01-06 19:53:08.752 [warning] [backup tracker] suspended, ignoring unregister event file:///home/michael/Projects/waynesville.yourzaxbys.com/.next/dev/package.json 
+2026-01-06 19:53:08.786 [info] [Cursor Proclist Polling] Stopped polling

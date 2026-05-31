@@ -1,0 +1,24 @@
+{
+  "boxes": [
+    {
+      "email": "dhh@uncap.us",
+      "isActive": true,
+      "lastSync": null
+    },
+    {
+      "email": "support@uncap.us",
+      "isActive": true,
+      "lastSync": null
+    },
+    {
+      "email": "dhh@uncap.us",
+      "isActive": true,
+      "lastSync": null
+    },
+    {
+      "email": "support@uncap.us",
+      "isActive": true,
+      "lastSync": null
+    }
+  ]
+}

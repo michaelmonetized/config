@@ -1,0 +1,18 @@
+[Unit]
+Description=resend-listening-daemon - Email Task Automation (tmux)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/tmux new-session -d -s resend -c /home/michael -x 200 -y 50
+ExecStartPost=/usr/bin/tmux send-keys -t resend 'export PATH=/home/michael/.bun/bin:$PATH && source ~/.bashrc && bun /home/michael/.local/bin/resendld/src/daemon/listen.ts' Enter
+ExecStop=/usr/bin/tmux kill-session -t resend
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+Environment="HOME=/home/michael"
+
+[Install]
+WantedBy=default.target

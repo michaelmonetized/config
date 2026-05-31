@@ -1,0 +1,1412 @@
+{
+    "entries": {
+        "page": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.page.js"
+        },
+        "loader": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.loader.js"
+        },
+        "oauth2redirect": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.oauth2redirect.js"
+        },
+        "inline_css": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.inline_css.js"
+        },
+        "serviceworker": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.serviceworker.js"
+        },
+        "sqlite_worker": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.sqlite_worker.js"
+        },
+        "background": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.background.js"
+        },
+        "background_page": {
+            "js": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.background_page.js"
+        },
+        "offscreen/offscreen": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/offscreen/offscreen.js"
+        },
+        "background/background_page": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/background/background_page.js"
+        },
+        "service_worker": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/service_worker.js"
+        },
+        "pages/foreground_cache_manager": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/pages/foreground_cache_manager.js"
+        },
+        "provider_web_code/index": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/provider_web_code/index.js"
+        },
+        "google/index": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/google/index.js"
+        },
+        "hubspot/index": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/hubspot/index.js"
+        },
+        "all/index": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/all/index.js"
+        },
+        "pages/index": {
+            "js": "https://mail.superhuman.com/~backend/build/extension/pages/index.js"
+        }
+    },
+    "assets": [
+        {
+            "name": "style.page.21a029407cc72d677053.css",
+            "path": "https://mail.superhuman.com/~backend/build/style.page.21a029407cc72d677053.css"
+        },
+        {
+            "name": "style.inline_css.21a029407cc72d677053.css",
+            "path": "https://mail.superhuman.com/~backend/build/style.inline_css.21a029407cc72d677053.css"
+        },
+        {
+            "name": "90f738072707e49088fd.otf",
+            "path": "https://mail.superhuman.com/~backend/build/90f738072707e49088fd.otf"
+        },
+        {
+            "name": "37f1e549e4d9e4a73abe.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/37f1e549e4d9e4a73abe.woff2"
+        },
+        {
+            "name": "82b124e2faa538f3e72d.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/82b124e2faa538f3e72d.woff2"
+        },
+        {
+            "name": "1d807afd54bf83be61f5.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/1d807afd54bf83be61f5.woff2"
+        },
+        {
+            "name": "6bd9c8c2bb523631a533.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/6bd9c8c2bb523631a533.woff2"
+        },
+        {
+            "name": "df9b65907f666562627e.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/df9b65907f666562627e.woff2"
+        },
+        {
+            "name": "61d96e9ccb089bdad7cf.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/61d96e9ccb089bdad7cf.woff2"
+        },
+        {
+            "name": "74d503026ddaa1faa88c.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/74d503026ddaa1faa88c.woff2"
+        },
+        {
+            "name": "411a2a1d793bd5a446be.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/411a2a1d793bd5a446be.woff2"
+        },
+        {
+            "name": "d8de650758e11884a187.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/d8de650758e11884a187.woff2"
+        },
+        {
+            "name": "30e8f67e72fd950390fe.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/30e8f67e72fd950390fe.woff2"
+        },
+        {
+            "name": "829673d30ab956af56ac.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/829673d30ab956af56ac.woff2"
+        },
+        {
+            "name": "7663d87514b689918d46.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/7663d87514b689918d46.woff2"
+        },
+        {
+            "name": "3562d20760ede13eba35.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/3562d20760ede13eba35.woff2"
+        },
+        {
+            "name": "8a95c13ff2b49fd2e576.woff2",
+            "path": "https://mail.superhuman.com/~backend/build/8a95c13ff2b49fd2e576.woff2"
+        },
+        {
+            "name": "tutorial-splash.4c6742616bfb9c4fa791.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/tutorial-splash.4c6742616bfb9c4fa791.jpg"
+        },
+        {
+            "name": "right-pane-gradient-background.e52f67d6444150e7d1c3.png",
+            "path": "https://mail.superhuman.com/~backend/build/right-pane-gradient-background.e52f67d6444150e7d1c3.png"
+        },
+        {
+            "name": "backdrop.45f2d786e8adff67533e.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/backdrop.45f2d786e8adff67533e.jpg"
+        },
+        {
+            "name": "background-blobs.255ecc41697dd84561a0.png",
+            "path": "https://mail.superhuman.com/~backend/build/background-blobs.255ecc41697dd84561a0.png"
+        },
+        {
+            "name": "texture.884aba0ec1a2e24f9d83.png",
+            "path": "https://mail.superhuman.com/~backend/build/texture.884aba0ec1a2e24f9d83.png"
+        },
+        {
+            "name": "checklist-background.c52651002ac96a6f6c39.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-background.c52651002ac96a6f6c39.png"
+        },
+        {
+            "name": "gradient-background.cda94ca4199ee7f1290d.png",
+            "path": "https://mail.superhuman.com/~backend/build/gradient-background.cda94ca4199ee7f1290d.png"
+        },
+        {
+            "name": "tutorial-bottom-bar.f7a3786e3a0a0e58599c.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/tutorial-bottom-bar.f7a3786e3a0a0e58599c.jpg"
+        },
+        {
+            "name": "tutorial-cmd-background.bb9c9c0a87cb84379317.png",
+            "path": "https://mail.superhuman.com/~backend/build/tutorial-cmd-background.bb9c9c0a87cb84379317.png"
+        },
+        {
+            "name": "tutorial-end-splash.58b1f5e84fdf03620076.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/tutorial-end-splash.58b1f5e84fdf03620076.jpg"
+        },
+        {
+            "name": "default.71079d40541bae2356dc.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/default.71079d40541bae2356dc.jpg"
+        },
+        {
+            "name": "1on1.6353d61d9694fc86a322.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/1on1.6353d61d9694fc86a322.jpg"
+        },
+        {
+            "name": "beach.1ceb2bda97a749d5d771.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/beach.1ceb2bda97a749d5d771.jpg"
+        },
+        {
+            "name": "birthday.c7462e0c2394b8adc642.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/birthday.c7462e0c2394b8adc642.jpg"
+        },
+        {
+            "name": "call.fe6545d8df3e78f12773.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/call.fe6545d8df3e78f12773.jpg"
+        },
+        {
+            "name": "coffee.e18118af1daf42e1749a.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/coffee.e18118af1daf42e1749a.jpg"
+        },
+        {
+            "name": "dinner.b07e9aa77ffa6c75ee09.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/dinner.b07e9aa77ffa6c75ee09.jpg"
+        },
+        {
+            "name": "drinks.58e94de6632458ee1bae.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/drinks.58e94de6632458ee1bae.jpg"
+        },
+        {
+            "name": "exercise.41673d7e253923c428de.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/exercise.41673d7e253923c428de.jpg"
+        },
+        {
+            "name": "flight.13ffe387bc05a77e5044.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/flight.13ffe387bc05a77e5044.jpg"
+        },
+        {
+            "name": "hike.6cfbf643f4cc173eeda7.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/hike.6cfbf643f4cc173eeda7.jpg"
+        },
+        {
+            "name": "breakfast.69edaf4425cb56871c35.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/breakfast.69edaf4425cb56871c35.jpg"
+        },
+        {
+            "name": "lunch.61719a5443a29d4e594b.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/lunch.61719a5443a29d4e594b.jpg"
+        },
+        {
+            "name": "meeting.d50568828a25727a4991.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/meeting.d50568828a25727a4991.jpg"
+        },
+        {
+            "name": "party.6a392e384f2de418602a.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/party.6a392e384f2de418602a.jpg"
+        },
+        {
+            "name": "tea.4642958a2c917098c8c3.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/tea.4642958a2c917098c8c3.jpg"
+        },
+        {
+            "name": "ai-compose.2d524d43c2c24cc7fff1.png",
+            "path": "https://mail.superhuman.com/~backend/build/ai-compose.2d524d43c2c24cc7fff1.png"
+        },
+        {
+            "name": "ask_ai.8e34aed325fc7ee2b841.png",
+            "path": "https://mail.superhuman.com/~backend/build/ask_ai.8e34aed325fc7ee2b841.png"
+        },
+        {
+            "name": "ashby.986965a982f0df28c9aa.png",
+            "path": "https://mail.superhuman.com/~backend/build/ashby.986965a982f0df28c9aa.png"
+        },
+        {
+            "name": "ask-ai.bf2c92a0418c497a290f.png",
+            "path": "https://mail.superhuman.com/~backend/build/ask-ai.bf2c92a0418c497a290f.png"
+        },
+        {
+            "name": "breezyHR.3e6aa80b662598b913d6.png",
+            "path": "https://mail.superhuman.com/~backend/build/breezyHR.3e6aa80b662598b913d6.png"
+        },
+        {
+            "name": "chatgpt-logo.9dad569d964875dfadaf.png",
+            "path": "https://mail.superhuman.com/~backend/build/chatgpt-logo.9dad569d964875dfadaf.png"
+        },
+        {
+            "name": "checklist-add-to-team-seats-fill.d7a329f643bb7c42e4d9.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-add-to-team-seats-fill.d7a329f643bb7c42e4d9.png"
+        },
+        {
+            "name": "checklist-add-to-team.b8280e85142fdc3de74c.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-add-to-team.b8280e85142fdc3de74c.png"
+        },
+        {
+            "name": "checklist-ai-compose.f437b159426837d0647f.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-ai-compose.f437b159426837d0647f.png"
+        },
+        {
+            "name": "checklist-ai-toggle.fc83658b36c9298135af.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-ai-toggle.fc83658b36c9298135af.png"
+        },
+        {
+            "name": "checklist-auto-archive.7bd5819dea68d9df7f5f.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-auto-archive.7bd5819dea68d9df7f5f.png"
+        },
+        {
+            "name": "checklist-live-training.c706a2d02e5c1a4bed2f.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-live-training.c706a2d02e5c1a4bed2f.png"
+        },
+        {
+            "name": "checklist-mobile-app.f95e8b7ea5bcc594bc3e.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-mobile-app.f95e8b7ea5bcc594bc3e.png"
+        },
+        {
+            "name": "checklist-read-reply-status-demo.595c9cf6bf4b68257a35.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-read-reply-status-demo.595c9cf6bf4b68257a35.png"
+        },
+        {
+            "name": "checklist-read-status-demo.8e796608767cdc29587b.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-read-status-demo.8e796608767cdc29587b.png"
+        },
+        {
+            "name": "checklist-reply-status-demo.8895162aa2646907d8b1.png",
+            "path": "https://mail.superhuman.com/~backend/build/checklist-reply-status-demo.8895162aa2646907d8b1.png"
+        },
+        {
+            "name": "claude-logo.8aa463b1734a8d8ed0f9.png",
+            "path": "https://mail.superhuman.com/~backend/build/claude-logo.8aa463b1734a8d8ed0f9.png"
+        },
+        {
+            "name": "crm_upgrade.196eddbedfa95f7b2cca.png",
+            "path": "https://mail.superhuman.com/~backend/build/crm_upgrade.196eddbedfa95f7b2cca.png"
+        },
+        {
+            "name": "docSend.98ec82d4e7146ea3fa1b.png",
+            "path": "https://mail.superhuman.com/~backend/build/docSend.98ec82d4e7146ea3fa1b.png"
+        },
+        {
+            "name": "brain.30e51a691977abc64f5d.png",
+            "path": "https://mail.superhuman.com/~backend/build/brain.30e51a691977abc64f5d.png"
+        },
+        {
+            "name": "busts-in-silhouette.39bf32a53d41925e7f43.png",
+            "path": "https://mail.superhuman.com/~backend/build/busts-in-silhouette.39bf32a53d41925e7f43.png"
+        },
+        {
+            "name": "calendar-purple.c545a3cc05def89f6c2e.png",
+            "path": "https://mail.superhuman.com/~backend/build/calendar-purple.c545a3cc05def89f6c2e.png"
+        },
+        {
+            "name": "clock.abbda35457e93d79d720.png",
+            "path": "https://mail.superhuman.com/~backend/build/clock.abbda35457e93d79d720.png"
+        },
+        {
+            "name": "eyes.5b57db19be488163f324.png",
+            "path": "https://mail.superhuman.com/~backend/build/eyes.5b57db19be488163f324.png"
+        },
+        {
+            "name": "finish-flag.807af102715a37960f08.png",
+            "path": "https://mail.superhuman.com/~backend/build/finish-flag.807af102715a37960f08.png"
+        },
+        {
+            "name": "fire.fa26fb4d3135367cb44e.png",
+            "path": "https://mail.superhuman.com/~backend/build/fire.fa26fb4d3135367cb44e.png"
+        },
+        {
+            "name": "gift.adccddaf5f11b885553a.png",
+            "path": "https://mail.superhuman.com/~backend/build/gift.adccddaf5f11b885553a.png"
+        },
+        {
+            "name": "green-check-gradient.a4967d45a148b80f782a.png",
+            "path": "https://mail.superhuman.com/~backend/build/green-check-gradient.a4967d45a148b80f782a.png"
+        },
+        {
+            "name": "green-check.723cb1e6a781d4c73fad.png",
+            "path": "https://mail.superhuman.com/~backend/build/green-check.723cb1e6a781d4c73fad.png"
+        },
+        {
+            "name": "hand-writing.babb08db4d27df0ef84c.png",
+            "path": "https://mail.superhuman.com/~backend/build/hand-writing.babb08db4d27df0ef84c.png"
+        },
+        {
+            "name": "handshake.d30f35c870177615f9e3.png",
+            "path": "https://mail.superhuman.com/~backend/build/handshake.d30f35c870177615f9e3.png"
+        },
+        {
+            "name": "heart-mail-purple.5e95f7b2eb88810091eb.png",
+            "path": "https://mail.superhuman.com/~backend/build/heart-mail-purple.5e95f7b2eb88810091eb.png"
+        },
+        {
+            "name": "heart.a98f40666838f6260442.png",
+            "path": "https://mail.superhuman.com/~backend/build/heart.a98f40666838f6260442.png"
+        },
+        {
+            "name": "hourglass.193d1deeecc02f8adde8.png",
+            "path": "https://mail.superhuman.com/~backend/build/hourglass.193d1deeecc02f8adde8.png"
+        },
+        {
+            "name": "lightbulb.26b46e7a2acd6515f302.png",
+            "path": "https://mail.superhuman.com/~backend/build/lightbulb.26b46e7a2acd6515f302.png"
+        },
+        {
+            "name": "lightning-bolt.3ba7f80f8e58d6cf91ea.png",
+            "path": "https://mail.superhuman.com/~backend/build/lightning-bolt.3ba7f80f8e58d6cf91ea.png"
+        },
+        {
+            "name": "lightning.71a1322b2ac13f4ed0ff.png",
+            "path": "https://mail.superhuman.com/~backend/build/lightning.71a1322b2ac13f4ed0ff.png"
+        },
+        {
+            "name": "magnifying-glass.153b1ecf843328768604.png",
+            "path": "https://mail.superhuman.com/~backend/build/magnifying-glass.153b1ecf843328768604.png"
+        },
+        {
+            "name": "mailbox.9f38ee9c78d476e0a884.png",
+            "path": "https://mail.superhuman.com/~backend/build/mailbox.9f38ee9c78d476e0a884.png"
+        },
+        {
+            "name": "open-grin.d51f5c6733f7bbd02fe8.png",
+            "path": "https://mail.superhuman.com/~backend/build/open-grin.d51f5c6733f7bbd02fe8.png"
+        },
+        {
+            "name": "page-facing-up.b5b7fc4d3fadc5cc84a4.png",
+            "path": "https://mail.superhuman.com/~backend/build/page-facing-up.b5b7fc4d3fadc5cc84a4.png"
+        },
+        {
+            "name": "peace-sign.6ca13787336fbfaae166.png",
+            "path": "https://mail.superhuman.com/~backend/build/peace-sign.6ca13787336fbfaae166.png"
+        },
+        {
+            "name": "play.6cc910ae940834329c7c.png",
+            "path": "https://mail.superhuman.com/~backend/build/play.6cc910ae940834329c7c.png"
+        },
+        {
+            "name": "rocket-purple.0e767b791787e34dc4a2.png",
+            "path": "https://mail.superhuman.com/~backend/build/rocket-purple.0e767b791787e34dc4a2.png"
+        },
+        {
+            "name": "rocket.b796564fa10bda64839e.png",
+            "path": "https://mail.superhuman.com/~backend/build/rocket.b796564fa10bda64839e.png"
+        },
+        {
+            "name": "search.6bbc98a705fc2beb9273.png",
+            "path": "https://mail.superhuman.com/~backend/build/search.6bbc98a705fc2beb9273.png"
+        },
+        {
+            "name": "sparkle.6e8fa7b3b926dc296234.png",
+            "path": "https://mail.superhuman.com/~backend/build/sparkle.6e8fa7b3b926dc296234.png"
+        },
+        {
+            "name": "sparkles.eb3b04a470965c5b92ac.png",
+            "path": "https://mail.superhuman.com/~backend/build/sparkles.eb3b04a470965c5b92ac.png"
+        },
+        {
+            "name": "tada.fe9e903d1ade4593cc75.png",
+            "path": "https://mail.superhuman.com/~backend/build/tada.fe9e903d1ade4593cc75.png"
+        },
+        {
+            "name": "waving-hand.4541d8460b1564362561.png",
+            "path": "https://mail.superhuman.com/~backend/build/waving-hand.4541d8460b1564362561.png"
+        },
+        {
+            "name": "writing.31fa816b66956ce405cd.png",
+            "path": "https://mail.superhuman.com/~backend/build/writing.31fa816b66956ce405cd.png"
+        },
+        {
+            "name": "favicon.98af4cf83df734516da3.png",
+            "path": "https://mail.superhuman.com/~backend/build/favicon.98af4cf83df734516da3.png"
+        },
+        {
+            "name": "firefliesAi.0ae6c69d879c69b29e1b.png",
+            "path": "https://mail.superhuman.com/~backend/build/firefliesAi.0ae6c69d879c69b29e1b.png"
+        },
+        {
+            "name": "ftue-ask-ai-card.0551b82e590bb1a89b27.png",
+            "path": "https://mail.superhuman.com/~backend/build/ftue-ask-ai-card.0551b82e590bb1a89b27.png"
+        },
+        {
+            "name": "ftue-auto-draft-card.c7f77fd392a53a5f252d.png",
+            "path": "https://mail.superhuman.com/~backend/build/ftue-auto-draft-card.c7f77fd392a53a5f252d.png"
+        },
+        {
+            "name": "ftue-reminder-card.4282cc6ca5ad540c50cb.png",
+            "path": "https://mail.superhuman.com/~backend/build/ftue-reminder-card.4282cc6ca5ad540c50cb.png"
+        },
+        {
+            "name": "greenhouse.7dc03f0b4ba2fb34302c.png",
+            "path": "https://mail.superhuman.com/~backend/build/greenhouse.7dc03f0b4ba2fb34302c.png"
+        },
+        {
+            "name": "install-bg.2a9980071023e6c1e569.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/install-bg.2a9980071023e6c1e569.jpg"
+        },
+        {
+            "name": "mobile-app-qr-code.ac7f108a6e7a6cb06ac6.png",
+            "path": "https://mail.superhuman.com/~backend/build/mobile-app-qr-code.ac7f108a6e7a6cb06ac6.png"
+        },
+        {
+            "name": "otterAi.e9417308b263359d58a3.png",
+            "path": "https://mail.superhuman.com/~backend/build/otterAi.e9417308b263359d58a3.png"
+        },
+        {
+            "name": "signEasy.b90bff1031f8b05418e7.png",
+            "path": "https://mail.superhuman.com/~backend/build/signEasy.b90bff1031f8b05418e7.png"
+        },
+        {
+            "name": "signNow.0cbfae23ec46f1cb4c1e.png",
+            "path": "https://mail.superhuman.com/~backend/build/signNow.0cbfae23ec46f1cb4c1e.png"
+        },
+        {
+            "name": "split-video-cover.c85ca1a5a89851d775cc.png",
+            "path": "https://mail.superhuman.com/~backend/build/split-video-cover.c85ca1a5a89851d775cc.png"
+        },
+        {
+            "name": "team-features-knowledge-base-carbon.0fc80af775d546342f13.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-knowledge-base-carbon.0fc80af775d546342f13.png"
+        },
+        {
+            "name": "team-features-knowledge-base.82b0cac7c36c27d28dd2.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-knowledge-base.82b0cac7c36c27d28dd2.png"
+        },
+        {
+            "name": "team-features-read-statuses-carbon.6dc0ca0506466411cbf9.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-read-statuses-carbon.6dc0ca0506466411cbf9.png"
+        },
+        {
+            "name": "team-features-read-statuses.b176b1316457a34724e7.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-read-statuses.b176b1316457a34724e7.png"
+        },
+        {
+            "name": "team-features-reply-indicators-carbon.4929b1a4be9aa3e51528.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-reply-indicators-carbon.4929b1a4be9aa3e51528.png"
+        },
+        {
+            "name": "team-features-reply-indicators.0e2cee0c45c2ae541eca.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-reply-indicators.0e2cee0c45c2ae541eca.png"
+        },
+        {
+            "name": "team-features-shared-drafts-carbon.289954eb02ede5cbd0f8.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-shared-drafts-carbon.289954eb02ede5cbd0f8.png"
+        },
+        {
+            "name": "team-features-shared-drafts.ea7195de2bc12f689214.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-shared-drafts.ea7195de2bc12f689214.png"
+        },
+        {
+            "name": "team-features-shared-threads-carbon.4282ebef0a087d914e9c.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-shared-threads-carbon.4282ebef0a087d914e9c.png"
+        },
+        {
+            "name": "team-features-shared-threads-large.a3b574c60af95b93758e.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-shared-threads-large.a3b574c60af95b93758e.png"
+        },
+        {
+            "name": "team-features-shared-threads.a3b574c60af95b93758e.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-shared-threads.a3b574c60af95b93758e.png"
+        },
+        {
+            "name": "team-features-singleton-unlock.9552c2178b1ae5a786b3.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-singleton-unlock.9552c2178b1ae5a786b3.png"
+        },
+        {
+            "name": "team-features-snippets-carbon.76c1b0c64f2bf20044a7.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-snippets-carbon.76c1b0c64f2bf20044a7.png"
+        },
+        {
+            "name": "team-features-snippets.16cc1d295347625cc62a.png",
+            "path": "https://mail.superhuman.com/~backend/build/team-features-snippets.16cc1d295347625cc62a.png"
+        },
+        {
+            "name": "toggle_extension_help.7686cabfcaa7a861bcae.png",
+            "path": "https://mail.superhuman.com/~backend/build/toggle_extension_help.7686cabfcaa7a861bcae.png"
+        },
+        {
+            "name": "uninstall_image.a1d096e4bb1fb57f14ef.png",
+            "path": "https://mail.superhuman.com/~backend/build/uninstall_image.a1d096e4bb1fb57f14ef.png"
+        },
+        {
+            "name": "workable.2517e22bbc9019152ef4.png",
+            "path": "https://mail.superhuman.com/~backend/build/workable.2517e22bbc9019152ef4.png"
+        },
+        {
+            "name": "zoho.57e19a8fd27a5461f111.png",
+            "path": "https://mail.superhuman.com/~backend/build/zoho.57e19a8fd27a5461f111.png"
+        },
+        {
+            "name": "c29fc2dacfd64764a6ad.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/c29fc2dacfd64764a6ad.wasm"
+        },
+        {
+            "name": "icon-snow.cc7a3e378a2c1dc57b98.png",
+            "path": "https://mail.superhuman.com/~backend/build/icon-snow.cc7a3e378a2c1dc57b98.png"
+        },
+        {
+            "name": "install-bg.3631f4f7a23139596393.jpg",
+            "path": "https://mail.superhuman.com/~backend/build/install-bg.3631f4f7a23139596393.jpg"
+        },
+        {
+            "name": "21a029407cc72d677053.app_web_workers_autocorrect_tsx.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.app_web_workers_autocorrect_tsx.js"
+        },
+        {
+            "name": "21a029407cc72d677053.app_web_workers_ordered_contacts_trie_worker_tsx.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.app_web_workers_ordered_contacts_trie_worker_tsx.js"
+        },
+        {
+            "name": "21a029407cc72d677053.app_web_workers_zipify_attachments_tsx.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.app_web_workers_zipify_attachments_tsx.js"
+        },
+        {
+            "name": "21a029407cc72d677053.vendors-node_modules_sqlite-wasm_sqlite-wasm_jswasm_sqlite3-opfs-async-proxy_js.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.vendors-node_modules_sqlite-wasm_sqlite-wasm_jswasm_sqlite3-opfs-async-proxy_js.js"
+        },
+        {
+            "name": "21a029407cc72d677053.vendors-node_modules_sqlite-wasm_sqlite-wasm_jswasm_sqlite3-worker1-bundler-friendly_mjs.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.vendors-node_modules_sqlite-wasm_sqlite-wasm_jswasm_sqlite3-worker1-bundler-friendly_mjs.js"
+        },
+        {
+            "name": "21a029407cc72d677053.vendors-node_modules_typewise_autocorrect-predictions-sdk_dist_typewise_js-node_modules_array-df0331.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.vendors-node_modules_typewise_autocorrect-predictions-sdk_dist_typewise_js-node_modules_array-df0331.js"
+        },
+        {
+            "name": "21a029407cc72d677053.vendors-node_modules_jszip_dist_jszip_min_js.js",
+            "path": "https://mail.superhuman.com/~backend/build/21a029407cc72d677053.vendors-node_modules_jszip_dist_jszip_min_js.js"
+        },
+        {
+            "name": "sqlite3.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/node_modules/sqlite-wasm/sqlite-wasm/jswasm/sqlite3.wasm"
+        },
+        {
+            "name": "background_page.html",
+            "path": "https://mail.superhuman.com/~backend/build/extension/background/background_page.html"
+        },
+        {
+            "name": "v1.4_API_es.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v1.4_API_es.json"
+        },
+        {
+            "name": "v1.4_API_fr.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v1.4_API_fr.json"
+        },
+        {
+            "name": "v2.0_API_de.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_de.json"
+        },
+        {
+            "name": "v2.0_API_en.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_en.json"
+        },
+        {
+            "name": "v2.0_API_it.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_it.json"
+        },
+        {
+            "name": "v2.0_API_nl.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_nl.json"
+        },
+        {
+            "name": "v2.0_API_no.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_no.json"
+        },
+        {
+            "name": "v2.0_API_pt-br.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pt-br.json"
+        },
+        {
+            "name": "v2.0_API_pl.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pl.json"
+        },
+        {
+            "name": "v2.0_API_pt.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pt.json"
+        },
+        {
+            "name": "v2.0_API_sv.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_sv.json"
+        },
+        {
+            "name": "global_library_settings.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/global_library_settings.json"
+        },
+        {
+            "name": "company_config.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/company_config.json"
+        },
+        {
+            "name": "l=all_v=6.0_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=all_v=6.0_k=names.bin"
+        },
+        {
+            "name": "l=all_v=6.0_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=all_v=6.0_k=surnames.bin"
+        },
+        {
+            "name": "l=de_v=5.0_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=de_v=5.0_k=names.bin"
+        },
+        {
+            "name": "l=en_v=5.0_c=mixed_charvocab.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=en_v=5.0_c=mixed_charvocab.json"
+        },
+        {
+            "name": "l=en_v=5.1_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=en_v=5.1_k=names.bin"
+        },
+        {
+            "name": "l=de_v=5.0_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=de_v=5.0_k=surnames.bin"
+        },
+        {
+            "name": "l=es_v=5.1_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=es_v=5.1_k=names.bin"
+        },
+        {
+            "name": "l=es_v=5.1_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=es_v=5.1_k=surnames.bin"
+        },
+        {
+            "name": "l=fr_v=5.1_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=fr_v=5.1_k=names.bin"
+        },
+        {
+            "name": "l=it_v=5.1_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=it_v=5.1_k=names.bin"
+        },
+        {
+            "name": "l=fr_v=5.1_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=fr_v=5.1_k=surnames.bin"
+        },
+        {
+            "name": "l=it_v=5.1_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=it_v=5.1_k=surnames.bin"
+        },
+        {
+            "name": "l=nl_v=1.0_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=nl_v=1.0_k=names.bin"
+        },
+        {
+            "name": "l=pl_v=1.0_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=pl_v=1.0_k=names.bin"
+        },
+        {
+            "name": "l=nl_v=1.0_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=nl_v=1.0_k=surnames.bin"
+        },
+        {
+            "name": "l=pt_v=1.0_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=pt_v=1.0_k=names.bin"
+        },
+        {
+            "name": "l=pl_v=1.0_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=pl_v=1.0_k=surnames.bin"
+        },
+        {
+            "name": "l=pt_v=1.0_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=pt_v=1.0_k=surnames.bin"
+        },
+        {
+            "name": "l=pt-br_v=1.0_k=names.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=pt-br_v=1.0_k=names.bin"
+        },
+        {
+            "name": "language_modelling_settings.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/language_modelling_settings.json"
+        },
+        {
+            "name": "tf-js-web-worker-autocorrection.js",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/tf-js-web-worker-autocorrection.js"
+        },
+        {
+            "name": "tf-js-web-worker-predictions.js",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/tf-js-web-worker-predictions.js"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v1.4_API_es/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v1.4_API_es/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v1.4_API_fr/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v1.4_API_fr/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_de/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_de/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_it/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_it/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_nl/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_nl/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_en/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_en/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_no/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_no/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pl/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pl/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pt/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pt/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pt-br/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_pt-br/model.onnx"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_sv/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/v2.0_API_sv/model.onnx"
+        },
+        {
+            "name": "l=pt-br_v=1.0_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=pt-br_v=1.0_k=surnames.bin"
+        },
+        {
+            "name": "sqlite3.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/extension/les/sqlite-wasm/sqlite-wasm/jswasm/sqlite3.wasm"
+        },
+        {
+            "name": "sqlite3.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/extension/node_modules/sqlite-wasm/sqlite-wasm/jswasm/sqlite3.wasm"
+        },
+        {
+            "name": "superhuman.html",
+            "path": "https://mail.superhuman.com/~backend/build/superhuman.html"
+        },
+        {
+            "name": "superhuman.html",
+            "path": "https://mail.superhuman.com/~backend/build/extension/superhuman.html"
+        },
+        {
+            "name": "foreground_cache_manager2.html",
+            "path": "https://mail.superhuman.com/~backend/build/foreground_cache_manager2.html"
+        },
+        {
+            "name": "offscreen_page.html",
+            "path": "https://mail.superhuman.com/~backend/build/extension/offscreen/offscreen_page.html"
+        },
+        {
+            "name": "sql-wasm.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/sql-wasm.wasm"
+        },
+        {
+            "name": "l=en_v=5.1_k=surnames.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=en_v=5.1_k=surnames.bin"
+        },
+        {
+            "name": "256x256.png",
+            "path": "https://mail.superhuman.com/~backend/build/extension/icons/256x256.png"
+        },
+        {
+            "name": "32x32.png",
+            "path": "https://mail.superhuman.com/~backend/build/extension/icons/32x32.png"
+        },
+        {
+            "name": "38x38.png",
+            "path": "https://mail.superhuman.com/~backend/build/extension/icons/38x38.png"
+        },
+        {
+            "name": "96x96.png",
+            "path": "https://mail.superhuman.com/~backend/build/extension/icons/96x96.png"
+        },
+        {
+            "name": "additional_wordlist_en.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_en.bin"
+        },
+        {
+            "name": "additional_wordlist_nl.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_nl.bin"
+        },
+        {
+            "name": "main_dictionary_no.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_no.bin"
+        },
+        {
+            "name": "main_dictionary_pt.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_pt.bin"
+        },
+        {
+            "name": "main_dictionary_es.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_es.bin"
+        },
+        {
+            "name": "main_dictionary_nl.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_nl.bin"
+        },
+        {
+            "name": "main_dictionary_pt-br.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_pt-br.bin"
+        },
+        {
+            "name": "main_dictionary_sv.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_sv.bin"
+        },
+        {
+            "name": "main_dictionary_de.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_de.bin"
+        },
+        {
+            "name": "main_dictionary_it.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_it.bin"
+        },
+        {
+            "name": "main_dictionary_en.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_en.bin"
+        },
+        {
+            "name": "main_dictionary_fr.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_fr.bin"
+        },
+        {
+            "name": "main_dictionary_pl.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/main_dictionary_pl.bin"
+        },
+        {
+            "name": "additional_wordlist_fr.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_fr.bin"
+        },
+        {
+            "name": "additional_wordlist_no.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_no.bin"
+        },
+        {
+            "name": "additional_wordlist_pt.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_pt.bin"
+        },
+        {
+            "name": "additional_wordlist_sv.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_sv.bin"
+        },
+        {
+            "name": "ort-wasm-simd-threaded.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/onnx-1.18.0/ort-wasm-simd-threaded.wasm"
+        },
+        {
+            "name": "ort-wasm-simd.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/onnx-1.18.0/ort-wasm-simd.wasm"
+        },
+        {
+            "name": "ort-wasm-threaded.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/onnx-1.18.0/ort-wasm-threaded.wasm"
+        },
+        {
+            "name": "ort-wasm.wasm",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/onnx-1.18.0/ort-wasm.wasm"
+        },
+        {
+            "name": "ort.min.js",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/onnx-1.18.0/ort.min.js"
+        },
+        {
+            "name": "additional_wordlist_es.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_es.bin"
+        },
+        {
+            "name": "additional_wordlist_pt-br.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_pt-br.bin"
+        },
+        {
+            "name": "additional_wordlist_pl.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_pl.bin"
+        },
+        {
+            "name": "additional_wordlist_it.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_it.bin"
+        },
+        {
+            "name": "additional_wordlist_de.bin",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/additional_wordlist_de.bin"
+        },
+        {
+            "name": "autocorrect_db_no.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_no.db"
+        },
+        {
+            "name": "autocorrect_db_sv.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_sv.db"
+        },
+        {
+            "name": "autocorrect_db_pt.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_pt.db"
+        },
+        {
+            "name": "autocorrect_db_nl.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_nl.db"
+        },
+        {
+            "name": "autocorrect_db_es.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_es.db"
+        },
+        {
+            "name": "autocorrect_db_it.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_it.db"
+        },
+        {
+            "name": "config.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=en-c=superhuman-st_d=2048-ep=50-lr=0.0005-fin_lr=0.0000_at_v4.2_newline_in_vocab_starting_model/config.json"
+        },
+        {
+            "name": "model.json",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=en-c=superhuman-st_d=2048-ep=50-lr=0.0005-fin_lr=0.0000_at_v4.2_newline_in_vocab_starting_model/checkpoint/model.json"
+        },
+        {
+            "name": "model.onnx",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/l=en-c=superhuman-st_d=2048-ep=50-lr=0.0005-fin_lr=0.0000_at_v4.2_newline_in_vocab_starting_model/checkpoint/model.onnx"
+        },
+        {
+            "name": "autocorrect_db_de.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_de.db"
+        },
+        {
+            "name": "autocorrect_db_pt-br.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_pt-br.db"
+        },
+        {
+            "name": "autocorrect_db_fr.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_fr.db"
+        },
+        {
+            "name": "autocorrect_db_en.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_en.db"
+        },
+        {
+            "name": "autocorrect_db_pl.db",
+            "path": "https://mail.superhuman.com/~backend/build/autocorrect/002e062d80af71db/autocorrect_db_pl.db"
+        },
+        {
+            "name": "index.html",
+            "path": "https://mail.superhuman.com/~backend/build/index.html"
+        },
+        {
+            "name": "49cbd548de78129d8fc2.index.html",
+            "path": "https://mail.superhuman.com/~backend/build/49cbd548de78129d8fc2.index.html"
+        },
+        {
+            "name": "background_page.html",
+            "path": "https://mail.superhuman.com/~backend/build/background_page.html"
+        },
+        {
+            "name": "2b96072919e41c2a1ac2.background_page.html",
+            "path": "https://mail.superhuman.com/~backend/build/2b96072919e41c2a1ac2.background_page.html"
+        },
+        {
+            "name": "oauth2redirect.html",
+            "path": "https://mail.superhuman.com/~backend/build/oauth2redirect.html"
+        },
+        {
+            "name": "oauth2redirect2.html",
+            "path": "https://mail.superhuman.com/~backend/build/oauth2redirect2.html"
+        },
+        {
+            "name": "21a029407cc72d677053.containerData.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.containerData.json"
+        },
+        {
+            "name": "21a029407cc72d677053.history.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.history.json"
+        },
+        {
+            "name": "21a029407cc72d677053.labels.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.labels.json"
+        },
+        {
+            "name": "21a029407cc72d677053.otherContacts.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.otherContacts.json"
+        },
+        {
+            "name": "21a029407cc72d677053.people:listDirectoryPeople.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.people:listDirectoryPeople.json"
+        },
+        {
+            "name": "21a029407cc72d677053.profile.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.profile.json"
+        },
+        {
+            "name": "21a029407cc72d677053.threads_ftue_individual.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.threads_ftue_individual.json"
+        },
+        {
+            "name": "21a029407cc72d677053.threads_ftue_individual_done.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.threads_ftue_individual_done.json"
+        },
+        {
+            "name": "21a029407cc72d677053.threads_ftue_individual_mac.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.threads_ftue_individual_mac.json"
+        },
+        {
+            "name": "21a029407cc72d677053.userinfo.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/21a029407cc72d677053.userinfo.json"
+        },
+        {
+            "name": "21a029407cc72d677053.startHistoryId=2274677.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/history/21a029407cc72d677053.startHistoryId=2274677.json"
+        },
+        {
+            "name": "21a029407cc72d677053.me.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/people/21a029407cc72d677053.me.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread1.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread1.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread10.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread10.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread11.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread11.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread2.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread2.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread3.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread3.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread4.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread4.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread5.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread5.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread6.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread6.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread7.5.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread7.5.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread7.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread7.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread8.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread8.json"
+        },
+        {
+            "name": "21a029407cc72d677053.demoThread9.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/threads/21a029407cc72d677053.demoThread9.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15b692e75fb6cd65.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15b692e75fb6cd65.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15b692e75fb6cd66.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15b692e75fb6cd66.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15d7fe27c21284b4.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15d7fe27c21284b4.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15e11889a98469d7.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15e11889a98469d7.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15ebb18ce2c39b37_new.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15ebb18ce2c39b37_new.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15ebb18ce2c39b37_old.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15ebb18ce2c39b37_old.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15f26f028fec7c45.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15f26f028fec7c45.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15f26f028fec7c46.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15f26f028fec7c46.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15f26f028fec7c47.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15f26f028fec7c47.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15f26f028fec7c48.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15f26f028fec7c48.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15f2b848d74bca51.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15f2b848d74bca51.json"
+        },
+        {
+            "name": "21a029407cc72d677053.15f2b9db30bb1899.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.15f2b9db30bb1899.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00179781414a1702.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00179781414a1702.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft001cd4e7ce4a7189.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft001cd4e7ce4a7189.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft0053d26d8baf4ca5.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft0053d26d8baf4ca5.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00669ead2f850a7a.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00669ead2f850a7a.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft006ac1f6d4647e3e.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft006ac1f6d4647e3e.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00ad76bc87dd38e5.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00ad76bc87dd38e5.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00ad76bc87dd38e6.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00ad76bc87dd38e6.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00ad76bc87dd38e7.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00ad76bc87dd38e7.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00ad76bc87dd38e8.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00ad76bc87dd38e8.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft00de858d6152ab4b.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/21a029407cc72d677053.draft00de858d6152ab4b.json"
+        },
+        {
+            "name": "21a029407cc72d677053.alt=json.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userinfo/21a029407cc72d677053.alt=json.json"
+        },
+        {
+            "name": "21a029407cc72d677053.session.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/v2/21a029407cc72d677053.session.json"
+        },
+        {
+            "name": "21a029407cc72d677053.gcal.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/21a029407cc72d677053.gcal.json"
+        },
+        {
+            "name": "21a029407cc72d677053.connections.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/people/me/21a029407cc72d677053.connections.json"
+        },
+        {
+            "name": "21a029407cc72d677053.draft.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/getThreads/21a029407cc72d677053.draft.json"
+        },
+        {
+            "name": "21a029407cc72d677053.knowledge-base.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/getThreads/21a029407cc72d677053.knowledge-base.json"
+        },
+        {
+            "name": "21a029407cc72d677053.reminder.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/getThreads/21a029407cc72d677053.reminder.json"
+        },
+        {
+            "name": "21a029407cc72d677053.scheduled.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/getThreads/21a029407cc72d677053.scheduled.json"
+        },
+        {
+            "name": "21a029407cc72d677053.snippet.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/getThreads/21a029407cc72d677053.snippet.json"
+        },
+        {
+            "name": "21a029407cc72d677053.settings.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/userdata/read/21a029407cc72d677053.settings.json"
+        },
+        {
+            "name": "21a029407cc72d677053.send.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/messages/21a029407cc72d677053.send.json"
+        },
+        {
+            "name": "21a029407cc72d677053.cancel.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/reminders/21a029407cc72d677053.cancel.json"
+        },
+        {
+            "name": "21a029407cc72d677053.create.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/reminders/21a029407cc72d677053.create.json"
+        },
+        {
+            "name": "21a029407cc72d677053.browsers.create.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.browsers.create.json"
+        },
+        {
+            "name": "21a029407cc72d677053.metrics.write.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.metrics.write.json"
+        },
+        {
+            "name": "21a029407cc72d677053.referrals.classify.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.referrals.classify.json"
+        },
+        {
+            "name": "21a029407cc72d677053.sessions.getCsrfToken.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.sessions.getCsrfToken.json"
+        },
+        {
+            "name": "21a029407cc72d677053.sessions.getTokens.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.sessions.getTokens.json"
+        },
+        {
+            "name": "21a029407cc72d677053.sessions.signIn.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.sessions.signIn.json"
+        },
+        {
+            "name": "21a029407cc72d677053.sessions.signInWithAuthCode.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.sessions.signInWithAuthCode.json"
+        },
+        {
+            "name": "21a029407cc72d677053.teams.classify.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.teams.classify.json"
+        },
+        {
+            "name": "21a029407cc72d677053.userdata.getThreads.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.userdata.getThreads.json"
+        },
+        {
+            "name": "21a029407cc72d677053.userdata.read.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.userdata.read.json"
+        },
+        {
+            "name": "21a029407cc72d677053.userdata.sync.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.userdata.sync.json"
+        },
+        {
+            "name": "21a029407cc72d677053.userdata.write.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.userdata.write.json"
+        },
+        {
+            "name": "21a029407cc72d677053.users.active.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.users.active.json"
+        },
+        {
+            "name": "21a029407cc72d677053.users.refreshAliases.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v3/21a029407cc72d677053.users.refreshAliases.json"
+        },
+        {
+            "name": "21a029407cc72d677053.log.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/messages/send/21a029407cc72d677053.log.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=amelia@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=amelia@superhuman.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=hello@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=hello@superhuman.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=laura@hyperfusion.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=laura@hyperfusion.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=miles@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=miles@superhuman.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=nicole@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=nicole@superhuman.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=noel@acmeventures.co.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=noel@acmeventures.co.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=noel@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=noel@superhuman.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=rahul.vohra@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=rahul.vohra@superhuman.com.json"
+        },
+        {
+            "name": "21a029407cc72d677053.email=simone@superhuman.com.json",
+            "path": "https://mail.superhuman.com/~backend/build/demo/~backend/v2/profile/21a029407cc72d677053.email=simone@superhuman.com.json"
+        }
+    ],
+    "metadata": {
+        "version": "2026-05-29T19:06:17Z"
+    },
+    "pages": {
+        "index": {
+            "html": "https://mail.superhuman.com/~backend/build/49cbd548de78129d8fc2.index.html"
+        },
+        "background_page": {
+            "html": "https://mail.superhuman.com/~backend/build/2b96072919e41c2a1ac2.background_page.html"
+        }
+    }
+}

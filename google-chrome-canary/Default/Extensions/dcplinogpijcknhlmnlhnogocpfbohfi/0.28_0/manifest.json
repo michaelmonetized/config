@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_height": 500,
+      "default_popup": "popup.html",
+      "default_title": "Open Graphite",
+      "default_width": 300
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Help navigate from GitHub PRs to Graphite",
+   "externally_connectable": {
+      "matches": [ "https://app.graphite.com/*", "https://app.graphite.dev/*", "https://localhost:3000/*" ]
+   },
+   "host_permissions": [ "*://github.com/*", "*://app.graphite.com/*", "*://app.graphite.dev/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj53WYOckvOaK/5ASAm9YR3kC48R8/mS4kbKoakXa4eSCIeMgTQwRGJGyzyPxORZlAoUOUb/cXY+axC0V0N8VZXJ4gGWtoRXNfEucFobmLlFTr7KKvAN5uuniTw1hYDi3yc4+5E7kYwkfseTbagejAikKuTMBf82VpiYXEj+eIfHZK5LDlhYtkKz649oi/Utzix5Y5NQsJRaSvLIHpx5EW4BzczwlPRxyyUZGgverxnrDmDahICWGmphb1+3HtbB6hjBQWoE9TCEU0Xf/1Oot9hmz/B598fd6LW+jfw01pryjmeBy/rH6ny2N12yuXqlU5Q+/7PBXpH7GnA0ayyyG1wIDAQAB",
+   "manifest_version": 3,
+   "name": "Graphite",
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "permissions": [ "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.28"
+}

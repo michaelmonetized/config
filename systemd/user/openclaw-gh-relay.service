@@ -1,0 +1,15 @@
+[Unit]
+Description=OpenClaw GitHub Webhook Relay (smee.io → gateway)
+After=network-online.target openclaw-gateway.service
+Wants=openclaw-gateway.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bun run /home/michael/.openclaw/hooks/gh-relay.ts
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

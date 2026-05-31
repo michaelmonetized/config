@@ -1,0 +1,1 @@
+document.documentElement.setAttribute("data-extension-enabled","mv3"),sessionStorage.setItem("extensionVersion",chrome.runtime.getManifest().version);

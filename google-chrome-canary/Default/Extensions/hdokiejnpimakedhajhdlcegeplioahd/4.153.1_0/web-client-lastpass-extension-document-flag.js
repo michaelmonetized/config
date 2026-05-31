@@ -1,0 +1,2 @@
+var webClient;(()=>{var e;document.documentElement.setAttribute("lastpass-extension",null!==(e="4.153.1")?e:"unknown-version"),webClient={}})();
+//# sourceMappingURL=web-client-lastpass-extension-document-flag.js.map

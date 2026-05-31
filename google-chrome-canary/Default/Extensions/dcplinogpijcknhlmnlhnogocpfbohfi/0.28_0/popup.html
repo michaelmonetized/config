@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      :root {
+        --cursor-page-bg: #14120b;
+        --cursor-page-surface: rgba(237, 236, 236, 0.03);
+        --cursor-page-surface-hover: rgba(237, 236, 236, 0.06);
+        --cursor-page-text-primary: rgba(228, 228, 228, 0.92);
+        --cursor-page-text-secondary: rgba(228, 228, 228, 0.55);
+        --cursor-page-text-tertiary: rgba(228, 228, 228, 0.37);
+        --cursor-page-border: rgba(228, 228, 228, 0.09);
+        --cursor-page-control: rgba(255, 255, 255, 0.04);
+        --cursor-page-control-hover: rgba(255, 255, 255, 0.07);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Cursor Gothic Beta", "Cursor Gothic", Inter, ui-sans-serif,
+          system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 12px;
+        display: flex;
+        width: 320px;
+        background-color: var(--cursor-page-bg);
+        color: var(--cursor-page-text-primary);
+      }
+
+      #container {
+        width: 100%;
+        max-height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        overflow-y: auto;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        padding: 2px 2px 6px;
+      }
+
+      #title {
+        color: var(--cursor-page-text-primary);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+      }
+
+      .subtitle {
+        color: var(--cursor-page-text-tertiary);
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 12px;
+        border: 1px solid var(--cursor-page-border);
+        border-radius: 10px;
+        background: var(--cursor-page-surface);
+      }
+
+      #save-domain,
+      #login-button {
+        padding: 7px 10px;
+        border: none;
+        border-radius: 6px;
+        background-color: #fff;
+        color: #14120b;
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 18px;
+        width: 100%;
+      }
+
+      #save-domain:hover,
+      #login-button:hover {
+        background-color: #ededed;
+      }
+
+      #auth-status {
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 8px;
+        border: 1px solid var(--cursor-page-border);
+        background: var(--cursor-page-surface);
+        color: var(--cursor-page-text-secondary);
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .auth-status-loading {
+        color: var(--cursor-page-text-tertiary);
+      }
+
+      .auth-status-logged-in {
+        color: var(--cursor-page-text-primary);
+      }
+
+      .auth-status-logged-out {
+        padding: 0;
+        border: none;
+        background: transparent;
+      }
+
+      .auth-status-error {
+        color: #ffb4ab;
+        font-size: 12px;
+      }
+
+      #domain-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .custom-domain-form {
+        display: flex;
+        gap: 6px;
+      }
+
+      #custom-domain {
+        min-width: 0;
+        flex: 1;
+        width: 100%;
+        padding: 7px 8px;
+        border-radius: 6px;
+        border: 1px solid var(--cursor-page-border);
+        font-size: 12px;
+        line-height: 16px;
+        background: var(--cursor-page-control);
+        color: var(--cursor-page-text-primary);
+      }
+
+      #custom-domain::placeholder {
+        color: var(--cursor-page-text-tertiary);
+      }
+
+      #custom-domain:focus,
+      .settings-field select:focus {
+        outline: 1px solid rgba(228, 228, 228, 0.22);
+        outline-offset: 1px;
+      }
+
+      #save-domain {
+        flex: 0 0 auto;
+        width: auto;
+        padding-inline: 12px;
+      }
+
+      .domain-item {
+        padding: 7px 8px;
+        border-radius: 6px;
+        border: 1px solid var(--cursor-page-border);
+        background: rgba(255, 255, 255, 0.02);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        color: var(--cursor-page-text-secondary);
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .domain-empty {
+        color: var(--cursor-page-text-tertiary);
+      }
+
+      .domain-item button {
+        background: none;
+        border: none;
+        color: var(--cursor-page-text-tertiary);
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 0 2px;
+      }
+
+      .domain-item button:hover {
+        color: var(--cursor-page-text-primary);
+      }
+
+      #settings-section-title {
+        color: var(--cursor-page-text-primary);
+        font-size: 13px;
+        line-height: 18px;
+      }
+
+      .settings-field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .settings-field label {
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--cursor-page-text-secondary);
+      }
+
+      .settings-field select {
+        width: 100%;
+        padding: 7px 8px;
+        border-radius: 6px;
+        border: 1px solid var(--cursor-page-border);
+        font-size: 13px;
+        line-height: 18px;
+        background: var(--cursor-page-control);
+        color: var(--cursor-page-text-primary);
+      }
+
+      .settings-field select:hover,
+      #custom-domain:hover {
+        background: var(--cursor-page-control-hover);
+      }
+
+      .toggle-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .toggle-copy {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+
+      .toggle-title {
+        color: var(--cursor-page-text-primary);
+        font-size: 13px;
+        line-height: 18px;
+      }
+
+      .toggle-description {
+        color: var(--cursor-page-text-tertiary);
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      .setting-title {
+        color: var(--cursor-page-text-secondary);
+      }
+
+      .switch {
+        position: relative;
+        flex: 0 0 auto;
+        width: 34px;
+        height: 20px;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .switch-slider {
+        position: absolute;
+        inset: 0;
+        border-radius: 999px;
+        border: 1px solid var(--cursor-page-border);
+        background: rgba(255, 255, 255, 0.06);
+        cursor: pointer;
+        transition: background 120ms ease, border-color 120ms ease;
+      }
+
+      .switch-slider::before {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        left: 2px;
+        top: 2px;
+        border-radius: 999px;
+        background: var(--cursor-page-text-secondary);
+        transition: transform 120ms ease, background 120ms ease;
+      }
+
+      .switch input:checked + .switch-slider {
+        background: #fff;
+        border-color: transparent;
+      }
+
+      .switch input:checked + .switch-slider::before {
+        transform: translateX(14px);
+        background: #14120b;
+      }
+
+      #custom-domain-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 2px;
+      }
+
+      #custom-domain-panel[hidden] {
+        display: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="header">
+        <div id="title">Graphite</div>
+        <div class="subtitle">Extension settings</div>
+      </div>
+      <div id="auth-status"></div>
+      <div class="card">
+        <div id="settings-section-title">Extension behavior</div>
+        <div class="toggle-row">
+          <div class="toggle-copy">
+            <div class="toggle-description setting-title">
+              Automatically redirect pull request links
+            </div>
+          </div>
+          <label class="switch" for="auto-redirect-enabled">
+            <input id="auto-redirect-enabled" type="checkbox" />
+            <span class="switch-slider"></span>
+          </label>
+        </div>
+        <div class="toggle-row">
+          <div class="toggle-copy">
+            <div class="toggle-description setting-title">
+              Enable floating navigation link
+            </div>
+          </div>
+          <label class="switch" for="floating-navigation-link-enabled">
+            <input
+              id="floating-navigation-link-enabled"
+              type="checkbox"
+            />
+            <span class="switch-slider"></span>
+          </label>
+        </div>
+        <div class="settings-field">
+          <label for="review-destination-select">Review destination</label>
+          <select id="review-destination-select">
+            <option value="graphite">Graphite</option>
+            <option value="cursor_review">Cursor Review</option>
+          </select>
+        </div>
+      </div>
+      <div class="card">
+        <div class="toggle-row">
+          <div class="toggle-copy">
+            <div class="toggle-title setting-title">Custom GitHub domains</div>
+            <div class="toggle-description">Add enterprise GitHub hosts</div>
+          </div>
+          <label class="switch" for="custom-domain-enabled">
+            <input
+              id="custom-domain-enabled"
+              type="checkbox"
+              aria-controls="custom-domain-panel"
+            />
+            <span class="switch-slider"></span>
+          </label>
+        </div>
+        <div id="custom-domain-panel" hidden>
+          <ul id="domain-list"></ul>
+          <div class="custom-domain-form">
+            <input
+              id="custom-domain"
+              type="text"
+              placeholder="git.example.com"
+            />
+            <button id="save-domain">Add</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>

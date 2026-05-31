@@ -1,0 +1,21 @@
+2026/05/19-07:02:06.403 4532f Reusing MANIFEST /home/michael/.config/google-chrome-canary/Default/Extension State/MANIFEST-000001
+2026/05/19-07:02:06.404 4532f Recovering log #25
+2026/05/19-07:02:06.471 4532f Reusing old log /home/michael/.config/google-chrome-canary/Default/Extension State/000025.log 
+2026/05/20-02:43:02.894 4532f Level-0 table #29: started
+2026/05/20-02:43:02.961 4532f Level-0 table #29: 434120 bytes OK
+2026/05/20-02:43:03.003 4532f Delete type=0 #25
+2026/05/20-02:43:03.075 4532f Compacting 4@0 + 1@1 files
+2026/05/20-02:43:03.133 4532f Generated table #30@0: 16 keys, 1220 bytes
+2026/05/20-02:43:03.134 4532f Compacted 4@0 + 1@1 files => 1220 bytes
+2026/05/20-02:43:03.169 4532f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/20-02:43:03.170 4532f Delete type=2 #19
+2026/05/20-02:43:03.170 4532f Delete type=2 #21
+2026/05/20-02:43:03.170 4532f Delete type=2 #24
+2026/05/20-02:43:03.170 4532f Delete type=2 #26
+2026/05/20-02:43:03.170 4532f Delete type=2 #29
+2026/05/23-22:29:27.388 45322 Level-0 table #32: started
+2026/05/23-22:29:27.446 45322 Level-0 table #32: 437090 bytes OK
+2026/05/23-22:29:27.486 45322 Delete type=0 #28
+2026/05/27-18:18:50.197 45320 Level-0 table #34: started
+2026/05/27-18:18:50.264 45320 Level-0 table #34: 437297 bytes OK
+2026/05/27-18:18:50.306 45320 Delete type=0 #31

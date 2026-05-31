@@ -1,0 +1,15 @@
+[2026-01-07T00:51:21.144Z] [INFO] [general] Activating Cursor Browser Extension MCP Provider
+[2026-01-07T00:51:21.144Z] [INFO] [general] Initializing Playwright Browser Tools
+[2026-01-07T00:51:21.216Z] [INFO] [general] Using configuration: {"connectionType":"default"}
+[2026-01-07T00:51:21.216Z] [INFO] [general] Using workspace storage directory: /home/michael/.config/Cursor/User/workspaceStorage/01b022e0f6584df7588ef59fb7b1a701/anysphere.cursor-browser-extension/browser-session
+[2026-01-07T00:51:21.217Z] [INFO] [general] Playwright Browser Tools initialized successfully
+[2026-01-07T00:51:21.217Z] [INFO] [general] Cursor Browser Extension MCP Provider initialized successfully
+[2026-01-07T00:51:21.217Z] [INFO] [general] Cursor Browser Extension MCP Provider registered successfully
+[2026-01-07T00:51:21.351Z] [INFO] [general] Listing available browser tools
+[2026-01-07T00:51:21.418Z] [INFO] [general] Found Chrome executable at: /usr/bin/chromium
+[2026-01-07T00:51:21.418Z] [INFO] [general] Found Chrome executable at: /usr/bin/chromium
+[2026-01-07T00:51:21.419Z] [INFO] [general] Found Chrome executable at: /usr/bin/chromium
+[2026-01-07T00:51:23.083Z] [INFO] [general] Listing available browser tools
+[2026-01-07T00:51:23.463Z] [INFO] [general] Listing available browser tools
+[2026-01-07T00:53:08.744Z] [INFO] [general] Deactivating Cursor Browser Extension MCP Provider
+[2026-01-07T00:53:08.826Z] [INFO] [general] Playwright MCP Provider disposed

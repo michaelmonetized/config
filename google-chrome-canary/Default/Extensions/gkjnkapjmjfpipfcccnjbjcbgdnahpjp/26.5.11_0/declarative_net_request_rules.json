@@ -1,0 +1,15 @@
+[{
+  "id": 1,
+  "action": {
+    "type": "redirect",
+    "redirect": {
+      "regexSubstitution": "\\1"
+    }
+  },
+  "condition": {
+    "regexFilter": "^https?:\\/\\/.*\\.googleusercontent\\.com.*#(https?:\\/\\/t\\.(yesware|yetihut)\\.com\\/.*\\/spacer\\.gif)",
+    "resourceTypes": [
+      "image"
+    ]
+  }
+}]

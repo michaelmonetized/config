@@ -1,0 +1,10 @@
+[2026-01-07T00:51:19.743Z] Initializing Cursor Hooks Service...
+[2026-01-07T00:51:19.744Z] User config path: /home/michael/.cursor/hooks.json
+[2026-01-07T00:51:19.744Z] Project config path: /home/michael/Projects/waynesville.yourzaxbys.com/.cursor/hooks.json
+[2026-01-07T00:51:19.744Z] Enterprise config path: file:///etc/cursor/hooks.json
+[2026-01-07T00:51:19.744Z] Reloading hooks configuration...
+[2026-01-07T00:51:19.751Z] No enterprise hooks configuration found
+[2026-01-07T00:51:19.756Z] No user hooks configuration found
+[2026-01-07T00:51:19.758Z] No project hooks configuration found
+[2026-01-07T00:51:19.759Z] Refreshing team hooks...
+[2026-01-07T00:51:19.759Z] Cursor Hooks Service initialized successfully

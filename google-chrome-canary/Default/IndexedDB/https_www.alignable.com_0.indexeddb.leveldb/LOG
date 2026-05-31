@@ -1,0 +1,34 @@
+2026/02/19-17:22:04.146 a14 Reusing MANIFEST /home/michael/.config/google-chrome-canary/Default/IndexedDB/https_www.alignable.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/19-17:22:04.147 a14 Recovering log #182
+2026/02/19-17:22:04.147 a14 Reusing old log /home/michael/.config/google-chrome-canary/Default/IndexedDB/https_www.alignable.com_0.indexeddb.leveldb/000182.log 
+2026/02/19-17:22:04.342 a14 Level-0 table #186: started
+2026/02/19-17:22:04.389 a14 Level-0 table #186: 455812 bytes OK
+2026/02/19-17:22:04.475 a14 Delete type=0 #182
+2026/02/19-17:22:04.476 a14 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x01\x02\x03\x00\x80\x1c\x19}\xc7yB' @ 119628 : 1
+2026/02/19-17:22:04.476 a14 Compacting 3@0 + 1@1 files
+2026/02/19-17:22:04.512 a14 Generated table #187@0: 2848 keys, 82014 bytes
+2026/02/19-17:22:04.512 a14 Compacted 3@0 + 1@1 files => 82014 bytes
+2026/02/19-17:22:04.581 a14 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/19-17:22:04.581 a14 Delete type=2 #186
+2026/02/19-17:22:04.581 a05 Manual compaction at level-0 from '\x00\x05\x01\x02\x03\x00\x80\x1c\x19}\xc7yB' @ 119628 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/02/19-17:22:21.559 a14 Compacting 1@1 + 1@2 files
+2026/02/19-17:22:21.611 a14 Generated table #188@1: 207 keys, 63777 bytes
+2026/02/19-17:22:21.611 a14 Compacted 1@1 + 1@2 files => 63777 bytes
+2026/02/19-17:22:21.699 a14 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/19-17:22:21.699 a14 Delete type=2 #174
+2026/02/19-17:22:21.699 a14 Delete type=2 #179
+2026/02/19-17:22:21.700 a14 Delete type=2 #181
+2026/02/19-17:22:21.700 a14 Delete type=2 #183
+2026/02/19-17:22:21.700 a14 Delete type=2 #187
+2026/02/19-23:20:30.102 a05 Level-0 table #190: started
+2026/02/19-23:20:30.137 a05 Level-0 table #190: 745993 bytes OK
+2026/02/19-23:20:30.209 a05 Delete type=0 #185
+2026/02/19-23:20:30.212 a05 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/02/19-23:20:30.212 a05 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x07\x02\x1f\x03\x00\x80\x1c\x19}\xc7yB\x00\x03\x00\x00\x00\x00\x00\x009@' @ 130547 : 1
+2026/02/19-23:20:30.212 a05 Compacting 1@1 + 1@2 files
+2026/02/19-23:20:30.237 a05 Generated table #191@1: 229 keys, 6382 bytes
+2026/02/19-23:20:30.237 a05 Compacted 1@1 + 1@2 files => 6382 bytes
+2026/02/19-23:20:30.272 a05 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/19-23:20:30.272 a05 Delete type=2 #188
+2026/02/19-23:20:30.272 a05 Delete type=2 #190
+2026/02/19-23:20:30.273 a05 Manual compaction at level-1 from '\x00\x07\x02\x1f\x03\x00\x80\x1c\x19}\xc7yB\x00\x03\x00\x00\x00\x00\x00\x009@' @ 130547 : 1 .. (end); will stop at (end)

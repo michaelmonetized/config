@@ -1,0 +1,41 @@
+{
+   "background": {
+      "service_worker": "js/background/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/frontend/frontend.css" ],
+      "js": [ "js/vendor/jquery.min.js", "js/vendor/plugins.js", "js/frontend/sales-navigator.js" ],
+      "matches": [ "https://www.linkedin.com/sales/widget/*crmSourceType=YESWARE*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';  worker-src 'self'"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset",
+         "path": "declarative_net_request_rules.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "host_permissions": [ "https://mail.google.com/*", "https://calendar.google.com/*", "https://*.salesforce.com/*", "https://*.force.com/*", "https://*.visualforce.com/*", "https://www.linkedin.com/*", "https://*.yesware.com/*", "https://*.yetihut.com/*", "https://*.googleusercontent.com/*", "https://*.s3.amazonaws.com/*", "https://beacon-1.newrelic.com/*" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvpSL2h6iLSEp9V6rA+OY94bl4Cs7E6u2lAfGo062Aqw7YovxZE9vy2rWuiAmJSMlwkgFo3CWv8rnp1hfDW9QAhT5GYQI1SjDLPFMfl4ww0TJajAji30kUy/aFBC/aHwFzG8sUSjIcnqgEbMcRyVDEtY6jN9Y/2PRiH1ngi3qfAQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "__MSG_extName__",
+   "permissions": [ "cookies", "declarativeNetRequestWithHostAccess", "tabs", "notifications", "storage", "unlimitedStorage", "webRequest", "webNavigation", "scripting", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "26.5.11",
+   "web_accessible_resources": [ {
+      "matches": [ "https://mail.google.com/*", "https://calendar.google.com/*", "https://*.salesforce.com/*", "https://*.force.com/*", "https://*.visualforce.com/*", "https://www.linkedin.com/*" ],
+      "resources": [ "images/*.svg", "images/preferences/*.svg", "images/preferences/*.png", "images/content/*.svg", "html/*.html", "js/runtime/*.js" ]
+   } ]
+}

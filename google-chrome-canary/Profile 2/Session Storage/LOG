@@ -1,0 +1,29 @@
+2026/02/19-16:03:10.904 5 Creating DB /home/michael/.config/google-chrome-canary/Profile 2/Session Storage since it was missing.
+2026/02/19-16:03:11.017 5 Reusing MANIFEST /home/michael/.config/google-chrome-canary/Profile 2/Session Storage/MANIFEST-000001
+2026/02/19-16:08:35.872 7 Level-0 table #5: started
+2026/02/19-16:08:35.875 7 Level-0 table #5: 23689 bytes OK
+2026/02/19-16:08:35.911 7 Delete type=0 #3
+2026/02/19-16:08:52.815 7 Level-0 table #7: started
+2026/02/19-16:08:52.833 7 Level-0 table #7: 23405 bytes OK
+2026/02/19-16:08:52.937 7 Delete type=0 #4
+2026/02/19-16:09:55.402 7 Level-0 table #9: started
+2026/02/19-16:09:55.421 7 Level-0 table #9: 23481 bytes OK
+2026/02/19-16:09:55.457 7 Delete type=0 #6
+2026/02/19-16:12:07.198 7 Level-0 table #11: started
+2026/02/19-16:12:07.216 7 Level-0 table #11: 23378 bytes OK
+2026/02/19-16:12:07.252 7 Delete type=0 #8
+2026/02/19-16:13:47.135 7 Level-0 table #13: started
+2026/02/19-16:13:47.154 7 Level-0 table #13: 23456 bytes OK
+2026/02/19-16:13:47.191 7 Delete type=0 #10
+2026/02/19-16:18:49.057 7 Level-0 table #15: started
+2026/02/19-16:18:49.077 7 Level-0 table #15: 23453 bytes OK
+2026/02/19-16:18:49.114 7 Delete type=0 #12
+2026/02/19-16:18:49.115 7 Compacting 4@0 + 1@1 files
+2026/02/19-16:18:49.133 7 Generated table #16@0: 7 keys, 12056 bytes
+2026/02/19-16:18:49.133 7 Compacted 4@0 + 1@1 files => 12056 bytes
+2026/02/19-16:18:49.168 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/19-16:18:49.169 7 Delete type=2 #7
+2026/02/19-16:18:49.169 7 Delete type=2 #9
+2026/02/19-16:18:49.169 7 Delete type=2 #11
+2026/02/19-16:18:49.169 7 Delete type=2 #13
+2026/02/19-16:18:49.169 7 Delete type=2 #15

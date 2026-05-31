@@ -1,0 +1,1 @@
+import{default as e}from"./sqlite3-bundler-friendly.mjs";e().then((e=>e.initWorker1API()));

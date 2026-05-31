@@ -1,0 +1,72 @@
+2026/05/19-07:02:07.633 5 Reusing MANIFEST /home/michael/.config/google-chrome-canary/Default/Session Storage/MANIFEST-000001
+2026/05/19-07:02:07.638 5 Recovering log #74
+2026/05/19-07:02:07.641 5 Reusing old log /home/michael/.config/google-chrome-canary/Default/Session Storage/000074.log 
+2026/05/19-16:04:04.638 7 Level-0 table #79: started
+2026/05/19-16:04:04.679 7 Level-0 table #79: 15640 bytes OK
+2026/05/19-16:04:04.717 7 Delete type=0 #74
+2026/05/20-10:38:58.319 7 Level-0 table #81: started
+2026/05/20-10:38:58.341 7 Level-0 table #81: 15049 bytes OK
+2026/05/20-10:38:58.379 7 Delete type=0 #78
+2026/05/21-05:14:22.106 5 Level-0 table #83: started
+2026/05/21-05:14:22.128 5 Level-0 table #83: 15168 bytes OK
+2026/05/21-05:14:22.166 5 Delete type=0 #80
+2026/05/21-23:45:32.445 7 Level-0 table #85: started
+2026/05/21-23:45:32.465 7 Level-0 table #85: 15214 bytes OK
+2026/05/21-23:45:32.503 7 Delete type=0 #82
+2026/05/21-23:45:32.504 7 Compacting 4@0 + 1@1 files
+2026/05/21-23:45:32.552 7 Generated table #86@0: 7238 keys, 307052 bytes
+2026/05/21-23:45:32.553 7 Compacted 4@0 + 1@1 files => 307052 bytes
+2026/05/21-23:45:32.589 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/21-23:45:32.590 7 Delete type=2 #76
+2026/05/21-23:45:32.590 7 Delete type=2 #79
+2026/05/21-23:45:32.590 7 Delete type=2 #81
+2026/05/21-23:45:32.590 7 Delete type=2 #83
+2026/05/21-23:45:32.590 7 Delete type=2 #85
+2026/05/22-18:15:31.520 7 Level-0 table #88: started
+2026/05/22-18:15:31.540 7 Level-0 table #88: 15341 bytes OK
+2026/05/22-18:15:31.579 7 Delete type=0 #84
+2026/05/23-12:45:24.637 7 Level-0 table #90: started
+2026/05/23-12:45:24.658 7 Level-0 table #90: 15346 bytes OK
+2026/05/23-12:45:24.696 7 Delete type=0 #87
+2026/05/24-07:15:21.369 7 Level-0 table #92: started
+2026/05/24-07:15:21.390 7 Level-0 table #92: 15147 bytes OK
+2026/05/24-07:15:21.427 7 Delete type=0 #89
+2026/05/25-01:45:43.279 7 Level-0 table #94: started
+2026/05/25-01:45:43.299 7 Level-0 table #94: 15282 bytes OK
+2026/05/25-01:45:43.337 7 Delete type=0 #91
+2026/05/25-01:45:43.338 7 Compacting 4@0 + 1@1 files
+2026/05/25-01:45:43.368 7 Generated table #95@0: 8162 keys, 347582 bytes
+2026/05/25-01:45:43.368 7 Compacted 4@0 + 1@1 files => 347582 bytes
+2026/05/25-01:45:43.405 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/25-01:45:43.406 7 Delete type=2 #86
+2026/05/25-01:45:43.406 7 Delete type=2 #88
+2026/05/25-01:45:43.406 7 Delete type=2 #90
+2026/05/25-01:45:43.406 7 Delete type=2 #92
+2026/05/25-01:45:43.406 7 Delete type=2 #94
+2026/05/25-20:15:48.089 7 Level-0 table #97: started
+2026/05/25-20:15:48.109 7 Level-0 table #97: 15331 bytes OK
+2026/05/25-20:15:48.145 7 Delete type=0 #93
+2026/05/26-14:45:27.024 7 Level-0 table #99: started
+2026/05/26-14:45:27.047 7 Level-0 table #99: 15266 bytes OK
+2026/05/26-14:45:27.084 7 Delete type=0 #96
+2026/05/27-09:18:57.286 7 Level-0 table #101: started
+2026/05/27-09:18:57.329 7 Level-0 table #101: 15250 bytes OK
+2026/05/27-09:18:57.366 7 Delete type=0 #98
+2026/05/28-03:44:20.406 7 Level-0 table #103: started
+2026/05/28-03:44:20.428 7 Level-0 table #103: 15256 bytes OK
+2026/05/28-03:44:20.465 7 Delete type=0 #100
+2026/05/28-03:44:20.466 7 Compacting 4@0 + 1@1 files
+2026/05/28-03:44:20.540 7 Generated table #104@0: 9088 keys, 387761 bytes
+2026/05/28-03:44:20.540 7 Compacted 4@0 + 1@1 files => 387761 bytes
+2026/05/28-03:44:20.575 7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/28-03:44:20.577 7 Delete type=2 #95
+2026/05/28-03:44:20.577 7 Delete type=2 #97
+2026/05/28-03:44:20.577 7 Delete type=2 #99
+2026/05/28-03:44:20.577 7 Delete type=2 #101
+2026/05/28-03:44:20.577 7 Delete type=2 #103
+2026/05/28-22:19:13.375 7 Level-0 table #106: started
+2026/05/28-22:19:13.410 7 Level-0 table #106: 15121 bytes OK
+2026/05/28-22:19:13.447 7 Delete type=0 #102
+2026/05/29-16:54:06.456 5 Level-0 table #108: started
+2026/05/29-16:54:06.481 5 Level-0 table #108: 15031 bytes OK
+2026/05/29-16:54:06.519 5 Delete type=0 #105

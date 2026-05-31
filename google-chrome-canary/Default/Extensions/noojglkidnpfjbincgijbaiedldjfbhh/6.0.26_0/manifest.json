@@ -1,0 +1,47 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "icon19.png",
+         "38": "icon38.png"
+      },
+      "default_title": "Share with Buffer"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "share-to-buffer-action": {
+         "description": "Share to Buffer",
+         "suggested_key": {
+            "chromeos": "Ctrl+Shift+B",
+            "default": "Ctrl+Shift+B",
+            "linux": "Ctrl+Shift+B",
+            "mac": "Command+Shift+B",
+            "windows": "Ctrl+Shift+B"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "homepage_url": "https://buffer.com",
+   "host_permissions": [ "http://*/*", "https://*/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjL5DXmw1kpU8d9hpGAoDInm7oqZdkPAlicx1NePG44+Ka6mdPB9xlsepK8RaCl8UdqF/l+jHjNd0EnJVXIs5jAf/Ib3jibdnJ5WKDgvuSQULwhoehLLwUnC85zN54QZ27OucJeuKmBG3w7CTx6zpOWSrId+sWWNPq15PQyTh6nQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extension_name__",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "contextMenus", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.0.26",
+   "web_accessible_resources": [ {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "*.png", "*.css", "*.svg" ]
+   } ]
+}

@@ -1,0 +1,63 @@
+2026/05/19-07:02:07.909 45408 Reusing MANIFEST /home/michael/.config/google-chrome-canary/Default/Local Extension Settings/dcgcnpooblobhncpnddnhoendgbnglpn/MANIFEST-000001
+2026/05/19-07:02:07.912 45408 Recovering log #297
+2026/05/19-07:02:07.934 45408 Reusing old log /home/michael/.config/google-chrome-canary/Default/Local Extension Settings/dcgcnpooblobhncpnddnhoendgbnglpn/000297.log 
+2026/05/19-13:57:46.420 45322 Level-0 table #301: started
+2026/05/19-13:57:46.454 45322 Level-0 table #301: 769795 bytes OK
+2026/05/19-13:57:46.490 45322 Delete type=0 #297
+2026/05/20-12:20:50.177 45322 Level-0 table #303: started
+2026/05/20-12:20:50.216 45322 Level-0 table #303: 761989 bytes OK
+2026/05/20-12:20:50.253 45322 Delete type=0 #300
+2026/05/20-12:20:50.256 45322 Compacting 4@0 + 1@1 files
+2026/05/20-12:20:50.287 45322 Generated table #304@0: 7 keys, 19762 bytes
+2026/05/20-12:20:50.287 45322 Compacted 4@0 + 1@1 files => 19762 bytes
+2026/05/20-12:20:50.322 45322 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/20-12:20:50.323 45322 Delete type=2 #294
+2026/05/20-12:20:50.323 45322 Delete type=2 #296
+2026/05/20-12:20:50.323 45322 Delete type=2 #298
+2026/05/20-12:20:50.323 45322 Delete type=2 #301
+2026/05/20-12:20:50.323 45322 Delete type=2 #303
+2026/05/21-01:28:45.789 45322 Level-0 table #306: started
+2026/05/21-01:28:45.828 45322 Level-0 table #306: 776603 bytes OK
+2026/05/21-01:28:45.866 45322 Delete type=0 #302
+2026/05/21-13:11:03.878 45322 Level-0 table #308: started
+2026/05/21-13:11:03.917 45322 Level-0 table #308: 769771 bytes OK
+2026/05/21-13:11:03.954 45322 Delete type=0 #305
+2026/05/22-01:15:32.923 45322 Level-0 table #310: started
+2026/05/22-01:15:32.960 45322 Level-0 table #310: 777316 bytes OK
+2026/05/22-01:15:32.998 45322 Delete type=0 #307
+2026/05/23-10:15:06.420 45322 Level-0 table #312: started
+2026/05/23-10:15:06.461 45322 Level-0 table #312: 754074 bytes OK
+2026/05/23-10:15:06.500 45322 Delete type=0 #309
+2026/05/23-10:15:06.505 45322 Compacting 4@0 + 1@1 files
+2026/05/23-10:15:06.562 45322 Generated table #313@0: 7 keys, 19589 bytes
+2026/05/23-10:15:06.563 45322 Compacted 4@0 + 1@1 files => 19589 bytes
+2026/05/23-10:15:06.598 45322 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/23-10:15:06.599 45322 Delete type=2 #304
+2026/05/23-10:15:06.599 45322 Delete type=2 #306
+2026/05/23-10:15:06.599 45322 Delete type=2 #308
+2026/05/23-10:15:06.600 45322 Delete type=2 #310
+2026/05/23-10:15:06.600 45322 Delete type=2 #312
+2026/05/26-06:42:06.420 45322 Level-0 table #315: started
+2026/05/26-06:42:06.464 45322 Level-0 table #315: 736705 bytes OK
+2026/05/26-06:42:06.502 45322 Delete type=0 #311
+2026/05/27-09:51:07.129 45322 Level-0 table #317: started
+2026/05/27-09:51:07.170 45322 Level-0 table #317: 770453 bytes OK
+2026/05/27-09:51:07.208 45322 Delete type=0 #314
+2026/05/27-18:27:26.420 45322 Level-0 table #319: started
+2026/05/27-18:27:26.455 45322 Level-0 table #319: 782794 bytes OK
+2026/05/27-18:27:26.493 45322 Delete type=0 #316
+2026/05/28-10:23:43.755 45322 Level-0 table #321: started
+2026/05/28-10:23:43.791 45322 Level-0 table #321: 781879 bytes OK
+2026/05/28-10:23:43.829 45322 Delete type=0 #318
+2026/05/28-10:23:43.831 45322 Compacting 4@0 + 1@1 files
+2026/05/28-10:23:43.875 45322 Generated table #322@0: 25 keys, 19954 bytes
+2026/05/28-10:23:43.875 45322 Compacted 4@0 + 1@1 files => 19954 bytes
+2026/05/28-10:23:43.910 45322 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/28-10:23:43.910 45322 Delete type=2 #313
+2026/05/28-10:23:43.910 45322 Delete type=2 #315
+2026/05/28-10:23:43.911 45322 Delete type=2 #317
+2026/05/28-10:23:43.911 45322 Delete type=2 #319
+2026/05/28-10:23:43.911 45322 Delete type=2 #321
+2026/05/29-10:06:37.324 45322 Level-0 table #324: started
+2026/05/29-10:06:37.364 45322 Level-0 table #324: 771784 bytes OK
+2026/05/29-10:06:37.403 45322 Delete type=0 #320

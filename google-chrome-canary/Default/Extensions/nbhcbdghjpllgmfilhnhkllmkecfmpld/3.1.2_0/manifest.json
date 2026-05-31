@@ -1,0 +1,43 @@
+{
+   "action": {
+      "default_popup": "src/popup.html"
+   },
+   "background": {
+      "service_worker": "src/background.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "src/content-script.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval';"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "http://*/", "https://*/" ],
+   "icons": {
+      "128": "img/logo128.png",
+      "16": "img/logo16.png",
+      "32": "img/logo32.png",
+      "48": "img/logo48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgRLkoYUUDW9p9eBSu0/8wr6tr56i+xB3+2rAIY65FO26dBITx1bhMpk6nB0u6/TmQUk3ai3hTn3Srzmaf9FHfQiCt8R0CDENZtHICcXt1RzTEdEwFAikbHJWVRGZ4p7GqizeqO1iGQ1oj/jpxCHTee2vuYGeH1llx+CFwEWSSfN0RY5B20EXb5q3wnaYITBW6KthfQ/HZyqVTa/VfBfvGn8ZE/HEHkOpTfMXZRKL1adQBQGweJVjLU7CdDQVn09DF6QSRlN897u6ovhY+dPB18VnzwP5DjeIVGNpxr8/y+FYYZYvd2hLTi8c5OI4iIgJ2cjvsVHsUMWipA7SE0vgswIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "120",
+   "name": "User JavaScript and CSS",
+   "optional_host_permissions": [ "*://*/*" ],
+   "options_page": "src/options.html",
+   "permissions": [ "storage", "tabs", "unlimitedStorage", "userScripts", "scripting" ],
+   "sandbox": {
+      "pages": [ "src/sandbox.html" ]
+   },
+   "short_name": "User JS CSS",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.2",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "js-shared/jquery.min.js" ]
+   } ]
+}

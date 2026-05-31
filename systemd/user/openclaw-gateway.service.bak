@@ -1,0 +1,29 @@
+[Unit]
+Description=OpenClaw Gateway (v2026.4.25)
+After=network-online.target
+Wants=network-online.target
+StartLimitBurst=5
+StartLimitIntervalSec=60
+
+[Service]
+ExecStart=/home/michael/.local/share/mise/installs/node/25.2.1/bin/node /home/michael/.bun/install/global/node_modules/openclaw/dist/index.js gateway --port 18789
+Restart=always
+RestartSec=5
+RestartPreventExitStatus=78
+TimeoutStopSec=30
+TimeoutStartSec=30
+SuccessExitStatus=0 143
+KillMode=control-group
+Environment=HOME=/home/michael
+Environment=TMPDIR=/tmp
+Environment=NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+Environment=PATH=/home/michael/.local/share/mise/installs/node/25.2.1/bin:/home/michael/.bun/bin:/home/michael/.nvm/current/bin:/home/michael/.local/bin:/home/michael/.npm-global/bin:/home/michael/bin:/home/michael/.volta/bin:/home/michael/.asdf/shims:/home/michael/.nix-profile/bin:/home/michael/.local/share/fnm/aliases/default/bin:/home/michael/.local/share/fnm/current/bin:/home/michael/.fnm/aliases/default/bin:/home/michael/.fnm/current/bin:/home/michael/.local/share/pnpm:/usr/local/bin:/usr/bin:/bin
+Environment=OPENCLAW_GATEWAY_PORT=18789
+Environment=OPENCLAW_SYSTEMD_UNIT=openclaw-gateway.service
+Environment="OPENCLAW_WINDOWS_TASK_NAME=OpenClaw Gateway"
+Environment=OPENCLAW_SERVICE_MARKER=openclaw
+Environment=OPENCLAW_SERVICE_KIND=gateway
+Environment=OPENCLAW_SERVICE_VERSION=2026.4.25
+
+[Install]
+WantedBy=default.target

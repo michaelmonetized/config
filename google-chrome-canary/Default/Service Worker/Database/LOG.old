@@ -1,0 +1,30 @@
+2026/05/19-07:02:04.662 45330 Reusing MANIFEST /home/michael/.config/google-chrome-canary/Default/Service Worker/Database/MANIFEST-000001
+2026/05/19-07:02:04.662 45330 Recovering log #18
+2026/05/19-07:02:04.665 45330 Reusing old log /home/michael/.config/google-chrome-canary/Default/Service Worker/Database/000018.log 
+2026/05/21-19:54:05.296 45322 Level-0 table #23: started
+2026/05/21-19:54:05.321 45322 Level-0 table #23: 101430 bytes OK
+2026/05/21-19:54:05.375 45322 Delete type=0 #18
+2026/05/21-22:10:06.285 45322 Compacting 1@1 + 1@2 files
+2026/05/21-22:10:06.337 45322 Generated table #24@1: 175 keys, 17589 bytes
+2026/05/21-22:10:06.337 45322 Compacted 1@1 + 1@2 files => 17589 bytes
+2026/05/21-22:10:06.409 45322 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/21-22:10:06.410 45322 Delete type=2 #20
+2026/05/21-22:10:06.410 45322 Delete type=2 #23
+2026/05/25-17:09:24.981 45322 Level-0 table #26: started
+2026/05/25-17:09:25.006 45322 Level-0 table #26: 99486 bytes OK
+2026/05/25-17:09:25.042 45322 Delete type=0 #22
+2026/05/25-18:34:03.569 45320 Compacting 1@1 + 1@2 files
+2026/05/25-18:34:03.590 45320 Generated table #27@1: 174 keys, 17372 bytes
+2026/05/25-18:34:03.590 45320 Compacted 1@1 + 1@2 files => 17372 bytes
+2026/05/25-18:34:03.661 45320 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/25-18:34:03.661 45320 Delete type=2 #24
+2026/05/25-18:34:03.661 45320 Delete type=2 #26
+2026/05/29-05:49:06.487 45322 Level-0 table #29: started
+2026/05/29-05:49:06.511 45322 Level-0 table #29: 103320 bytes OK
+2026/05/29-05:49:06.568 45322 Delete type=0 #25
+2026/05/29-08:29:15.520 45320 Compacting 1@1 + 1@2 files
+2026/05/29-08:29:15.526 45320 Generated table #30@1: 178 keys, 17639 bytes
+2026/05/29-08:29:15.526 45320 Compacted 1@1 + 1@2 files => 17639 bytes
+2026/05/29-08:29:15.562 45320 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/05/29-08:29:15.562 45320 Delete type=2 #27
+2026/05/29-08:29:15.563 45320 Delete type=2 #29

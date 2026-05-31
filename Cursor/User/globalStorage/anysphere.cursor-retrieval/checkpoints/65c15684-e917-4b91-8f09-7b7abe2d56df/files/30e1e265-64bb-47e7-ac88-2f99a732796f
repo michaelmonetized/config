@@ -1,0 +1,493 @@
+# Changelog
+
+## [Unreleased] - 2025-01-28
+
+### 🔄 Migrated from middleware to proxy convention
+
+- Renamed `middleware.ts` to `proxy.ts` to follow Next.js 16+ convention
+- Updated Sentry edge config comment to reference proxy instead of middleware
+- This resolves the deprecation warning about the middleware file convention
+
+### 📊 Enhanced Metrics Tables & Charts
+
+#### New Columns & Calculated Fields
+
+- **Daily Table Updates**:
+  - Reordered columns: Date, Sales, Trans, Guests, Labor $, Fcst Labor %, Labor %, LY Sales, Sales Var, Goal, Goal Var, Sales Fcst, SF Var, Ideal Labor $, Labor Var $, Order Avg, Guest Avg, Avg Cost/Guest
+  - Added calculated fields: Sales Forecast (LY - 5%), Ideal Labor (19% of forecast), Labor Variance $, averages
+- **Weekly Table Updates**:
+  - Added new columns: TLT, Reviews, Labor Variance %, Digital OSAT, Ready Pickup, Actual COGS $, Theoretical COGS $, Variance $, Waste %, P&L $, Leaders, Team Members, LBS of Oil
+  - Calculated fields: Sales Forecast, SF Variance, Goal Variance
+- **Periodic Table Updates**:
+  - Comprehensive column reorder per specification
+  - Added: TLT, Reviews, Accuracy, Temp, Digital OSAT, Ready Pickup, COGS details, averages, staffing counts
+
+#### Interactive Charts
+
+- **Daily Tab**: Dual area charts comparing current week sales/labor vs Goal, Forecast, Last Year, and 6-Week Average
+- **Weekly Tab**: Stacked bar charts showing sales/labor by day of week for past 6 weeks
+
+#### Schema Updates
+
+- Updated Convex schemas with new fields for weekly, periodic, and daily metrics
+- Added staffing fields (leaders, teamMembers) to weekly and periodic tables
+- Added COGS breakdown fields (actualCogs, theoreticalCogs, varianceDollar, wastePercent, profitLossDollar)
+
+#### Cleanup
+
+- Removed import section from metrics page (data already imported)
+- Deleted metrics-import.tsx component
+
+### 📊 Metrics Data Management System
+
+- **New Convex tables** for storing metrics data:
+  - `metricsDaily` - Daily sales, labor, transactions, guests, forecasts
+  - `metricsWeekly` - Weekly aggregates with SMG scores, P&L, waste, etc.
+  - `metricsPeriodic` - Period-level metrics with goals and totals
+- **Date utility functions** in `lib/period.ts`:
+  - `periodNum(date)` - Correctly calculates period (1-12) based on fiscal calendar rules
+  - `weekNum(date)` - ISO week number (Monday-Sunday weeks)
+  - `fiscalYear(date)` - Fiscal year accounting for late-December crossover
+  - `periodRange(period, year)` - Get start/end dates for a period
+- **Editable metrics tables** with inline editing:
+  - Empty cells show input field on click
+  - Updates Convex on blur or Enter key
+  - Currency, percentage, and number formatting
+- **One-time TSV import** from Google Sheets:
+  - Transforms TSV headers to camelCase fields
+  - Ignores unused legacy columns (Monday-Sunday, min, max)
+  - Upserts records (updates existing, inserts new)
+- **New metrics page** at `/dashboard/metrics`:
+  - Tabs for Periodic, Weekly, and Daily data
+  - Import buttons for each data source
+
+### 🎨 Dashboard "Wrapped" Redesign
+
+- **Complete visual overhaul** of the dashboard page with Spotify Wrapped-inspired design
+  - Added gradient section backgrounds with radial overlays for depth
+  - Implemented glass-morphism cards with backdrop blur and subtle borders
+  - Added smooth hover effects with scale and colored shadow transitions
+  - Created floating animations for decorative elements
+  - Added pulsing glow effects on highlight cards
+- **Enhanced scroll-triggered animations** throughout the dashboard
+  - Fixed animation system using IntersectionObserver
+  - Added staggered delays for cascading reveal effects
+  - Smooth fade-in and slide-up transitions for sections
+- **Improved chart styling** across all metrics
+  - Replaced solid colors with gradient fills on all area charts
+  - Added consistent semi-transparent grid lines
+  - Improved axis styling with better contrast
+  - Enhanced tooltip styling with glass-morphism effect
+- **Reorganized dashboard sections** for better visual hierarchy
+  - Hero header with floating logo animation
+  - Color-coded sections: Sales (emerald), Labor (violet), COGS (amber), Opportunities (sky)
+  - New "Guest Experience" subsection for satisfaction metrics
+  - "Historical Performance" section with slate gradient
+- **Updated typography and colors** for better readability
+  - Gradient text effects on key metrics
+  - Color-coded card titles matching metric themes
+  - Improved contrast ratios throughout
+
+## [Unreleased] - 2025-01-27
+
+### 🐛 Bug Fixes
+
+- **Fixed TypeScript build errors** preventing Vercel deployment
+  - `components/ui/chart.tsx`: Fixed `payload` prop type error by creating explicit `TooltipContentProps` type instead of relying on `React.ComponentProps<typeof RechartsPrimitive.Tooltip>`
+  - `components/ui/chart.tsx`: Fixed `item.payload` type error by properly typing payload items and using type assertion
+  - `components/ui/chart.tsx`: Fixed `ChartLegendContent` payload type error by creating explicit `LegendContentProps` type
+  - `components/ui/resizable.tsx`: Updated to use `react-resizable-panels` v4 API (`Group`, `Panel`, `Separator` instead of `PanelGroup`, `Panel`, `PanelResizeHandle`)
+  - `lib/encryption.ts`: Replaced deprecated `createCipher`/`createDecipher` with `createCipheriv`/`createDecipheriv` and added proper key derivation using `scryptSync`
+  - `lib/schemas/cap-schema.ts`: Updated Zod v4 API by replacing `required_error` with `message` in `z.enum()` call
+  - All TypeScript compilation errors resolved, build now succeeds on Vercel
+
+### 🚀 Major Improvements & Code Quality
+
+- **Comprehensive code review and optimization** - Addressed all coderabbit recommendations
+  - Fixed 50+ code quality issues including security vulnerabilities, type safety, and performance optimizations
+  - Improved error handling, user feedback, and code maintainability across the entire codebase
+  - Enhanced security posture with proper validation and error handling
+
+### 🔒 Security Enhancements
+
+- **Critical SSN encryption warnings** in `convex/employees.ts`
+  - Added comprehensive security warnings for plaintext SSN storage
+  - Created basic encryption utility in `lib/encryption.ts` (requires proper key management for production)
+  - Documented required security measures before production deployment
+- **Enhanced input validation** across all forms and API endpoints
+  - Added proper response validation for file uploads
+  - Improved error handling for malformed URLs and invalid inputs
+  - Added bounds checking for array access and string operations
+
+### 🎨 UI/UX Improvements
+
+- **Replaced all alert() calls with toast notifications** for better user experience
+  - Updated contact form, event edit page, and CAP forms to use consistent toast system
+  - Added success and error feedback for all user actions
+  - Improved accessibility and non-blocking user interactions
+- **Enhanced form validation and error handling**
+  - Added inline error states for document upload forms
+  - Improved loading states and user feedback throughout the application
+  - Fixed duplicate validation logic and improved form submission flows
+
+### 🏗️ Code Architecture & Performance
+
+- **Extracted shared schemas and utilities**
+  - Created `lib/schemas/cap-schema.ts` to eliminate code duplication
+  - Consolidated duplicate helper functions in dashboard components
+  - Improved type safety with explicit Array annotations per coding guidelines
+- **Optimized database queries**
+  - Replaced manual filtering with index range queries in Convex functions
+  - Improved performance for date-based queries in days and dayparts
+  - Added proper return validators to all Convex functions for better type safety
+- **Enhanced TypeScript compliance**
+  - Fixed all validator syntax issues in Convex functions
+  - Added proper type annotations and removed v.any() usage
+  - Improved type safety across the entire application
+
+### 🐛 Bug Fixes
+
+- **Fixed upload response validation** in `app/onboarding/docs/page.tsx`
+  - Added proper response validation before parsing JSON
+  - Improved error handling for failed uploads with descriptive error messages
+  - Enhanced user feedback with inline success/error states instead of alerts
+- **Fixed query loading states** in document upload flow
+  - Added proper handling for undefined query states during loading
+  - Improved user experience with loading indicators and proper error messages
+- **Fixed external link security** in careers apply page
+  - Added `rel="noopener noreferrer"` to external links for security
+  - Enhanced protection against potential security vulnerabilities
+- **Fixed string processing edge cases**
+  - Added safety checks for empty string segments in position name processing
+  - Improved robustness of string manipulation operations
+- **Fixed React key prop usage** in dashboard KPI components
+  - Replaced array indices with stable title-based keys for better React reconciliation
+  - Improved performance and prevented potential rendering issues
+- **Fixed validation redundancy** in Convex functions
+  - Removed duplicate Zod validation that was redundant with Convex validators
+  - Streamlined validation flow and improved performance
+- **Fixed contact form rollback logic**
+  - Removed flawed rollback logic that could delete valid contacts
+  - Simplified error handling for fire-and-forget notification operations
+- **Fixed CSS variable syntax** throughout the application
+  - Updated from `[var(--)]` to `(--)` syntax per Tailwind v4 guidelines
+  - Improved consistency and compliance with coding standards
+- **Fixed hardcoded values** in metadata
+  - Made catering page description dynamic to match the title
+  - Improved consistency across different location deployments
+- **Fixed protocol-relative URL handling** in link component
+  - Added proper handling for `//example.com` style URLs
+  - Improved external URL detection and routing
+- **Fixed period calculation staleness** in hooks
+  - Removed unnecessary memoization that caused stale values
+  - Improved real-time period calculations
+- **Fixed duplicate type definitions** in verification forms
+  - Extracted shared `VerificationEmployee` type to eliminate duplication
+  - Improved maintainability and type consistency
+- **Fixed build compilation errors** for production deployment
+  - Added missing React `key` props to JSX elements in KPI arrays (35 errors fixed)
+  - Removed unused variables and imports across multiple files (7 errors fixed)
+  - Fixed TypeScript syntax errors in `_project.ts` and `convex/teamMemberRankings.ts`
+  - Resolved all ESLint and TypeScript compilation issues
+  - Application now builds successfully both locally and on Vercel
+- **Added defensive checks to login component** in `components/ui/login.tsx`
+  - Added safe fallback for `process.env.NEXT_PUBLIC_HOST` (empty string if undefined)
+  - Added null/undefined guard for `currentSearch` before calling `toString()`
+  - Added development warning when `NEXT_PUBLIC_HOST` is missing
+  - Prevents runtime errors when environment variables are not properly configured
+- **Removed duplicate user check** in `components/ui/protected-position.tsx`
+  - Eliminated redundant `if (!user)` block that was rendering the same login prompt twice
+  - Preserved all props, classes, and content while maintaining proper logic flow
+  - Improved code maintainability by removing unnecessary duplication
+- **Fixed inconsistent date formatting** in `components/views/caps.tsx`
+  - Changed `formatDate` function to use `month: "long"` instead of `month: "short"`
+  - Now matches the date format used in CapView detail component for consistency
+  - Maintains `year: "numeric"` and `day: "numeric"` formatting options
+- **Extracted shared CAP utility functions** into `lib/cap-utils.ts`
+  - Created shared module with `formatDate`, `getScoreColor`, and `getTypeBadgeVariant` functions
+  - Removed duplicate implementations from `components/views/caps.tsx` and `components/views/cap.tsx`
+  - Added proper TypeScript types and JSDoc documentation for all utility functions
+  - Improved code maintainability by centralizing shared logic
+- **Enabled Next.js image optimization** in `components/views/event.tsx`
+  - Removed `unoptimized` prop from Image component to enable WebP conversion and responsive sizing
+  - Images will now benefit from Next.js automatic optimization features
+- **Added comprehensive Convex validators** to `convex/dayparts.ts`
+  - Added missing `returns` validators to `listDayparts`, `createDaypart`, and `getDaypartsByWeek` queries
+  - Updated `updateDaypart` mutation to support partial updates using `DaypartValidator.partial()`
+  - All validators now include Convex system fields (`_id`, `_creationTime`) for proper type safety
+- **Enhanced Convex validators** in `convex/directDeposits.ts`
+  - Added missing `returns` validators to `listDirectDeposits`, `createDirectDeposit`, and `getDirectDepositsByEmployee` queries
+  - Updated `getDirectDeposit` and `getDirectDepositsByEmployee` to include Convex system fields
+  - Modified `updateDirectDeposit` mutation to support partial updates using `DirectDepositValidator.partial()`
+  - Improved type safety and validation consistency across all direct deposit operations
+- **Optimized employee query** in `convex/employees.ts`
+  - Replaced `.filter()` usage with `.withIndex("by_eid")` in `getEmployeeByEid` query for better performance
+  - Added `returns` validator using `v.union(v.any(), v.null())` to declare the function's return shape
+  - Query now leverages the existing index for faster lookups instead of scanning all records
+- **Implemented Convex full-text search** for employee search functionality
+  - Added three search indexes to employees table: `search_employees_name`, `search_employees_eid`, and `search_employees_email`
+  - Replaced in-memory filtering with server-side search using `withSearchIndex()` and `q.search()`
+  - Updated `searchEmployees` query to search across multiple fields (name, EID, email) in parallel
+  - Added comprehensive `returns` validator with Convex system fields for type safety
+  - Improved search performance and scalability by leveraging Convex's search infrastructure
+- **Enhanced Convex query optimization and validation** in `convex/employees.ts`
+  - Replaced `.filter()` usage with `.withIndex("by_eid")` in `verifyEmployeeSSN` mutation for better performance
+  - Added `returns` validators to all mutations and queries for comprehensive type safety:
+    - `generateUploadUrl`: `v.object({ url: v.string() })`
+    - `addEmployeeDoc`: `v.object({ url: v.union(v.string(), v.null()) })`
+    - `listEmployees`: `v.array(v.object({ _id: v.id("employees"), _creationTime: v.number(), ...EmployeeTable }))`
+  - Ensured all queries use indexed lookups instead of inefficient filtering operations
+  - Verified schema includes all required search indexes and regular indexes for optimal performance
+- **Enhanced event validation and error handling** in `convex/events.ts`
+  - Added `EventValidator.safeParse()` validation to `createEvent` mutation before database insertion
+  - Enhanced `updateEvent` mutation with comprehensive validation and error handling:
+    - Added `EventValidator.safeParse()` validation for incoming update data
+    - Added existence check with `ctx.db.get(id)` before patching
+    - Added clear error messages for validation failures and missing records
+    - Added `returns: v.id("events")` validator to declare return type
+  - Improved data integrity and user experience with detailed validation error messages
+  - Follows established project patterns from `convex/tasks.ts` and `convex/days.ts`
+- **Enhanced Convex return validation** in `convex/goals.ts`
+  - Added comprehensive `returns` validators to all queries and mutations for type safety:
+    - `listGoals` query: `v.array(v.object({ _id: v.id("goals"), _creationTime: v.number(), name: v.string(), value: v.number(), range: v.object({ start: v.number(), end: v.optional(v.number()) }) }))`
+    - `createGoal` mutation: `v.id("goals")`
+    - `updateGoal` mutation: `v.id("goals")` (fixed to return id instead of patch result)
+  - Ensured all functions conform to Convex return validation guidelines
+  - Improved type safety and runtime validation for goal management operations
+- **Fixed Convex return validators** in `convex/tasks.ts`
+  - Updated `listTasks` query returns validator to include Convex system fields (`_id`, `_creationTime`)
+  - Updated `getTask` query returns validator to include Convex system fields in the success branch
+  - Ensured validators match actual database query results for proper type safety
+- **Enhanced period calculation logic** in `lib/period.ts`
+  - Fixed SOS calculation to use total sales ÷ total transactions instead of averaging per-day SOS
+  - Replaced placeholder SMG assignments with documented TODOs and proper null handling
+  - Updated `smgOsat` field to be nullable to reflect missing implementation
+  - Added clear documentation for future SMG data integration requirements
+- **Implemented secure SSN handling** across the application
+  - Created `lib/ssn-utils-server.ts` with secure server-side SSN utilities using PBKDF2
+  - Deprecated `lib/ssn-utils.ts` to prevent client-side SSN processing
+  - Enhanced `verifyEmployeeSSN` mutation with proper validation and security warnings
+  - Updated employee create form to use client-safe SSN formatting only
+  - Added comprehensive security documentation and TODO items for production encryption
+  - Fixed TypeScript errors in period view to handle nullable `smgOsat` field
+- **Fixed critical TypeScript compilation errors** across multiple files
+  - `app/(private)/team/rank/page.tsx`: Fixed table name constraint error by changing `"teamMemberRankings"` to `"teamMemberRanking"` to match Convex schema
+  - `components/forms/cap/create.tsx`: Removed duplicate `append` and `remove` variable declarations from unused capitals field array
+  - `convex/dayparts.ts`: Fixed mutation return type by explicitly returning ID after `ctx.db.patch()` calls
+  - `convex/directDeposits.ts`: Fixed mutation return type by explicitly returning ID after `ctx.db.patch()` calls
+- **Fixed success toast showing on errors** in `app/(private)/team/rank/page.tsx`
+  - Moved success toast from finally block to try block
+  - Success toast now only shows when ranking creation actually succeeds
+  - Error handling remains in catch block as intended
+  - `convex/employees.ts`: Fixed mutation return type and optional parameter type constraints
+  - `convex/events.ts`: Fixed type mismatch between `null` and `undefined` for image field
+  - `convex/notifications.ts`: Fixed mutation return types and added missing database indexes
+  - `convex/tasks.ts`: Fixed mutation return types and added missing database indexes
+  - `convex/teamMemberRankings.ts`: Fixed index name references and optional parameter type constraints
+  - `convex/users.ts`: Fixed mutation return type by explicitly returning ID after `ctx.db.patch()` calls
+  - `convex/weeks.ts`: Fixed mutation return type by explicitly returning ID after `ctx.db.patch()` calls
+  - `utils/convexId.ts`: Fixed generic type constraint to use `TableNames` instead of `string`
+  - All TypeScript compilation errors resolved, build now succeeds
+- **Fixed duplicate function declaration** in `lib/ssn-utils.ts`
+  - Removed duplicate `formatSSN` function that was causing TypeScript compilation errors
+  - Kept the safer implementation that returns "XXX-XX-XXXX" for invalid input
+- **Fixed Convex syntax errors** in `convex/days.ts`
+  - Removed duplicate `getDaysByWeek` export declarations
+  - Cleaned up orphaned code fragments that were causing parsing errors
+  - Convex functions now compile successfully without "Unexpected export" errors
+- **Fixed import/export parsing error** in `app/(public)/community/contact-form.tsx`
+  - Moved misplaced `import { toast } from "sonner";` from inside component to top of file
+  - Resolved "import/export cannot be used outside of module code" build error
+- **Fixed parsing errors** in multiple React components
+  - `app/(private)/dashboard/events/create/page.tsx`: Fixed duplicate function declarations and misplaced imports
+  - `app/(private)/team/[eid]/verify/page.tsx`: Removed duplicate `onVerified()` call
+  - `app/onboarding/docs/page.tsx`: Fixed malformed JSX structure and duplicate code blocks
+  - All components now compile successfully without parsing errors
+- **Fixed critical security and data integrity issues**
+  - `lib/ssn-utils.ts`: Enhanced SSN security with proper SHA-256 hashing and salt
+  - `app/onboarding/docs/page.tsx`: Fixed EID to database ID conversion using proper query
+  - `app/(private)/dashboard/page.tsx`: Fixed inverted highlight logic for "lower is better" metrics
+  - `app/page.tsx`: Added `rel="noopener noreferrer"` to external links for security
+  - `convex/employees.ts`: Added `getEmployeeByEid` query for proper employee lookup
+- **Fixed Convex validation errors**
+  - `convex/events.ts`: Fixed `ReturnsValidationError` by including `_id` and `_creationTime` in return validators
+  - `listEvents` and `getEvent` queries now properly validate Convex document structure
+  - Resolves client-side runtime errors in events page
+- **Fixed critical build errors**
+  - `app/(private)/dashboard/events/[id]/edit/page.tsx`: Added missing `useState` import
+  - `app/onboarding/docs/page.tsx`: Added missing `useQuery` import and fixed variable declaration order
+  - `utils/uploadEventImage.ts`: Fixed type mismatch for `storageId` parameter and return type in `setEventImage` mutation
+  - Resolves Vercel build failures during deployment
+- **Fixed schema index naming** in `convex/schema.ts`
+  - Renamed `by_rater_and_ratee` to `by_raterId_and_ratingName` to match actual field names
+- **Added missing database indexes** in `convex/schema.ts`
+  - `notifications` table: Added `by_status` index for status-based queries
+  - `tasks` table: Added `by_status`, `by_assignee`, and `by_status_and_assignee` indexes for efficient filtering
+  - Resolves "Argument of type 'X' is not assignable to parameter of type 'keyof SystemIndexes'" errors
+- **Fixed typos** in `ROADMAP.md`
+  - "veryify" → "verify"
+  - "bythe" → "by the"
+  - "ordererd" → "ordered"
+  - "Tempurature" → "Temperature"
+
+### 🚀 Performance Improvements
+
+- **Optimized search functionality** in `components/views/employees.tsx`
+  - Eliminated repeated `searchTerm.trim()` calls by computing once and reusing
+  - Improved readability and performance of employee search logic
+- **Optimized dashboard calculations** in `app/(private)/dashboard/page.tsx`
+  - Wrapped helper functions (`getBest`, `getWorst`, `getBestLow`, `getWorstHigh`) in `React.useMemo`
+  - Created memoized lookup object for min/max values to prevent recalculation on every render
+  - Improved render performance by eliminating redundant Math.max/Math.min calculations
+  - Added proper dependency arrays to ensure calculations only run when data changes
+
+### 🔧 Code Quality Improvements
+
+- **Added explicit type annotations** per coding guidelines
+  - `app/(private)/dashboard/page.tsx`: Changed `MetricRow[]` to `Array<MetricRow>`
+  - `app/(public)/careers/page.tsx`: Changed `readonly Position[]` to `Array<Position>`
+- **Extracted duplicated logic** in `convex/days.ts`
+  - Created `calculatePeriodFromDate()` helper function
+  - Eliminated code duplication between `createDay` and `updateDay` mutations
+  - Improved maintainability and reduced potential for bugs
+
+### 🎯 Type Safety Enhancements
+
+- **Enhanced position type safety** in `components/ui/protected-position.tsx`
+  - Replaced inline union type with `as const` pattern
+  - Created `POSITIONS` array and derived `Position` type from `typeof POSITIONS[number]`
+  - Exported `POSITIONS` array for external use
+- **Added explicit array type annotations** in `app/(public)/events/page.tsx`
+  - Applied `Array<Doc<"events">>` type to `events` variable
+  - Improved type safety for event data handling
+
+### 🔍 Search Functionality
+
+- **Implemented team search** in `app/(private)/team/page.tsx`
+  - Added `useState` for search term management
+  - Implemented `onChange` and `onSubmit` handlers
+  - Connected to new `searchEmployees` Convex query
+- **Added search query** in `convex/employees.ts`
+  - Created `searchEmployees` query for client-side filtering
+  - Supports filtering by employee name
+
+### 🌐 External Link Improvements
+
+- **Updated Indeed job links** in `app/(public)/careers/page.tsx`
+  - Replaced generic Indeed homepage links with specific Zaxby's Waynesville search
+  - Added `rel="noopener noreferrer"` for security
+  - Updated both Hero section and position card links
+
+### 🛠️ Utility Functions
+
+- **Created shared utilities** for common functionality
+  - `utils/uploadEventImage.ts`: Shared image upload logic for events
+  - `utils/convexId.ts`: Safe Convex ID validation and casting
+  - `useFileSelection` hook: Reusable file selection state management
+
+### 🔒 Security Improvements
+
+- **Enhanced URL parameter validation** in `app/(private)/dashboard/events/[id]/edit/page.tsx`
+  - Added safe validation for event ID parameters
+  - Prevents runtime failures from malformed IDs
+  - Graceful error handling for invalid/missing IDs
+- **Improved type safety for Convex ID validation** in `utils/convexId.ts`
+  - Added `validateConvexIdParamForTable()` function for table-aware ID validation
+  - Created `validateEventId()` helper to replace unsafe type casting
+  - Enhanced type safety by constraining generic types to `TableNames`
+  - Replaced unsafe `as Id<"events">` cast with proper runtime validation
+- **Implemented secure server-side SSN verification** in `app/(private)/team/[eid]/verify/page.tsx`
+  - Replaced client-side SSN comparison with secure server-side verification
+  - Created `verifyEmployeeSSN` mutation for server-side validation
+  - Added `getEmployeeForVerification` query that excludes SSN from client responses
+  - Created `updateEmployeeSecure` mutation that doesn't require SSN for client updates
+  - Eliminated SSN exposure in client bundle and API responses
+  - Enhanced data privacy by preventing sensitive information from reaching the client
+  - Added robust date validation with try-catch error handling for DOB verification
+  - Improved user experience with clear error messages for invalid date inputs
+- **Enhanced external link security sitewide** in `components/link.tsx`
+
+  - Updated custom Link component to automatically detect external URLs
+  - Automatically adds `rel="noopener noreferrer"` to all external links with `target="_blank"`
+  - Prevents window.opener attacks across the entire application
+  - Centralized security handling eliminates need for manual rel attributes
+  - Removed duplicate manual rel attributes from all pages
+  - Fixed internal links that incorrectly used `target="_blank"`
+  - Uses `process.env.NEXT_PUBLIC_HOST` for SSR compatibility instead of `window.location.href`
+  - Comprehensive security improvement with zero maintenance overhead
+
+- **Fixed contact form reliability and data integrity** in `app/(public)/community/contact-form.tsx` and `convex/contacts.ts`
+  - Removed client-side timestamp generation - server now generates authoritative `created` timestamp
+  - Implemented fire-and-forget pattern for notification/confirmation emails to prevent partial failures
+  - Added compensating action (rollback) if contact creation fails after database insert
+  - Made form reset robust using React ref instead of `document.querySelector`
+  - Added explicit form ID and proper error state management
+  - Ensures consistent user experience even with transient downstream failures
+  - **Database migration**: Added `created` field to existing contact records using Convex's `_creationTime`
+
+### 🎨 UI/UX Improvements
+
+- **Fixed brittle blur handler** in `app/(private)/team/rank/page.tsx`
+  - Replaced `setTimeout(150)` with robust focus management
+  - Added `useRef` for suggestions container
+  - Improved user experience for suggestion interactions
+- **Added table footer with totals** in `app/(private)/dashboard/page.tsx`
+  - Implemented `TableFooter` component displaying column totals for all metrics
+  - Added smart aggregation logic: sum totals for sales/variance, averages for percentages
+  - Applied consistent color coding and formatting matching data rows
+  - Enhanced data visibility with comprehensive summary view across all periods (Q3, P9, LW)
+
+### 📝 Documentation
+
+- **Enhanced type definitions** throughout the codebase
+  - Added `ColorMap` interface in dashboard
+  - Improved type safety for metric calculations
+  - Better IntelliSense support for developers
+
+---
+
+## Summary
+
+This release focuses on code quality improvements, bug fixes, and enhanced type safety. Key highlights include resolving Convex compilation errors, implementing team search functionality, optimizing performance through code deduplication, and improving external link security. The codebase now has better maintainability with shared utilities and explicit type annotations throughout.
+
+### Files Modified
+
+- `lib/ssn-utils.ts` - Fixed duplicate function declaration
+- `convex/days.ts` - Fixed syntax errors and extracted duplicated logic
+- `convex/schema.ts` - Fixed index naming and added missing indexes
+- `convex/employees.ts` - Added search functionality, fixed mutation return types, and implemented secure SSN verification
+- `convex/dayparts.ts` - Fixed mutation return types
+- `convex/directDeposits.ts` - Fixed mutation return types
+- `convex/events.ts` - Fixed return validators and type mismatches
+- `convex/notifications.ts` - Fixed mutation return types and added missing indexes
+- `convex/tasks.ts` - Fixed mutation return types and added missing indexes
+- `convex/teamMemberRankings.ts` - Fixed index name references and type constraints
+- `convex/users.ts` - Fixed mutation return types
+- `convex/weeks.ts` - Fixed mutation return types
+- `components/views/employees.tsx` - Optimized search performance
+- `components/ui/protected-position.tsx` - Enhanced type safety
+- `components/forms/cap/create.tsx` - Fixed duplicate variable declarations
+- `app/(private)/team/page.tsx` - Implemented search functionality
+- `app/(private)/team/rank/page.tsx` - Fixed blur handler and table name constraint
+- `app/(private)/dashboard/page.tsx` - Added explicit type annotations, optimized calculations with useMemo, and implemented table footer with totals
+- `app/(private)/dashboard/events/[id]/edit/page.tsx` - Enhanced ID validation and fixed syntax errors
+- `app/(public)/careers/page.tsx` - Updated external links and types
+- `app/(public)/events/page.tsx` - Added explicit type annotations
+- `app/(public)/community/contact-form.tsx` - Fixed import/export parsing error
+- `app/(private)/dashboard/events/create/page.tsx` - Fixed parsing errors and duplicate declarations
+- `app/(private)/team/[eid]/verify/page.tsx` - Implemented secure server-side SSN verification and removed client-side SSN exposure
+- `app/onboarding/docs/page.tsx` - Fixed malformed JSX, duplicate code, and EID conversion
+- `lib/ssn-utils.ts` - Enhanced SSN security with proper hashing
+- `utils/uploadEventImage.ts` - Created shared utility
+- `utils/convexId.ts` - Created ID validation utility, fixed type constraints, and added table-aware validation functions
+- `ROADMAP.md` - Fixed typos
+
+### Breaking Changes
+
+None
+
+### Migration Notes
+
+- No migration required
+- All changes are backward compatible
+- Convex functions will automatically redeploy with fixes
